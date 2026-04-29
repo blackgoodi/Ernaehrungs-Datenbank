@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Naturkunde Datenbank</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg: #0f1a0f; --surface: #162016; --surface2: #1e2e1e; --border: #2a3d2a;
+  --accent: #7ec87e; --accent2: #b5e8a0; --gold: #d4a853;
+  --text: #e8f0e8; --muted: #8aab8a; --tag-bg: #1a3020; --danger: #c0504d;
+  --blue: #7ea8e8;
+}
+body {
+  font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh;
+  background-image: radial-gradient(ellipse at 20% 20%, rgba(126,200,126,0.06) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 80%, rgba(180,220,120,0.04) 0%, transparent 50%);
+}
+header { padding: 2rem 2rem 1.2rem; text-align: center; border-bottom: 1px solid var(--border); }
+header::before { content: '🌿'; font-size: 1.8rem; display: block; margin-bottom: 0.4rem; }
+h1 { font-family: 'Playfair Display', serif; font-size: clamp(1.6rem, 5vw, 2.5rem); color: var(--accent2); letter-spacing: -0.02em; }
+.subtitle { color: var(--muted); font-size: 0.88rem; margin-top: 0.3rem; }
+
+.sync-bar {
+  display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.6rem;
+  padding: 0.6rem 1rem; background: var(--surface); border-bottom: 1px solid var(--border); font-size: 0.8rem;
+}
+.sync-status { display: flex; align-items: center; gap: 0.5rem; color: var(--muted); }
+.sync-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--muted); flex-shrink: 0; transition: background 0.3s; }
+.sync-dot.ok { background: var(--accent); }
+.sync-dot.loading { background: var(--gold); animation: pulse 1s infinite; }
+.sync-dot.error { background: var(--danger); }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+.sync-actions { display: flex; gap: 0.5rem; }
+
+.container { max-width: 940px; margin: 0 auto; padding: 1.5rem 1rem; }
+
+/* SETUP */
+.setup-panel {
+  background: var(--surface); border: 2px solid rgba(126,168,232,0.3); border-radius: 14px;
+  padding: 1.5rem; margin-bottom: 1.5rem;
+}
+.setup-panel h2 { font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--blue); margin-bottom: 0.6rem; }
+.setup-panel p { font-size: 0.83rem; color: var(--muted); margin-bottom: 0.8rem; line-height: 1.7; }
+
+/* SEARCH */
+.search-box { position: relative; margin-bottom: 1.5rem; }
+.search-box input {
+  width: 100%; padding: 1rem 1.2rem 1rem 3rem; background: var(--surface);
+  border: 1.5px solid var(--border); border-radius: 12px; color: var(--text);
+  font-size: 1rem; font-family: 'DM Sans', sans-serif; outline: none; transition: border-color 0.2s, box-shadow 0.2s;
+}
+.search-box input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(126,200,126,0.12); }
+.search-box input::placeholder { color: var(--muted); }
+.search-icon { position: absolute; left: 1rem; top: 50%; transform: translateY(-50%); font-size: 1.1rem; pointer-events: none; }
+.search-hint { font-size: 0.78rem; color: var(--muted); margin-top: 0.4rem; padding-left: 0.3rem; }
+
+.btn {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  padding: 0.65rem 1.2rem; border: none; border-radius: 8px;
+  font-family: 'DM Sans', sans-serif; font-size: 0.88rem; font-weight: 500; cursor: pointer; transition: all 0.18s;
+}
+.btn-primary { background: var(--accent); color: #0f1a0f; }
+.btn-primary:hover { background: var(--accent2); transform: translateY(-1px); }
+.btn-ghost { background: transparent; color: var(--muted); border: 1px solid var(--border); }
+.btn-ghost:hover { border-color: var(--accent); color: var(--accent); }
+.btn-blue { background: rgba(126,168,232,0.15); color: var(--blue); border: 1px solid rgba(126,168,232,0.3); }
+.btn-blue:hover { background: rgba(126,168,232,0.25); }
+.btn-sm { padding: 0.35rem 0.8rem; font-size: 0.78rem; }
+.btn-danger { background: transparent; color: var(--danger); border: 1px solid transparent; padding: 0.3rem 0.6rem; font-size: 0.8rem; }
+.btn-danger:hover { border-color: var(--danger); background: rgba(192,80,77,0.1); }
+.btn-edit { background: transparent; color: var(--muted); border: 1px solid transparent; padding: 0.3rem 0.6rem; font-size: 0.8rem; }
+.btn-edit:hover { border-color: var(--muted); color: var(--accent); }
+
+.add-section { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; margin-bottom: 2rem; overflow: hidden; }
+.add-header { display: flex; align-items: center; justify-content: space-between; padding: 1rem 1.3rem; cursor: pointer; user-select: none; }
+.add-header h2 { font-family: 'Playfair Display', serif; font-size: 1.05rem; color: var(--accent); font-weight: 600; }
+.add-form { padding: 0 1.3rem 1.3rem; display: none; flex-direction: column; gap: 1rem; }
+.add-form.open { display: flex; }
+.form-row { display: flex; gap: 0.8rem; flex-wrap: wrap; }
+.form-group { display: flex; flex-direction: column; gap: 0.35rem; flex: 1; min-width: 180px; }
+.form-group.full { min-width: 100%; flex: 1 1 100%; }
+label { font-size: 0.78rem; font-weight: 500; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
+input[type="text"], input[type="password"], textarea, select {
+  padding: 0.7rem 0.9rem; background: var(--surface2); border: 1px solid var(--border);
+  border-radius: 8px; color: var(--text); font-size: 0.95rem; font-family: 'DM Sans', sans-serif;
+  outline: none; transition: border-color 0.2s; width: 100%;
+}
+input:focus, textarea:focus, select:focus { border-color: var(--accent); }
+textarea { resize: vertical; min-height: 70px; }
+select { cursor: pointer; } select option { background: #1e2e1e; }
+
+.dosage-row { background: rgba(212,168,83,0.05); border: 1px solid rgba(212,168,83,0.15); border-radius: 10px; padding: 1rem; display: flex; flex-direction: column; gap: 0.8rem; }
+.dosage-row-title { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--gold); }
+
+.tags-input-wrapper { display: flex; flex-wrap: wrap; gap: 0.4rem; padding: 0.5rem; background: var(--surface2); border: 1px solid var(--border); border-radius: 8px; min-height: 44px; align-items: center; cursor: text; transition: border-color 0.2s; }
+.tags-input-wrapper:focus-within { border-color: var(--accent); }
+.tag-chip { background: var(--tag-bg); color: var(--accent); border: 1px solid rgba(126,200,126,0.25); border-radius: 20px; padding: 0.15rem 0.6rem 0.15rem 0.7rem; font-size: 0.82rem; display: flex; align-items: center; gap: 0.3rem; }
+.tag-chip .rm { cursor: pointer; color: var(--muted); font-size: 0.85rem; }
+.tag-chip .rm:hover { color: var(--danger); }
+.tags-input { border: none; background: transparent; color: var(--text); font-size: 0.9rem; font-family: 'DM Sans', sans-serif; outline: none; flex: 1; min-width: 80px; padding: 0.15rem 0.2rem; }
+.tags-hint { font-size: 0.73rem; color: var(--muted); }
+
+.toolbar { display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.filter-scroll { display: flex; gap: 0.45rem; flex-wrap: wrap; flex: 1; }
+.filter-btn { padding: 0.3rem 0.85rem; border-radius: 20px; font-size: 0.78rem; border: 1px solid var(--border); background: transparent; color: var(--muted); cursor: pointer; transition: all 0.15s; font-family: 'DM Sans', sans-serif; white-space: nowrap; }
+.filter-btn:hover, .filter-btn.active { border-color: var(--accent); color: var(--accent); background: rgba(126,200,126,0.08); }
+.results-count { font-size: 0.82rem; color: var(--muted); white-space: nowrap; }
+
+.cards { display: grid; gap: 1rem; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 1.2rem 1.3rem; transition: border-color 0.2s, transform 0.15s; animation: fadeIn 0.25s ease; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+.card:hover { border-color: rgba(126,200,126,0.35); transform: translateY(-1px); }
+.card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; margin-bottom: 0.7rem; }
+.card-name { font-family: 'Playfair Display', serif; font-size: 1.15rem; color: var(--accent2); line-height: 1.2; }
+.card-category { font-size: 0.7rem; padding: 0.2rem 0.7rem; border-radius: 20px; font-weight: 500; white-space: nowrap; flex-shrink: 0; }
+.cat-supplement     { background: #22102a; color: #c87ee8; border: 1px solid #3a1a4a; }
+.cat-kraeuter       { background: #1a3020; color: #7ec87e; border: 1px solid #2a4a30; }
+.cat-tee            { background: #152a25; color: #7edcc8; border: 1px solid #1f3d35; }
+.cat-getraenk-warm  { background: #2a1a10; color: #e8a07e; border: 1px solid #3d2a1a; }
+.cat-getraenk-kalt  { background: #101a2a; color: #7ea8e8; border: 1px solid #1a2a3d; }
+.cat-gewuerz        { background: #2a2010; color: #d4a853; border: 1px solid #3a3010; }
+.cat-frucht         { background: #2a1020; color: #e87eb8; border: 1px solid #3a1530; }
+.cat-gemuese        { background: #102020; color: #7eccc8; border: 1px solid #153530; }
+.cat-nahrung        { background: #201a10; color: #c8b87e; border: 1px solid #302810; }
+.cat-sonstiges      { background: #1a1a2a; color: #9090d0; border: 1px solid #252535; }
+.card-description { font-size: 0.88rem; color: var(--muted); margin-bottom: 0.8rem; line-height: 1.5; }
+.card-dosage { background: rgba(212,168,83,0.07); border: 1px solid rgba(212,168,83,0.18); border-radius: 8px; padding: 0.65rem 0.9rem; margin-bottom: 0.8rem; display: flex; flex-wrap: wrap; gap: 0.8rem; }
+.dosage-item { display: flex; flex-direction: column; gap: 0.15rem; }
+.di-label { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--gold); opacity: 0.75; }
+.di-val { font-size: 0.88rem; color: var(--gold); font-weight: 500; }
+.card-effects { margin-bottom: 0.7rem; }
+.effects-label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted); margin-bottom: 0.4rem; }
+.tags-list { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+.effect-tag { background: rgba(126,200,126,0.1); color: var(--accent); border: 1px solid rgba(126,200,126,0.2); border-radius: 20px; padding: 0.15rem 0.65rem; font-size: 0.78rem; }
+.problem-tag { background: rgba(212,168,83,0.1); color: var(--gold); border: 1px solid rgba(212,168,83,0.2); border-radius: 20px; padding: 0.15rem 0.65rem; font-size: 0.78rem; }
+.card-highlight { border-color: var(--accent) !important; box-shadow: 0 0 0 1px rgba(126,200,126,0.2); }
+.highlight-badge { display: inline-flex; align-items: center; gap: 0.3rem; font-size: 0.72rem; color: var(--accent); margin-bottom: 0.5rem; }
+.card-footer { display: flex; align-items: center; justify-content: space-between; margin-top: 0.8rem; padding-top: 0.8rem; border-top: 1px solid var(--border); flex-wrap: wrap; gap: 0.4rem; }
+.card-date { font-size: 0.72rem; color: var(--muted); }
+.card-actions { display: flex; gap: 0.3rem; }
+.empty-state { text-align: center; padding: 4rem 2rem; color: var(--muted); }
+.empty-state .icon { font-size: 3rem; margin-bottom: 1rem; }
+.empty-state p { font-size: 0.9rem; line-height: 1.6; }
+
+.modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.75); display: flex; align-items: center; justify-content: center; z-index: 500; padding: 1rem; opacity: 0; pointer-events: none; transition: opacity 0.2s; }
+.modal-overlay.open { opacity: 1; pointer-events: all; }
+.modal { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; max-width: 560px; width: 100%; max-height: 90vh; overflow-y: auto; padding: 1.5rem; transform: translateY(20px); transition: transform 0.2s; }
+.modal-overlay.open .modal { transform: translateY(0); }
+.modal-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.2rem; }
+.modal-title { font-family: 'Playfair Display', serif; font-size: 1.15rem; color: var(--accent2); }
+.modal-close { background: none; border: none; color: var(--muted); font-size: 1.4rem; cursor: pointer; padding: 0.2rem 0.5rem; border-radius: 6px; }
+.modal-close:hover { color: var(--text); background: var(--surface2); }
+.info-box { background: rgba(126,168,232,0.08); border: 1px solid rgba(126,168,232,0.2); border-radius: 8px; padding: 0.8rem 1rem; font-size: 0.82rem; color: var(--muted); line-height: 1.7; margin-bottom: 1rem; }
+.info-box b { color: var(--blue); }
+.step { display: flex; gap: 0.8rem; margin-bottom: 0.6rem; font-size: 0.83rem; color: var(--muted); line-height: 1.5; }
+.step-num { background: var(--accent); color: #0f1a0f; border-radius: 50%; width: 20px; height: 20px; display: flex; align-items: center; justify-content: center; font-size: 0.7rem; font-weight: 700; flex-shrink: 0; margin-top: 1px; }
+
+.toast { position: fixed; bottom: 1.5rem; right: 1.5rem; background: var(--accent); color: #0f1a0f; padding: 0.8rem 1.2rem; border-radius: 10px; font-size: 0.88rem; font-weight: 500; opacity: 0; transform: translateY(10px); transition: all 0.3s; pointer-events: none; z-index: 1000; max-width: 320px; }
+.toast.show { opacity: 1; transform: translateY(0); }
+
+@media (max-width: 600px) {
+  .form-row { flex-direction: column; }
+  .card-top { flex-direction: column; }
+  .toolbar { flex-direction: column; align-items: flex-start; }
+  .sync-bar { flex-direction: column; align-items: flex-start; }
+}
+</style>
+</head>
+<body>
+
+<!-- SYNC BAR -->
+<div class="sync-bar">
+  <div class="sync-status">
+    <div class="sync-dot" id="syncDot"></div>
+    <span id="syncText">Nicht verbunden – GitHub einrichten</span>
+  </div>
+  <div class="sync-actions">
+    <button class="btn btn-blue btn-sm" onclick="manualSync()">↻ Sync</button>
+    <button class="btn btn-ghost btn-sm" onclick="openSettings()">⚙ GitHub</button>
+  </div>
+</div>
+
+<header>
+  <h1>Naturkunde Datenbank</h1>
+  <p class="subtitle">Supplements · Kräuter · Tees · Gewürze · Nahrungsmittel</p>
+</header>
+
+<div class="container">
+
+  <!-- SETUP PANEL -->
+  <div class="setup-panel" id="setupPanel">
+    <h2>⚙ GitHub einrichten – einmalig, dann läuft alles automatisch</h2>
+    <p>Klicke oben rechts auf <b style="color:var(--blue)">„⚙ GitHub"</b> und trage deine Zugangsdaten ein. Die Daten werden dann automatisch in deinem GitHub-Repository gespeichert und auf allen Geräten synchronisiert.</p>
+    <button class="btn btn-blue" onclick="openSettings()">⚙ Jetzt einrichten</button>
+  </div>
+
+  <!-- SUCHE -->
+  <div class="search-box">
+    <span class="search-icon">🔍</span>
+    <input type="text" id="searchInput" placeholder="Suche nach Name, Wirkung oder Problem (z.B. Schlafprobleme)…" oninput="renderCards()">
+    <p class="search-hint">💡 Tipp: Gib ein Problem ein – passende Einträge werden hervorgehoben</p>
+  </div>
+
+  <!-- EINTRAG HINZUFÜGEN -->
+  <div class="add-section">
+    <div class="add-header" onclick="toggleForm()">
+      <h2 id="form-title">✚ Neuen Eintrag hinzufügen</h2>
+      <span id="toggle-icon" style="color:var(--muted);font-size:1.2rem">▾</span>
+    </div>
+    <div class="add-form" id="addForm">
+      <div class="form-row">
+        <div class="form-group">
+          <label>Name *</label>
+          <input type="text" id="f-name" placeholder="z.B. Magnesium Glycinat">
+        </div>
+        <div class="form-group">
+          <label>Kategorie</label>
+          <select id="f-category">
+            <option value="supplement">💊 Supplement</option>
+            <option value="kraeuter">🌿 Kräuter / Heilpflanze</option>
+            <option value="tee">🍵 Tee</option>
+            <option value="getraenk-warm">☕ Getränk (warm)</option>
+            <option value="getraenk-kalt">🧃 Getränk (kalt)</option>
+            <option value="gewuerz">🧂 Gewürz</option>
+            <option value="frucht">🍓 Frucht / Beere</option>
+            <option value="gemuese">🥦 Gemüse</option>
+            <option value="nahrung">🌾 Nahrungsmittel</option>
+            <option value="sonstiges">📦 Sonstiges</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group full">
+        <label>Beschreibung (optional)</label>
+        <textarea id="f-desc" placeholder="Kurze Beschreibung, Herkunft, Hinweise…"></textarea>
+      </div>
+      <div class="dosage-row">
+        <div class="dosage-row-title">💊 Dosierung &amp; Einnahme</div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Dosierung</label>
+            <input type="text" id="f-dosage" placeholder="z.B. 400 mg, 1 Kapsel, 1 TL">
+          </div>
+          <div class="form-group">
+            <label>Häufigkeit</label>
+            <select id="f-frequency">
+              <option value="">– keine Angabe –</option>
+              <option value="1× täglich">1× täglich</option>
+              <option value="2× täglich">2× täglich</option>
+              <option value="3× täglich">3× täglich</option>
+              <option value="nach Bedarf">nach Bedarf</option>
+              <option value="wöchentlich">wöchentlich</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Wann einnehmen?</label>
+            <input type="text" id="f-timing" placeholder="z.B. 30 Min. vor dem Schlafen">
+          </div>
+          <div class="form-group">
+            <label>Mit / ohne Mahlzeit?</label>
+            <select id="f-meal">
+              <option value="">– keine Angabe –</option>
+              <option value="mit Mahlzeit">mit Mahlzeit</option>
+              <option value="nüchtern">nüchtern</option>
+              <option value="vor der Mahlzeit">vor der Mahlzeit</option>
+              <option value="nach der Mahlzeit">nach der Mahlzeit</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group full">
+          <label>Zusätzliche Hinweise</label>
+          <input type="text" id="f-dosage-notes" placeholder="z.B. nicht mit Kalzium kombinieren">
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Wirkungen <span style="color:var(--muted);text-transform:none;font-size:0.75rem">(Enter zum Hinzufügen)</span></label>
+        <div class="tags-input-wrapper" id="effects-wrapper">
+          <input class="tags-input" id="effects-input" placeholder="z.B. beruhigend, schlaffördernd…" onkeydown="handleTag(event,'effects')">
+        </div>
+        <div class="tags-hint">Körperliche / mentale Wirkung</div>
+      </div>
+      <div class="form-group">
+        <label>Hilft bei <span style="color:var(--muted);text-transform:none;font-size:0.75rem">(Enter zum Hinzufügen)</span></label>
+        <div class="tags-input-wrapper" id="problems-wrapper">
+          <input class="tags-input" id="problems-input" placeholder="z.B. Schlafprobleme, Stress…" onkeydown="handleTag(event,'problems')">
+        </div>
+        <div class="tags-hint">Bei welchen Beschwerden oder Zielen hilft es?</div>
+      </div>
+      <div style="display:flex;gap:0.7rem;flex-wrap:wrap">
+        <button class="btn btn-primary" onclick="addEntry()">✓ Eintrag speichern</button>
+        <button class="btn btn-ghost" onclick="clearForm()">Zurücksetzen</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- FILTER -->
+  <div class="toolbar">
+    <div class="filter-scroll">
+      <button class="filter-btn active" onclick="setFilter('all',this)">Alle</button>
+      <button class="filter-btn" onclick="setFilter('supplement',this)">💊 Supplements</button>
+      <button class="filter-btn" onclick="setFilter('kraeuter',this)">🌿 Kräuter</button>
+      <button class="filter-btn" onclick="setFilter('tee',this)">🍵 Tee</button>
+      <button class="filter-btn" onclick="setFilter('getraenk-warm',this)">☕ Warm</button>
+      <button class="filter-btn" onclick="setFilter('getraenk-kalt',this)">🧃 Kalt</button>
+      <button class="filter-btn" onclick="setFilter('gewuerz',this)">🧂 Gewürze</button>
+      <button class="filter-btn" onclick="setFilter('frucht',this)">🍓 Früchte</button>
+      <button class="filter-btn" onclick="setFilter('gemuese',this)">🥦 Gemüse</button>
+      <button class="filter-btn" onclick="setFilter('nahrung',this)">🌾 Nahrung</button>
+      <button class="filter-btn" onclick="setFilter('sonstiges',this)">📦 Sonstiges</button>
+    </div>
+    <span class="results-count" id="resultsCount"></span>
+  </div>
+
+  <div class="cards" id="cardsContainer"></div>
+</div>
+
+<!-- GITHUB SETTINGS MODAL -->
+<div class="modal-overlay" id="settingsModal">
+  <div class="modal">
+    <div class="modal-header">
+      <span class="modal-title">⚙ GitHub einrichten</span>
+      <button class="modal-close" onclick="closeSettings()">✕</button>
+    </div>
+    <div class="info-box">
+      <b>Was wird hier eingetragen?</b><br>
+      • <b>Username:</b> Dein GitHub-Benutzername<br>
+      • <b>Repository:</b> Name des Repositories (z.B. <i>meine-datenbank</i>)<br>
+      • <b>Token:</b> Ein persönliches Zugriffstoken von GitHub (einmalig erstellen)
+    </div>
+    <div style="display:flex;flex-direction:column;gap:0.9rem;margin-bottom:1.2rem">
+      <div class="form-group">
+        <label>GitHub Benutzername</label>
+        <input type="text" id="gh-user" placeholder="dein-username" autocomplete="off">
+      </div>
+      <div class="form-group">
+        <label>Repository Name</label>
+        <input type="text" id="gh-repo" placeholder="meine-datenbank" autocomplete="off">
+      </div>
+      <div class="form-group">
+        <label>Personal Access Token</label>
+        <input type="password" id="gh-token" placeholder="ghp_xxxxxxxxxxxxxxxxxxxx" autocomplete="off">
+      </div>
+    </div>
+    <div style="display:flex;gap:0.7rem;flex-wrap:wrap">
+      <button class="btn btn-primary" onclick="saveSettings()">✓ Verbinden &amp; testen</button>
+      <button class="btn btn-ghost" onclick="clearSettings()">Trennen</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+// ============================================================
+// STATE
+// ============================================================
+let db = [];
+let fileSha = null; // GitHub braucht den SHA zum Überschreiben
+let currentFilter = 'all';
+let effectTags = [];
+let problemTags = [];
+let editingId = null;
+let gh = { user: '', repo: '', token: '' };
+
+const DB_FILENAME = 'datenbank.json';
+const catLabels = {
+  supplement:'💊 Supplement', kraeuter:'🌿 Kräuter', tee:'🍵 Tee',
+  'getraenk-warm':'☕ Getränk warm', 'getraenk-kalt':'🧃 Getränk kalt',
+  gewuerz:'🧂 Gewürz', frucht:'🍓 Frucht', gemuese:'🥦 Gemüse',
+  nahrung:'🌾 Nahrung', sonstiges:'📦 Sonstiges'
+};
+
+// ============================================================
+// TOAST
+// ============================================================
+function showToast(msg, type) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.style.background = type === 'error' ? 'var(--danger)' : type === 'warn' ? 'var(--gold)' : 'var(--accent)';
+  t.style.color = type === 'error' ? '#fff' : '#0f1a0f';
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 3500);
+}
+
+function setSyncStatus(state, text) {
+  document.getElementById('syncDot').className = 'sync-dot ' + (state || '');
+  document.getElementById('syncText').textContent = text;
+}
+
+// ============================================================
+// GITHUB API
+// ============================================================
+function ghApiUrl() {
+  return `https://api.github.com/repos/${gh.user}/${gh.repo}/contents/${DB_FILENAME}`;
+}
+
+function ghHeaders() {
+  return {
+    'Authorization': `token ${gh.token}`,
+    'Accept': 'application/vnd.github.v3+json',
+    'Content-Type': 'application/json'
+  };
+}
+
+async function loadFromGitHub() {
+  if (!gh.user || !gh.repo || !gh.token) return false;
+  setSyncStatus('loading', 'Lade von GitHub…');
+  try {
+    const res = await fetch(ghApiUrl(), { headers: ghHeaders() });
+    if (res.status === 404) {
+      // Datei existiert noch nicht → erstellen
+      fileSha = null;
+      await saveToGitHub(true);
+      setSyncStatus('ok', 'GitHub verbunden ✓ – neue Datenbank erstellt');
+      return true;
+    }
+    if (!res.ok) {
+      const err = await res.json();
+      throw new Error(err.message || `HTTP ${res.status}`);
+    }
+    const data = await res.json();
+    fileSha = data.sha;
+    const decoded = JSON.parse(atob(data.content.replace(/\n/g, '')));
+    if (Array.isArray(decoded)) {
+      db = decoded;
+      saveLocal();
+      setSyncStatus('ok', `GitHub ✓ – ${db.length} Einträge · ${new Date().toLocaleTimeString('de-DE')}`);
+      return true;
+    }
+    throw new Error('Ungültiges Dateiformat');
+  } catch (e) {
+    setSyncStatus('error', 'Fehler: ' + e.message);
+    showToast('⚠ GitHub-Fehler: ' + e.message, 'error');
+    return false;
+  }
+}
+
+async function saveToGitHub(silent = false) {
+  if (!gh.user || !gh.repo || !gh.token) return false;
+  if (!silent) setSyncStatus('loading', 'Speichere in GitHub…');
+  try {
+    const content = btoa(unescape(encodeURIComponent(JSON.stringify(db, null, 2))));
+    const body = {
+      message: `Datenbank aktualisiert – ${new Date().toLocaleString('de-DE')}`,
+      content,
+      ...(fileSha ? { sha: fileSha } : {})
+    };
+    const res = await fetch(ghApiUrl(), {
+      method: 'PUT',
+      headers: ghHeaders(),
+      body: JSON.stringify(body)
+    });
+    if (!res.ok) {
+      const err = await res.json();
+      throw new Error(err.message || `HTTP ${res.status}`);
+    }
+    const data = await res.json();
+    fileSha = data.content.sha;
+    saveLocal();
+    if (!silent) {
+      setSyncStatus('ok', `GitHub ✓ – gespeichert ${new Date().toLocaleTimeString('de-DE')}`);
+      showToast('☁ In GitHub gespeichert');
+    }
+    return true;
+  } catch (e) {
+    setSyncStatus('error', 'Speicherfehler: ' + e.message);
+    if (!silent) showToast('⚠ Speichern fehlgeschlagen: ' + e.message, 'error');
+    return false;
+  }
+}
+
+function saveLocal() { localStorage.setItem('naturkunde-cache', JSON.stringify(db)); }
+function loadLocal() {
+  try { const d = JSON.parse(localStorage.getItem('naturkunde-cache')||'[]'); if(Array.isArray(d)) db=d; } catch {}
+}
+
+async function save() {
+  saveLocal();
+  await saveToGitHub();
+}
+
+async function manualSync() {
+  const ok = await loadFromGitHub();
+  if (ok) renderCards();
+}
+
+// ============================================================
+// SETTINGS
+// ============================================================
+function loadSettings() {
+  try {
+    const s = JSON.parse(localStorage.getItem('naturkunde-gh') || '{}');
+    gh = { user: s.user||'', repo: s.repo||'', token: s.token||'' };
+  } catch {}
+}
+
+async function saveSettings() {
+  gh.user  = document.getElementById('gh-user').value.trim();
+  gh.repo  = document.getElementById('gh-repo').value.trim();
+  gh.token = document.getElementById('gh-token').value.trim();
+  if (!gh.user || !gh.repo || !gh.token) {
+    showToast('⚠ Bitte alle Felder ausfüllen', 'error'); return;
+  }
+  localStorage.setItem('naturkunde-gh', JSON.stringify(gh));
+  closeSettings();
+  document.getElementById('setupPanel').style.display = 'none';
+  const ok = await loadFromGitHub();
+  if (ok) renderCards();
+}
+
+function clearSettings() {
+  if (!confirm('GitHub-Verbindung wirklich trennen?')) return;
+  gh = { user:'', repo:'', token:'' };
+  localStorage.removeItem('naturkunde-gh');
+  fileSha = null;
+  setSyncStatus('', 'Nicht verbunden');
+  closeSettings();
+  document.getElementById('setupPanel').style.display = '';
+}
+
+function openSettings() {
+  document.getElementById('gh-user').value  = gh.user;
+  document.getElementById('gh-repo').value  = gh.repo;
+  document.getElementById('gh-token').value = gh.token;
+  document.getElementById('settingsModal').classList.add('open');
+}
+function closeSettings() { document.getElementById('settingsModal').classList.remove('open'); }
+
+// ============================================================
+// FORM
+// ============================================================
+function toggleForm() {
+  const form = document.getElementById('addForm');
+  form.classList.toggle('open');
+  document.getElementById('toggle-icon').textContent = form.classList.contains('open') ? '▴' : '▾';
+}
+
+function handleTag(e, type) {
+  if (e.key === 'Enter' || e.key === ',') {
+    e.preventDefault();
+    const input = document.getElementById(type==='effects'?'effects-input':'problems-input');
+    const val = input.value.trim().replace(/,$/,'');
+    if (!val) return;
+    const arr = type==='effects' ? effectTags : problemTags;
+    if (!arr.includes(val)) { arr.push(val); renderTagChips(type); }
+    input.value = '';
+  }
+}
+
+function renderTagChips(type) {
+  const arr = type==='effects' ? effectTags : problemTags;
+  const wrapper = document.getElementById(type==='effects'?'effects-wrapper':'problems-wrapper');
+  const input   = document.getElementById(type==='effects'?'effects-input':'problems-input');
+  wrapper.innerHTML = '';
+  arr.forEach((tag, i) => {
+    const chip = document.createElement('div');
+    chip.className = 'tag-chip';
+    chip.innerHTML = `${tag} <span class="rm" onclick="removeTag('${type}',${i})">×</span>`;
+    wrapper.appendChild(chip);
+  });
+  wrapper.appendChild(input);
+}
+
+function removeTag(type, i) {
+  (type==='effects' ? effectTags : problemTags).splice(i, 1);
+  renderTagChips(type);
+}
+
+function clearForm() {
+  ['f-name','f-desc','f-dosage','f-timing','f-dosage-notes'].forEach(id => document.getElementById(id).value = '');
+  document.getElementById('f-category').value  = 'supplement';
+  document.getElementById('f-frequency').value = '';
+  document.getElementById('f-meal').value       = '';
+  effectTags = []; problemTags = [];
+  renderTagChips('effects'); renderTagChips('problems');
+  editingId = null;
+  document.getElementById('form-title').textContent = '✚ Neuen Eintrag hinzufügen';
+}
+
+async function addEntry() {
+  const name = document.getElementById('f-name').value.trim();
+  if (!name) { showToast('⚠ Bitte einen Namen eingeben', 'error'); return; }
+  const eIn = document.getElementById('effects-input').value.trim();
+  if (eIn) { effectTags.push(eIn); document.getElementById('effects-input').value = ''; }
+  const pIn = document.getElementById('problems-input').value.trim();
+  if (pIn) { problemTags.push(pIn); document.getElementById('problems-input').value = ''; }
+
+  const entry = {
+    id: editingId || Date.now(), name,
+    category:     document.getElementById('f-category').value,
+    description:  document.getElementById('f-desc').value.trim(),
+    dosage:       document.getElementById('f-dosage').value.trim(),
+    frequency:    document.getElementById('f-frequency').value,
+    timing:       document.getElementById('f-timing').value.trim(),
+    meal:         document.getElementById('f-meal').value,
+    dosageNotes:  document.getElementById('f-dosage-notes').value.trim(),
+    effects:  [...effectTags],
+    problems: [...problemTags],
+    date: editingId
+      ? (db.find(e=>e.id===editingId)||{}).date || new Date().toLocaleDateString('de-DE')
+      : new Date().toLocaleDateString('de-DE')
+  };
+
+  if (editingId) { const i = db.findIndex(e=>e.id===editingId); if(i!==-1) db[i]=entry; }
+  else db.unshift(entry);
+
+  const label = editingId ? `✓ "${name}" aktualisiert` : `✓ "${name}" gespeichert`;
+  clearForm(); renderCards(); showToast(label);
+  await save();
+}
+
+function deleteEntry(id) {
+  if (!confirm('Eintrag wirklich löschen?')) return;
+  db = db.filter(e => e.id !== id);
+  renderCards(); showToast('Eintrag gelöscht');
+  save();
+}
+
+function editEntry(id) {
+  const e = db.find(x=>x.id===id); if (!e) return;
+  editingId = id;
+  document.getElementById('f-name').value         = e.name||'';
+  document.getElementById('f-category').value      = e.category||'sonstiges';
+  document.getElementById('f-desc').value          = e.description||'';
+  document.getElementById('f-dosage').value        = e.dosage||'';
+  document.getElementById('f-frequency').value     = e.frequency||'';
+  document.getElementById('f-timing').value        = e.timing||'';
+  document.getElementById('f-meal').value          = e.meal||'';
+  document.getElementById('f-dosage-notes').value  = e.dosageNotes||'';
+  effectTags  = [...(e.effects||[])];
+  problemTags = [...(e.problems||[])];
+  renderTagChips('effects'); renderTagChips('problems');
+  const form = document.getElementById('addForm');
+  if (!form.classList.contains('open')) toggleForm();
+  document.getElementById('form-title').textContent = '✎ Eintrag bearbeiten';
+  form.scrollIntoView({ behavior:'smooth', block:'start' });
+}
+
+// ============================================================
+// FILTER & RENDER
+// ============================================================
+function setFilter(cat, btn) {
+  currentFilter = cat;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  renderCards();
+}
+
+function renderCards() {
+  const query = document.getElementById('searchInput').value.toLowerCase().trim();
+  const container = document.getElementById('cardsContainer');
+
+  let filtered = db.filter(e => {
+    if (currentFilter !== 'all' && e.category !== currentFilter) return false;
+    if (!query) return true;
+    const s = [e.name, e.description, e.dosage, e.timing, e.meal, e.dosageNotes,
+      ...(e.effects||[]), ...(e.problems||[])].join(' ').toLowerCase();
+    return query.split(' ').every(w => s.includes(w));
+  });
+
+  if (query) {
+    filtered.sort((a,b) => {
+      const sc = e => query.split(' ').filter(w => [...(e.problems||[]),...(e.effects||[])].join(' ').toLowerCase().includes(w)).length;
+      return sc(b) - sc(a);
+    });
+  }
+
+  document.getElementById('resultsCount').textContent =
+    filtered.length===0 ? 'Keine Treffer' : filtered.length===1 ? '1 Eintrag' : `${filtered.length} Einträge`;
+
+  if (filtered.length===0) {
+    container.innerHTML = `<div class="empty-state"><div class="icon">🌱</div>
+      <p>${query ? `Keine Einträge für „${query}" gefunden.` : 'Noch keine Einträge. Füge deinen ersten Eintrag hinzu!'}</p></div>`;
+    return;
+  }
+
+  container.innerHTML = filtered.map(e => {
+    const isMatch = query && [...(e.problems||[]),...(e.effects||[])].some(t=>t.toLowerCase().includes(query.split(' ')[0]));
+    const hasDosage = e.dosage||e.timing||e.meal||e.frequency||e.dosageNotes;
+    const dosageHtml = hasDosage ? `<div class="card-dosage">
+      ${e.dosage    ? `<div class="dosage-item"><span class="di-label">Dosierung</span><span class="di-val">${e.dosage}</span></div>` : ''}
+      ${e.frequency ? `<div class="dosage-item"><span class="di-label">Häufigkeit</span><span class="di-val">${e.frequency}</span></div>` : ''}
+      ${e.timing    ? `<div class="dosage-item"><span class="di-label">Wann?</span><span class="di-val">${e.timing}</span></div>` : ''}
+      ${e.meal      ? `<div class="dosage-item"><span class="di-label">Mahlzeit</span><span class="di-val">${e.meal}</span></div>` : ''}
+      ${e.dosageNotes ? `<div class="dosage-item" style="flex:1 1 100%"><span class="di-label">Hinweis</span><span class="di-val" style="font-size:0.82rem;opacity:0.85">${e.dosageNotes}</span></div>` : ''}
+    </div>` : '';
+
+    return `<div class="card ${isMatch?'card-highlight':''}">
+      ${isMatch ? `<div class="highlight-badge">✦ Empfohlen für deine Suche</div>` : ''}
+      <div class="card-top">
+        <div class="card-name">${e.name}</div>
+        <span class="card-category cat-${e.category}">${catLabels[e.category]||e.category}</span>
+      </div>
+      ${e.description ? `<div class="card-description">${e.description}</div>` : ''}
+      ${dosageHtml}
+      ${e.effects?.length ? `<div class="card-effects"><div class="effects-label">Wirkungen</div><div class="tags-list">${e.effects.map(ef=>`<span class="effect-tag">${ef}</span>`).join('')}</div></div>` : ''}
+      ${e.problems?.length ? `<div class="card-effects"><div class="effects-label">Hilft bei</div><div class="tags-list">${e.problems.map(p=>`<span class="problem-tag">${p}</span>`).join('')}</div></div>` : ''}
+      <div class="card-footer">
+        <span class="card-date">Hinzugefügt: ${e.date}</span>
+        <div class="card-actions">
+          <button class="btn btn-edit" onclick="editEntry(${e.id})">✎</button>
+          <button class="btn btn-danger" onclick="deleteEntry(${e.id})">🗑</button>
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+// ============================================================
+// INIT
+// ============================================================
+document.getElementById('settingsModal').addEventListener('click', function(e) {
+  if (e.target === this) closeSettings();
+});
+
+loadSettings();
+loadLocal();
+
+if (gh.user && gh.repo && gh.token) {
+  document.getElementById('setupPanel').style.display = 'none';
+  loadFromGitHub().then(ok => { if (ok) renderCards(); });
+} else {
+  setSyncStatus('', 'Nicht verbunden – GitHub einrichten');
+}
+
+renderCards();
+</script>
+</body>
+</html>
