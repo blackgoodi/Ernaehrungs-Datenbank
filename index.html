@@ -22,7 +22,7 @@ header { padding: 2rem 2rem 1.2rem; text-align: center; border-bottom: 1px solid
 header::before { content: '🌿'; font-size: 1.8rem; display: block; margin-bottom: 0.4rem; }
 h1 { font-family: 'Playfair Display', serif; font-size: clamp(1.6rem, 5vw, 2.5rem); color: var(--accent2); letter-spacing: -0.02em; }
 .subtitle { color: var(--muted); font-size: 0.88rem; margin-top: 0.3rem; }
-
+ 
 .sync-bar {
   display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.6rem;
   padding: 0.6rem 1rem; background: var(--surface); border-bottom: 1px solid var(--border); font-size: 0.8rem;
@@ -34,9 +34,9 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(1.6rem, 5vw, 2.5re
 .sync-dot.error { background: var(--danger); }
 @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
 .sync-actions { display: flex; gap: 0.5rem; }
-
+ 
 .container { max-width: 940px; margin: 0 auto; padding: 1.5rem 1rem; }
-
+ 
 /* SETUP */
 .setup-panel {
   background: var(--surface); border: 2px solid rgba(126,168,232,0.3); border-radius: 14px;
@@ -44,7 +44,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(1.6rem, 5vw, 2.5re
 }
 .setup-panel h2 { font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--blue); margin-bottom: 0.6rem; }
 .setup-panel p { font-size: 0.83rem; color: var(--muted); margin-bottom: 0.8rem; line-height: 1.7; }
-
+ 
 /* SEARCH */
 .search-box { position: relative; margin-bottom: 1.5rem; }
 .search-box input {
@@ -56,7 +56,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(1.6rem, 5vw, 2.5re
 .search-box input::placeholder { color: var(--muted); }
 .search-icon { position: absolute; left: 1rem; top: 50%; transform: translateY(-50%); font-size: 1.1rem; pointer-events: none; }
 .search-hint { font-size: 0.78rem; color: var(--muted); margin-top: 0.4rem; padding-left: 0.3rem; }
-
+ 
 .btn {
   display: inline-flex; align-items: center; gap: 0.4rem;
   padding: 0.65rem 1.2rem; border: none; border-radius: 8px;
@@ -73,7 +73,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(1.6rem, 5vw, 2.5re
 .btn-danger:hover { border-color: var(--danger); background: rgba(192,80,77,0.1); }
 .btn-edit { background: transparent; color: var(--muted); border: 1px solid transparent; padding: 0.3rem 0.6rem; font-size: 0.8rem; }
 .btn-edit:hover { border-color: var(--muted); color: var(--accent); }
-
+ 
 .add-section { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; margin-bottom: 2rem; overflow: hidden; }
 .add-header { display: flex; align-items: center; justify-content: space-between; padding: 1rem 1.3rem; cursor: pointer; user-select: none; }
 .add-header h2 { font-family: 'Playfair Display', serif; font-size: 1.05rem; color: var(--accent); font-weight: 600; }
@@ -91,10 +91,10 @@ input[type="text"], input[type="password"], textarea, select {
 input:focus, textarea:focus, select:focus { border-color: var(--accent); }
 textarea { resize: vertical; min-height: 70px; }
 select { cursor: pointer; } select option { background: #1e2e1e; }
-
+ 
 .dosage-row { background: rgba(212,168,83,0.05); border: 1px solid rgba(212,168,83,0.15); border-radius: 10px; padding: 1rem; display: flex; flex-direction: column; gap: 0.8rem; }
 .dosage-row-title { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--gold); }
-
+ 
 .tags-input-wrapper { display: flex; flex-wrap: wrap; gap: 0.4rem; padding: 0.5rem; background: var(--surface2); border: 1px solid var(--border); border-radius: 8px; min-height: 44px; align-items: center; cursor: text; transition: border-color 0.2s; }
 .tags-input-wrapper:focus-within { border-color: var(--accent); }
 .tag-chip { background: var(--tag-bg); color: var(--accent); border: 1px solid rgba(126,200,126,0.25); border-radius: 20px; padding: 0.15rem 0.6rem 0.15rem 0.7rem; font-size: 0.82rem; display: flex; align-items: center; gap: 0.3rem; }
@@ -102,13 +102,13 @@ select { cursor: pointer; } select option { background: #1e2e1e; }
 .tag-chip .rm:hover { color: var(--danger); }
 .tags-input { border: none; background: transparent; color: var(--text); font-size: 0.9rem; font-family: 'DM Sans', sans-serif; outline: none; flex: 1; min-width: 80px; padding: 0.15rem 0.2rem; }
 .tags-hint { font-size: 0.73rem; color: var(--muted); }
-
+ 
 .toolbar { display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem; }
 .filter-scroll { display: flex; gap: 0.45rem; flex-wrap: wrap; flex: 1; }
 .filter-btn { padding: 0.3rem 0.85rem; border-radius: 20px; font-size: 0.78rem; border: 1px solid var(--border); background: transparent; color: var(--muted); cursor: pointer; transition: all 0.15s; font-family: 'DM Sans', sans-serif; white-space: nowrap; }
 .filter-btn:hover, .filter-btn.active { border-color: var(--accent); color: var(--accent); background: rgba(126,200,126,0.08); }
 .results-count { font-size: 0.82rem; color: var(--muted); white-space: nowrap; }
-
+ 
 .cards { display: grid; gap: 1rem; }
 .card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 1.2rem 1.3rem; transition: border-color 0.2s, transform 0.15s; animation: fadeIn 0.25s ease; }
 @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
@@ -144,7 +144,7 @@ select { cursor: pointer; } select option { background: #1e2e1e; }
 .empty-state { text-align: center; padding: 4rem 2rem; color: var(--muted); }
 .empty-state .icon { font-size: 3rem; margin-bottom: 1rem; }
 .empty-state p { font-size: 0.9rem; line-height: 1.6; }
-
+ 
 .modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.75); display: flex; align-items: center; justify-content: center; z-index: 500; padding: 1rem; opacity: 0; pointer-events: none; transition: opacity 0.2s; }
 .modal-overlay.open { opacity: 1; pointer-events: all; }
 .modal { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; max-width: 560px; width: 100%; max-height: 90vh; overflow-y: auto; padding: 1.5rem; transform: translateY(20px); transition: transform 0.2s; }
@@ -157,10 +157,10 @@ select { cursor: pointer; } select option { background: #1e2e1e; }
 .info-box b { color: var(--blue); }
 .step { display: flex; gap: 0.8rem; margin-bottom: 0.6rem; font-size: 0.83rem; color: var(--muted); line-height: 1.5; }
 .step-num { background: var(--accent); color: #0f1a0f; border-radius: 50%; width: 20px; height: 20px; display: flex; align-items: center; justify-content: center; font-size: 0.7rem; font-weight: 700; flex-shrink: 0; margin-top: 1px; }
-
+ 
 .toast { position: fixed; bottom: 1.5rem; right: 1.5rem; background: var(--accent); color: #0f1a0f; padding: 0.8rem 1.2rem; border-radius: 10px; font-size: 0.88rem; font-weight: 500; opacity: 0; transform: translateY(10px); transition: all 0.3s; pointer-events: none; z-index: 1000; max-width: 320px; }
 .toast.show { opacity: 1; transform: translateY(0); }
-
+ 
 @media (max-width: 600px) {
   .form-row { flex-direction: column; }
   .card-top { flex-direction: column; }
@@ -170,7 +170,7 @@ select { cursor: pointer; } select option { background: #1e2e1e; }
 </style>
 </head>
 <body>
-
+ 
 <!-- SYNC BAR -->
 <div class="sync-bar">
   <div class="sync-status">
@@ -182,28 +182,28 @@ select { cursor: pointer; } select option { background: #1e2e1e; }
     <button class="btn btn-ghost btn-sm" onclick="openSettings()">⚙ GitHub</button>
   </div>
 </div>
-
+ 
 <header>
   <h1>Naturkunde Datenbank</h1>
   <p class="subtitle">Supplements · Kräuter · Tees · Gewürze · Nahrungsmittel</p>
 </header>
-
+ 
 <div class="container">
-
+ 
   <!-- SETUP PANEL -->
   <div class="setup-panel" id="setupPanel">
     <h2>⚙ GitHub einrichten – einmalig, dann läuft alles automatisch</h2>
     <p>Klicke oben rechts auf <b style="color:var(--blue)">„⚙ GitHub"</b> und trage deine Zugangsdaten ein. Die Daten werden dann automatisch in deinem GitHub-Repository gespeichert und auf allen Geräten synchronisiert.</p>
     <button class="btn btn-blue" onclick="openSettings()">⚙ Jetzt einrichten</button>
   </div>
-
+ 
   <!-- SUCHE -->
   <div class="search-box">
     <span class="search-icon">🔍</span>
     <input type="text" id="searchInput" placeholder="Suche nach Name, Wirkung oder Problem (z.B. Schlafprobleme)…" oninput="renderCards()">
     <p class="search-hint">💡 Tipp: Gib ein Problem ein – passende Einträge werden hervorgehoben</p>
   </div>
-
+ 
   <!-- EINTRAG HINZUFÜGEN -->
   <div class="add-section">
     <div class="add-header" onclick="toggleForm()">
@@ -296,7 +296,7 @@ select { cursor: pointer; } select option { background: #1e2e1e; }
       </div>
     </div>
   </div>
-
+ 
   <!-- FILTER -->
   <div class="toolbar">
     <div class="filter-scroll">
@@ -314,10 +314,10 @@ select { cursor: pointer; } select option { background: #1e2e1e; }
     </div>
     <span class="results-count" id="resultsCount"></span>
   </div>
-
+ 
   <div class="cards" id="cardsContainer"></div>
 </div>
-
+ 
 <!-- GITHUB SETTINGS MODAL -->
 <div class="modal-overlay" id="settingsModal">
   <div class="modal">
@@ -351,9 +351,9 @@ select { cursor: pointer; } select option { background: #1e2e1e; }
     </div>
   </div>
 </div>
-
+ 
 <div class="toast" id="toast"></div>
-
+ 
 <script>
 // ============================================================
 // STATE
@@ -365,7 +365,7 @@ let effectTags = [];
 let problemTags = [];
 let editingId = null;
 let gh = { user: '', repo: '', token: '' };
-
+ 
 const DB_FILENAME = 'datenbank.json';
 const catLabels = {
   supplement:'💊 Supplement', kraeuter:'🌿 Kräuter', tee:'🍵 Tee',
@@ -373,7 +373,7 @@ const catLabels = {
   gewuerz:'🧂 Gewürz', frucht:'🍓 Frucht', gemuese:'🥦 Gemüse',
   nahrung:'🌾 Nahrung', sonstiges:'📦 Sonstiges'
 };
-
+ 
 // ============================================================
 // TOAST
 // ============================================================
@@ -385,19 +385,19 @@ function showToast(msg, type) {
   t.classList.add('show');
   setTimeout(() => t.classList.remove('show'), 3500);
 }
-
+ 
 function setSyncStatus(state, text) {
   document.getElementById('syncDot').className = 'sync-dot ' + (state || '');
   document.getElementById('syncText').textContent = text;
 }
-
+ 
 // ============================================================
 // GITHUB API
 // ============================================================
 function ghApiUrl() {
   return `https://api.github.com/repos/${gh.user}/${gh.repo}/contents/${DB_FILENAME}`;
 }
-
+ 
 function ghHeaders() {
   return {
     'Authorization': `token ${gh.token}`,
@@ -405,7 +405,7 @@ function ghHeaders() {
     'Content-Type': 'application/json'
   };
 }
-
+ 
 async function loadFromGitHub() {
   if (!gh.user || !gh.repo || !gh.token) return false;
   setSyncStatus('loading', 'Lade von GitHub…');
@@ -424,7 +424,7 @@ async function loadFromGitHub() {
     }
     const data = await res.json();
     fileSha = data.sha;
-    const decoded = JSON.parse(atob(data.content.replace(/\n/g, '')));
+    const decoded = JSON.parse(decodeURIComponent(escape(atob(data.content.replace(/\n/g, '')))));
     if (Array.isArray(decoded)) {
       db = decoded;
       saveLocal();
@@ -438,7 +438,7 @@ async function loadFromGitHub() {
     return false;
   }
 }
-
+ 
 async function saveToGitHub(silent = false) {
   if (!gh.user || !gh.repo || !gh.token) return false;
   if (!silent) setSyncStatus('loading', 'Speichere in GitHub…');
@@ -472,22 +472,22 @@ async function saveToGitHub(silent = false) {
     return false;
   }
 }
-
+ 
 function saveLocal() { localStorage.setItem('naturkunde-cache', JSON.stringify(db)); }
 function loadLocal() {
   try { const d = JSON.parse(localStorage.getItem('naturkunde-cache')||'[]'); if(Array.isArray(d)) db=d; } catch {}
 }
-
+ 
 async function save() {
   saveLocal();
   await saveToGitHub();
 }
-
+ 
 async function manualSync() {
   const ok = await loadFromGitHub();
   if (ok) renderCards();
 }
-
+ 
 // ============================================================
 // SETTINGS
 // ============================================================
@@ -497,7 +497,7 @@ function loadSettings() {
     gh = { user: s.user||'', repo: s.repo||'', token: s.token||'' };
   } catch {}
 }
-
+ 
 async function saveSettings() {
   gh.user  = document.getElementById('gh-user').value.trim();
   gh.repo  = document.getElementById('gh-repo').value.trim();
@@ -511,7 +511,7 @@ async function saveSettings() {
   const ok = await loadFromGitHub();
   if (ok) renderCards();
 }
-
+ 
 function clearSettings() {
   if (!confirm('GitHub-Verbindung wirklich trennen?')) return;
   gh = { user:'', repo:'', token:'' };
@@ -521,7 +521,7 @@ function clearSettings() {
   closeSettings();
   document.getElementById('setupPanel').style.display = '';
 }
-
+ 
 function openSettings() {
   document.getElementById('gh-user').value  = gh.user;
   document.getElementById('gh-repo').value  = gh.repo;
@@ -529,7 +529,7 @@ function openSettings() {
   document.getElementById('settingsModal').classList.add('open');
 }
 function closeSettings() { document.getElementById('settingsModal').classList.remove('open'); }
-
+ 
 // ============================================================
 // FORM
 // ============================================================
@@ -538,7 +538,7 @@ function toggleForm() {
   form.classList.toggle('open');
   document.getElementById('toggle-icon').textContent = form.classList.contains('open') ? '▴' : '▾';
 }
-
+ 
 function handleTag(e, type) {
   if (e.key === 'Enter' || e.key === ',') {
     e.preventDefault();
@@ -550,7 +550,7 @@ function handleTag(e, type) {
     input.value = '';
   }
 }
-
+ 
 function renderTagChips(type) {
   const arr = type==='effects' ? effectTags : problemTags;
   const wrapper = document.getElementById(type==='effects'?'effects-wrapper':'problems-wrapper');
@@ -564,12 +564,12 @@ function renderTagChips(type) {
   });
   wrapper.appendChild(input);
 }
-
+ 
 function removeTag(type, i) {
   (type==='effects' ? effectTags : problemTags).splice(i, 1);
   renderTagChips(type);
 }
-
+ 
 function clearForm() {
   ['f-name','f-desc','f-dosage','f-timing','f-dosage-notes'].forEach(id => document.getElementById(id).value = '');
   document.getElementById('f-category').value  = 'supplement';
@@ -580,7 +580,7 @@ function clearForm() {
   editingId = null;
   document.getElementById('form-title').textContent = '✚ Neuen Eintrag hinzufügen';
 }
-
+ 
 async function addEntry() {
   const name = document.getElementById('f-name').value.trim();
   if (!name) { showToast('⚠ Bitte einen Namen eingeben', 'error'); return; }
@@ -588,7 +588,7 @@ async function addEntry() {
   if (eIn) { effectTags.push(eIn); document.getElementById('effects-input').value = ''; }
   const pIn = document.getElementById('problems-input').value.trim();
   if (pIn) { problemTags.push(pIn); document.getElementById('problems-input').value = ''; }
-
+ 
   const entry = {
     id: editingId || Date.now(), name,
     category:     document.getElementById('f-category').value,
@@ -604,22 +604,22 @@ async function addEntry() {
       ? (db.find(e=>e.id===editingId)||{}).date || new Date().toLocaleDateString('de-DE')
       : new Date().toLocaleDateString('de-DE')
   };
-
+ 
   if (editingId) { const i = db.findIndex(e=>e.id===editingId); if(i!==-1) db[i]=entry; }
   else db.unshift(entry);
-
+ 
   const label = editingId ? `✓ "${name}" aktualisiert` : `✓ "${name}" gespeichert`;
   clearForm(); renderCards(); showToast(label);
   await save();
 }
-
+ 
 function deleteEntry(id) {
   if (!confirm('Eintrag wirklich löschen?')) return;
   db = db.filter(e => e.id !== id);
   renderCards(); showToast('Eintrag gelöscht');
   save();
 }
-
+ 
 function editEntry(id) {
   const e = db.find(x=>x.id===id); if (!e) return;
   editingId = id;
@@ -639,7 +639,7 @@ function editEntry(id) {
   document.getElementById('form-title').textContent = '✎ Eintrag bearbeiten';
   form.scrollIntoView({ behavior:'smooth', block:'start' });
 }
-
+ 
 // ============================================================
 // FILTER & RENDER
 // ============================================================
@@ -649,11 +649,11 @@ function setFilter(cat, btn) {
   btn.classList.add('active');
   renderCards();
 }
-
+ 
 function renderCards() {
   const query = document.getElementById('searchInput').value.toLowerCase().trim();
   const container = document.getElementById('cardsContainer');
-
+ 
   let filtered = db.filter(e => {
     if (currentFilter !== 'all' && e.category !== currentFilter) return false;
     if (!query) return true;
@@ -661,23 +661,23 @@ function renderCards() {
       ...(e.effects||[]), ...(e.problems||[])].join(' ').toLowerCase();
     return query.split(' ').every(w => s.includes(w));
   });
-
+ 
   if (query) {
     filtered.sort((a,b) => {
       const sc = e => query.split(' ').filter(w => [...(e.problems||[]),...(e.effects||[])].join(' ').toLowerCase().includes(w)).length;
       return sc(b) - sc(a);
     });
   }
-
+ 
   document.getElementById('resultsCount').textContent =
     filtered.length===0 ? 'Keine Treffer' : filtered.length===1 ? '1 Eintrag' : `${filtered.length} Einträge`;
-
+ 
   if (filtered.length===0) {
     container.innerHTML = `<div class="empty-state"><div class="icon">🌱</div>
       <p>${query ? `Keine Einträge für „${query}" gefunden.` : 'Noch keine Einträge. Füge deinen ersten Eintrag hinzu!'}</p></div>`;
     return;
   }
-
+ 
   container.innerHTML = filtered.map(e => {
     const isMatch = query && [...(e.problems||[]),...(e.effects||[])].some(t=>t.toLowerCase().includes(query.split(' ')[0]));
     const hasDosage = e.dosage||e.timing||e.meal||e.frequency||e.dosageNotes;
@@ -688,7 +688,7 @@ function renderCards() {
       ${e.meal      ? `<div class="dosage-item"><span class="di-label">Mahlzeit</span><span class="di-val">${e.meal}</span></div>` : ''}
       ${e.dosageNotes ? `<div class="dosage-item" style="flex:1 1 100%"><span class="di-label">Hinweis</span><span class="di-val" style="font-size:0.82rem;opacity:0.85">${e.dosageNotes}</span></div>` : ''}
     </div>` : '';
-
+ 
     return `<div class="card ${isMatch?'card-highlight':''}">
       ${isMatch ? `<div class="highlight-badge">✦ Empfohlen für deine Suche</div>` : ''}
       <div class="card-top">
@@ -709,25 +709,26 @@ function renderCards() {
     </div>`;
   }).join('');
 }
-
+ 
 // ============================================================
 // INIT
 // ============================================================
 document.getElementById('settingsModal').addEventListener('click', function(e) {
   if (e.target === this) closeSettings();
 });
-
+ 
 loadSettings();
 loadLocal();
-
+ 
 if (gh.user && gh.repo && gh.token) {
   document.getElementById('setupPanel').style.display = 'none';
   loadFromGitHub().then(ok => { if (ok) renderCards(); });
 } else {
   setSyncStatus('', 'Nicht verbunden – GitHub einrichten');
 }
-
+ 
 renderCards();
 </script>
 </body>
 </html>
+ 
