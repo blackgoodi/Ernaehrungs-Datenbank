@@ -3,23 +3,23 @@
     "id": 1700000001,
     "name": "Kurkuma",
     "category": "gewuerz",
-    "description": "Goldgelbes WurzelgewÃ¼rz aus SÃ¼dasien. Hauptwirkstoff Curcumin. In Ayurveda und TCM seit Jahrtausenden verwendet.",
-    "dosage": "0,5â1 TL Pulver",
-    "frequency": "",
+    "description": "Goldgelbes Wurzelgewürz aus Südasien. Hauptwirkstoff Curcumin. In Ayurveda und TCM seit Jahrtausenden verwendet.",
+    "dosage": "0,5 TL Pulver / 2 Kapseln",
+    "frequency": "1× täglich",
     "timing": "zu den Mahlzeiten",
     "meal": "mit Mahlzeit",
-    "dosageNotes": "Immer mit schwarzem Pfeffer kombinieren â erhÃ¶ht die Aufnahme um bis zu 2000%",
+    "dosageNotes": "Immer mit schwarzem Pfeffer kombinieren Ã¢ÂÂ erhÃÂ¶ht die Aufnahme um bis zu 2000%",
     "effects": [
-      "entzÃ¼ndungshemmend",
       "antioxidativ",
-      "leberschÃ¼tzend",
-      "immunstÃ¤rkend"
+      "Entzündungshemmend",
+      "Immunstärkend",
+      "Leberschützend"
     ],
     "problems": [
-      "GelenkentzÃ¼ndung",
-      "chronische EntzÃ¼ndungen",
       "Leberbelastung",
-      "oxidativer Stress"
+      "oxidativer Stress",
+      "Gelenkentzündung",
+      "Chronische Entzündungen"
     ],
     "date": "30.04.2026"
   },
@@ -28,49 +28,49 @@
     "name": "Ashwagandha",
     "category": "kraeuter",
     "description": "Schlafbeere, ayurvedisches Adaptogen. Einer der wichtigsten Heilpflanzen des Ayurveda. Reduziert nachweislich Cortisol.",
-    "dosage": "300â600 mg Extrakt",
-    "frequency": "1Ã tÃ¤glich",
+    "dosage": "300Ã¢ÂÂ600 mg Extrakt",
+    "frequency": "1ÃÂ tÃÂ¤glich",
     "timing": "abends",
     "meal": "mit Mahlzeit",
-    "dosageNotes": "8 Wochen einnehmen, dann 2â4 Wochen Pause. Nicht in der Schwangerschaft.",
+    "dosageNotes": "8 Wochen einnehmen, dann 2Ã¢ÂÂ4 Wochen Pause. Nicht in der Schwangerschaft.",
     "effects": [
       "adaptogen",
       "stressreduzierend",
       "cortisolsenkend",
-      "schlaffÃ¶rdernd",
+      "schlaffÃÂ¶rdernd",
       "muskelaufbauend"
     ],
     "problems": [
       "Stress",
       "Burnout",
       "Schlafprobleme",
-      "ErschÃ¶pfung",
-      "AngstzustÃ¤nde"
+      "ErschÃÂ¶pfung",
+      "AngstzustÃÂ¤nde"
     ],
     "date": "30.04.2026"
   },
   {
     "id": 1700000003,
-    "name": "Omega-3 (FischÃ¶l)",
+    "name": "Omega-3 (FischÃÂ¶l)",
     "category": "supplement",
-    "description": "Essentielle FettsÃ¤uren EPA und DHA. Nicht vom KÃ¶rper selbst herstellbar. Wichtig fÃ¼r Herz, Gehirn und EntzÃ¼ndungsregulation.",
-    "dosage": "2â3 g EPA+DHA",
-    "frequency": "1Ã tÃ¤glich",
+    "description": "Essentielle FettsÃÂ¤uren EPA und DHA. Nicht vom KÃÂ¶rper selbst herstellbar. Wichtig fÃÂ¼r Herz, Gehirn und EntzÃÂ¼ndungsregulation.",
+    "dosage": "2Ã¢ÂÂ3 g EPA+DHA",
+    "frequency": "1ÃÂ tÃÂ¤glich",
     "timing": "morgens",
     "meal": "mit Mahlzeit",
-    "dosageNotes": "Im KÃ¼hlschrank lagern. FischÃ¶l-Kapseln mit fetthaltiger Mahlzeit besser aufgenommen.",
+    "dosageNotes": "Im KÃÂ¼hlschrank lagern. FischÃÂ¶l-Kapseln mit fetthaltiger Mahlzeit besser aufgenommen.",
     "effects": [
-      "entzÃ¼ndungshemmend",
-      "herzschÃ¼tzend",
-      "gehirnstÃ¤rkend",
+      "entzÃÂ¼ndungshemmend",
+      "herzschÃÂ¼tzend",
+      "gehirnstÃÂ¤rkend",
       "stimmungsaufhellend",
       "triglyzeridsenkend"
     ],
     "problems": [
       "Herzerkrankungen",
       "Depression",
-      "EntzÃ¼ndungen",
-      "erhÃ¶hte Triglyzeride",
+      "EntzÃÂ¼ndungen",
+      "erhÃÂ¶hte Triglyzeride",
       "Konzentrationsprobleme"
     ],
     "date": "30.04.2026"
@@ -79,14 +79,14 @@
     "id": 1700000004,
     "name": "Zink",
     "category": "supplement",
-    "description": "Essentielles Spurenelement. An Ã¼ber 300 Enzymreaktionen beteiligt. Besonders wichtig fÃ¼r Immunsystem und Hormonstoffwechsel.",
-    "dosage": "15â25 mg",
-    "frequency": "1Ã tÃ¤glich",
+    "description": "Essentielles Spurenelement. An ÃÂ¼ber 300 Enzymreaktionen beteiligt. Besonders wichtig fÃÂ¼r Immunsystem und Hormonstoffwechsel.",
+    "dosage": "15Ã¢ÂÂ25 mg",
+    "frequency": "1ÃÂ tÃÂ¤glich",
     "timing": "abends",
     "meal": "nach der Mahlzeit",
-    "dosageNotes": "Nicht auf nÃ¼chternen Magen â kann Ãbelkeit verursachen. Nicht gleichzeitig mit Eisen oder Kalzium einnehmen.",
+    "dosageNotes": "Nicht auf nÃÂ¼chternen Magen Ã¢ÂÂ kann ÃÂbelkeit verursachen. Nicht gleichzeitig mit Eisen oder Kalzium einnehmen.",
     "effects": [
-      "immunstÃ¤rkend",
+      "immunstÃÂ¤rkend",
       "wundheilend",
       "hormonstimulierend",
       "antioxidativ",
@@ -94,11 +94,11 @@
     ],
     "problems": [
       "Zinkmangel",
-      "ImmunschwÃ¤che",
+      "ImmunschwÃÂ¤che",
       "Wundheilung",
       "Akne",
       "Haarausfall",
-      "HormonstÃ¶rungen"
+      "HormonstÃÂ¶rungen"
     ],
     "date": "30.04.2026"
   },
@@ -106,24 +106,24 @@
     "id": 1700000005,
     "name": "Vitamin C",
     "category": "supplement",
-    "description": "WasserlÃ¶sliches Vitamin. Starkes Antioxidans. Wichtig fÃ¼r Kollagenbildung und Eisenaufnahme. Nicht vom KÃ¶rper gespeichert.",
-    "dosage": "500â1000 mg",
-    "frequency": "1â2Ã tÃ¤glich",
+    "description": "WasserlÃÂ¶sliches Vitamin. Starkes Antioxidans. Wichtig fÃÂ¼r Kollagenbildung und Eisenaufnahme. Nicht vom KÃÂ¶rper gespeichert.",
+    "dosage": "500Ã¢ÂÂ1000 mg",
+    "frequency": "1Ã¢ÂÂ2ÃÂ tÃÂ¤glich",
     "timing": "morgens oder mittags",
     "meal": "mit Mahlzeit",
-    "dosageNotes": "Gepufferte Form (z.B. Calciumascorbat) besser vertrÃ¤glich. Nicht abends â kann aktivierend wirken. Dosis aufteilen.",
+    "dosageNotes": "Gepufferte Form (z.B. Calciumascorbat) besser vertrÃÂ¤glich. Nicht abends Ã¢ÂÂ kann aktivierend wirken. Dosis aufteilen.",
     "effects": [
-      "immunstÃ¤rkend",
+      "immunstÃÂ¤rkend",
       "antioxidativ",
       "kollagenbildend",
-      "eisenaufnahme-fÃ¶rdernd",
+      "eisenaufnahme-fÃÂ¶rdernd",
       "wundheilend"
     ],
     "problems": [
-      "ImmunschwÃ¤che",
-      "ErkÃ¤ltung",
+      "ImmunschwÃÂ¤che",
+      "ErkÃÂ¤ltung",
       "Eisenmangel",
-      "ErschÃ¶pfung",
+      "ErschÃÂ¶pfung",
       "schlechte Wundheilung"
     ],
     "date": "30.04.2026"
@@ -132,23 +132,23 @@
     "id": 1700000006,
     "name": "B-Komplex",
     "category": "supplement",
-    "description": "Alle B-Vitamine in einem. Wichtig fÃ¼r Energiestoffwechsel, Nervensystem und Blutbildung. WasserlÃ¶slich â tÃ¤glich zufÃ¼hren.",
+    "description": "Alle B-Vitamine in einem. Wichtig fÃÂ¼r Energiestoffwechsel, Nervensystem und Blutbildung. WasserlÃÂ¶slich Ã¢ÂÂ tÃÂ¤glich zufÃÂ¼hren.",
     "dosage": "1 Kapsel",
-    "frequency": "1Ã tÃ¤glich",
+    "frequency": "1ÃÂ tÃÂ¤glich",
     "timing": "morgens",
     "meal": "mit Mahlzeit",
-    "dosageNotes": "FÃ¤rbt Urin gelb â das ist normal (Riboflavin). Mit Mahlzeit einnehmen, sonst Ãbelkeit mÃ¶glich.",
+    "dosageNotes": "FÃÂ¤rbt Urin gelb Ã¢ÂÂ das ist normal (Riboflavin). Mit Mahlzeit einnehmen, sonst ÃÂbelkeit mÃÂ¶glich.",
     "effects": [
       "energiesteigernd",
-      "nervenstÃ¤rkend",
-      "konzentrationsstÃ¤rkend",
+      "nervenstÃÂ¤rkend",
+      "konzentrationsstÃÂ¤rkend",
       "stimmungsaufhellend",
       "blutbildend"
     ],
     "problems": [
-      "ErschÃ¶pfung",
+      "ErschÃÂ¶pfung",
       "Konzentrationsprobleme",
-      "NervositÃ¤t",
+      "NervositÃÂ¤t",
       "B-Vitaminmangel",
       "Stress"
     ],
@@ -158,12 +158,12 @@
     "id": 1700000007,
     "name": "Eisen",
     "category": "supplement",
-    "description": "Wichtiges Mineral fÃ¼r Blutbildung und Sauerstofftransport. HÃ¤ufig bei Frauen und Sportlern mangelhaft.",
-    "dosage": "14â18 mg",
-    "frequency": "1Ã tÃ¤glich",
-    "timing": "morgens nÃ¼chtern",
-    "meal": "nÃ¼chtern",
-    "dosageNotes": "Mit Vitamin C einnehmen â verbessert Aufnahme. Nicht mit Kaffee, Tee, Kalzium oder Zink kombinieren.",
+    "description": "Wichtiges Mineral fÃÂ¼r Blutbildung und Sauerstofftransport. HÃÂ¤ufig bei Frauen und Sportlern mangelhaft.",
+    "dosage": "14Ã¢ÂÂ18 mg",
+    "frequency": "1ÃÂ tÃÂ¤glich",
+    "timing": "morgens nÃÂ¼chtern",
+    "meal": "nÃÂ¼chtern",
+    "dosageNotes": "Mit Vitamin C einnehmen Ã¢ÂÂ verbessert Aufnahme. Nicht mit Kaffee, Tee, Kalzium oder Zink kombinieren.",
     "effects": [
       "blutbildend",
       "energiesteigernd",
@@ -171,9 +171,9 @@
     ],
     "problems": [
       "Eisenmangel",
-      "AnÃ¤mie",
-      "chronische ErschÃ¶pfung",
-      "BlÃ¤sse",
+      "AnÃÂ¤mie",
+      "chronische ErschÃÂ¶pfung",
+      "BlÃÂ¤sse",
       "Leistungsabfall"
     ],
     "date": "30.04.2026"
@@ -182,23 +182,23 @@
     "id": 1700000008,
     "name": "Coenzym Q10",
     "category": "supplement",
-    "description": "KÃ¶rpereigenes Coenzym, nimmt im Alter ab. Zentral fÃ¼r Zellenergie (ATP-Produktion) und Herzfunktion.",
-    "dosage": "100â300 mg",
-    "frequency": "1Ã tÃ¤glich",
+    "description": "KÃÂ¶rpereigenes Coenzym, nimmt im Alter ab. Zentral fÃÂ¼r Zellenergie (ATP-Produktion) und Herzfunktion.",
+    "dosage": "100Ã¢ÂÂ300 mg",
+    "frequency": "1ÃÂ tÃÂ¤glich",
     "timing": "morgens",
     "meal": "mit Mahlzeit",
-    "dosageNotes": "FettlÃ¶slich â mit fetthaltiger Mahlzeit einnehmen. Besonders wichtig bei Statineinnahme (Statine blockieren Q10-Produktion).",
+    "dosageNotes": "FettlÃÂ¶slich Ã¢ÂÂ mit fetthaltiger Mahlzeit einnehmen. Besonders wichtig bei Statineinnahme (Statine blockieren Q10-Produktion).",
     "effects": [
-      "zellenergie-fÃ¶rdernd",
-      "herzschÃ¼tzend",
+      "zellenergie-fÃÂ¶rdernd",
+      "herzschÃÂ¼tzend",
       "antioxidativ",
       "leistungssteigernd"
     ],
     "problems": [
-      "ErschÃ¶pfung",
+      "ErschÃÂ¶pfung",
       "Herzerkrankungen",
       "Statineinnahme",
-      "MitochondrienschwÃ¤che",
+      "MitochondrienschwÃÂ¤che",
       "Bluthochdruck"
     ],
     "date": "30.04.2026"
@@ -207,23 +207,23 @@
     "id": 1700000009,
     "name": "Probiotika",
     "category": "supplement",
-    "description": "Lebende Mikroorganismen, die die Darmflora stÃ¤rken. Wirken Ã¼ber die Darm-Hirn-Achse auch auf Stimmung und Immunsystem.",
-    "dosage": "1 Kapsel (5â10 Mrd. KBE)",
-    "frequency": "1Ã tÃ¤glich",
-    "timing": "morgens nÃ¼chtern",
-    "meal": "nÃ¼chtern",
-    "dosageNotes": "KÃ¼hl lagern. Mindestens 4 Wochen einnehmen fÃ¼r spÃ¼rbare Wirkung. Nach Antibiotika besonders wichtig.",
+    "description": "Lebende Mikroorganismen, die die Darmflora stÃÂ¤rken. Wirken ÃÂ¼ber die Darm-Hirn-Achse auch auf Stimmung und Immunsystem.",
+    "dosage": "1 Kapsel (5Ã¢ÂÂ10 Mrd. KBE)",
+    "frequency": "1ÃÂ tÃÂ¤glich",
+    "timing": "morgens nÃÂ¼chtern",
+    "meal": "nÃÂ¼chtern",
+    "dosageNotes": "KÃÂ¼hl lagern. Mindestens 4 Wochen einnehmen fÃÂ¼r spÃÂ¼rbare Wirkung. Nach Antibiotika besonders wichtig.",
     "effects": [
-      "darmgesundheitsfÃ¶rdernd",
-      "immunstÃ¤rkend",
+      "darmgesundheitsfÃÂ¶rdernd",
+      "immunstÃÂ¤rkend",
       "stimmungsaufhellend",
-      "verdauungsfÃ¶rdernd"
+      "verdauungsfÃÂ¶rdernd"
     ],
     "problems": [
       "Darmbeschwerden",
-      "BlÃ¤hungen",
+      "BlÃÂ¤hungen",
       "nach Antibiotika",
-      "ImmunschwÃ¤che",
+      "ImmunschwÃÂ¤che",
       "Reizdarmsyndrom"
     ],
     "date": "30.04.2026"
@@ -232,11 +232,11 @@
     "id": 1700000010,
     "name": "Melatonin",
     "category": "supplement",
-    "description": "KÃ¶rpereigenes Schlafhormon. Wird bei Dunkelheit ausgeschÃ¼ttet. Reguliert den Schlaf-Wach-Rhythmus.",
-    "dosage": "0,5â2 mg",
+    "description": "KÃÂ¶rpereigenes Schlafhormon. Wird bei Dunkelheit ausgeschÃÂ¼ttet. Reguliert den Schlaf-Wach-Rhythmus.",
+    "dosage": "0,5Ã¢ÂÂ2 mg",
     "frequency": "nach Bedarf",
     "timing": "30 Min. vor dem Schlafen",
-    "meal": "nÃ¼chtern",
+    "meal": "nÃÂ¼chtern",
     "dosageNotes": "Niedrig starten (0,5 mg). Nicht dauerhaft anwenden. Ideal bei Jetlag oder Schichtarbeit.",
     "effects": [
       "schlafeinleitend",
@@ -247,7 +247,7 @@
       "Einschlafprobleme",
       "Jetlag",
       "Schichtarbeit",
-      "SchlafrhythmusstÃ¶rungen"
+      "SchlafrhythmusstÃÂ¶rungen"
     ],
     "date": "30.04.2026"
   },
@@ -255,24 +255,24 @@
     "id": 1700000011,
     "name": "L-Theanin",
     "category": "supplement",
-    "description": "AminosÃ¤ure aus grÃ¼nem Tee. Erzeugt Entspannung ohne SchlÃ¤frigkeit. Ideal in Kombination mit Koffein.",
-    "dosage": "100â200 mg",
+    "description": "AminosÃÂ¤ure aus grÃÂ¼nem Tee. Erzeugt Entspannung ohne SchlÃÂ¤frigkeit. Ideal in Kombination mit Koffein.",
+    "dosage": "100Ã¢ÂÂ200 mg",
     "frequency": "nach Bedarf",
-    "timing": "tagsÃ¼ber oder abends",
+    "timing": "tagsÃÂ¼ber oder abends",
     "meal": "",
-    "dosageNotes": "Hervorragend kombinierbar mit Koffein: fÃ¶rdert Fokus und dÃ¤mpft gleichzeitig Koffein-NervositÃ¤t.",
+    "dosageNotes": "Hervorragend kombinierbar mit Koffein: fÃÂ¶rdert Fokus und dÃÂ¤mpft gleichzeitig Koffein-NervositÃÂ¤t.",
     "effects": [
       "beruhigend",
-      "konzentrationsfÃ¶rdernd",
-      "angstlÃ¶send",
+      "konzentrationsfÃÂ¶rdernd",
+      "angstlÃÂ¶send",
       "entspannend"
     ],
     "problems": [
       "Stress",
-      "NervositÃ¤t",
+      "NervositÃÂ¤t",
       "Konzentrationsprobleme",
-      "AngstzustÃ¤nde",
-      "Koffein-Ãberstimulation"
+      "AngstzustÃÂ¤nde",
+      "Koffein-ÃÂberstimulation"
     ],
     "date": "30.04.2026"
   },
@@ -280,22 +280,22 @@
     "id": 1700000012,
     "name": "Kollagen",
     "category": "supplement",
-    "description": "HÃ¤ufigstes Protein im menschlichen KÃ¶rper. FÃ¼r Gelenke, Haut, Knochen und Bindegewebe unverzichtbar. Produktion nimmt ab 25 ab.",
-    "dosage": "10â15 g",
-    "frequency": "1Ã tÃ¤glich",
-    "timing": "morgens nÃ¼chtern",
-    "meal": "nÃ¼chtern",
-    "dosageNotes": "Mit Vitamin C einnehmen â fÃ¶rdert kÃ¶rpereigene Kollagensynthese. Hydrolysat-Form bevorzugen (besser bioverfÃ¼gbar).",
+    "description": "HÃÂ¤ufigstes Protein im menschlichen KÃÂ¶rper. FÃÂ¼r Gelenke, Haut, Knochen und Bindegewebe unverzichtbar. Produktion nimmt ab 25 ab.",
+    "dosage": "10Ã¢ÂÂ15 g",
+    "frequency": "1ÃÂ tÃÂ¤glich",
+    "timing": "morgens nÃÂ¼chtern",
+    "meal": "nÃÂ¼chtern",
+    "dosageNotes": "Mit Vitamin C einnehmen Ã¢ÂÂ fÃÂ¶rdert kÃÂ¶rpereigene Kollagensynthese. Hydrolysat-Form bevorzugen (besser bioverfÃÂ¼gbar).",
     "effects": [
-      "gelenkunterstÃ¼tzend",
+      "gelenkunterstÃÂ¼tzend",
       "hautstraffend",
-      "knochenunterstÃ¼tzend",
-      "sehnenunterstÃ¼tzend"
+      "knochenunterstÃÂ¼tzend",
+      "sehnenunterstÃÂ¼tzend"
     ],
     "problems": [
       "Gelenkschmerzen",
       "Hautalterung",
-      "KnochenschwÃ¤che",
+      "KnochenschwÃÂ¤che",
       "Sport-Regeneration"
     ],
     "date": "30.04.2026"
@@ -304,22 +304,22 @@
     "id": 1700000013,
     "name": "Baldrian",
     "category": "kraeuter",
-    "description": "EuropÃ¤ische Heilpflanze, seit der Antike als Schlaf- und Beruhigungsmittel genutzt. Wirkt auf GABA-Rezeptoren.",
-    "dosage": "300â600 mg Extrakt",
+    "description": "EuropÃÂ¤ische Heilpflanze, seit der Antike als Schlaf- und Beruhigungsmittel genutzt. Wirkt auf GABA-Rezeptoren.",
+    "dosage": "300Ã¢ÂÂ600 mg Extrakt",
     "frequency": "nach Bedarf",
-    "timing": "30â60 Min. vor dem Schlafen",
+    "timing": "30Ã¢ÂÂ60 Min. vor dem Schlafen",
     "meal": "",
-    "dosageNotes": "Wirkung baut sich nach 2â4 Wochen regelmÃ¤Ãiger Einnahme auf. Kein sofortiger Effekt wie bei Melatonin.",
+    "dosageNotes": "Wirkung baut sich nach 2Ã¢ÂÂ4 Wochen regelmÃÂ¤ÃÂiger Einnahme auf. Kein sofortiger Effekt wie bei Melatonin.",
     "effects": [
-      "schlaffÃ¶rdernd",
+      "schlaffÃÂ¶rdernd",
       "beruhigend",
-      "angstlÃ¶send",
+      "angstlÃÂ¶send",
       "muskelentspannend"
     ],
     "problems": [
       "Schlafprobleme",
-      "EinschlafstÃ¶rungen",
-      "NervositÃ¤t",
+      "EinschlafstÃÂ¶rungen",
+      "NervositÃÂ¤t",
       "innere Unruhe",
       "Stress"
     ],
@@ -331,20 +331,20 @@
     "category": "kraeuter",
     "description": "Heimische Heilpflanze mit nachgewiesener antidepressiver Wirkung. Wirkstoff: Hypericin und Hyperforin.",
     "dosage": "300 mg (0,3% Hypericin)",
-    "frequency": "3Ã tÃ¤glich",
+    "frequency": "3ÃÂ tÃÂ¤glich",
     "timing": "",
     "meal": "mit Mahlzeit",
-    "dosageNotes": "ACHTUNG: Starke Wechselwirkungen mit vielen Medikamenten (Antibiotika, Pille, BlutverdÃ¼nner). Arzt fragen! Lichtempfindlichkeit mÃ¶glich.",
+    "dosageNotes": "ACHTUNG: Starke Wechselwirkungen mit vielen Medikamenten (Antibiotika, Pille, BlutverdÃÂ¼nner). Arzt fragen! Lichtempfindlichkeit mÃÂ¶glich.",
     "effects": [
       "antidepressiv",
-      "angstlÃ¶send",
+      "angstlÃÂ¶send",
       "stimmungsaufhellend",
       "nervenberuhigend"
     ],
     "problems": [
       "leichte Depression",
       "Winterblues",
-      "AngstzustÃ¤nde",
+      "AngstzustÃÂ¤nde",
       "Stimmungstiefs"
     ],
     "date": "30.04.2026"
@@ -353,23 +353,23 @@
     "id": 1700000015,
     "name": "Echinacea",
     "category": "kraeuter",
-    "description": "Sonnenhut. Nordamerikanische Heilpflanze, eines der meistgenutzten Naturheilmittel weltweit gegen ErkÃ¤ltungen.",
+    "description": "Sonnenhut. Nordamerikanische Heilpflanze, eines der meistgenutzten Naturheilmittel weltweit gegen ErkÃÂ¤ltungen.",
     "dosage": "400 mg Extrakt",
-    "frequency": "3Ã tÃ¤glich",
-    "timing": "bei ErkÃ¤ltungsbeginn",
+    "frequency": "3ÃÂ tÃÂ¤glich",
+    "timing": "bei ErkÃÂ¤ltungsbeginn",
     "meal": "mit Mahlzeit",
     "dosageNotes": "Maximal 8 Wochen durchgehend einnehmen, dann Pause. Nicht bei Autoimmunerkrankungen anwenden.",
     "effects": [
       "immunstimulierend",
       "antiviral",
       "antibakteriell",
-      "entzÃ¼ndungshemmend"
+      "entzÃÂ¼ndungshemmend"
     ],
     "problems": [
-      "ErkÃ¤ltung",
+      "ErkÃÂ¤ltung",
       "Grippe",
-      "InfektanfÃ¤lligkeit",
-      "geschwÃ¤chtes Immunsystem"
+      "InfektanfÃÂ¤lligkeit",
+      "geschwÃÂ¤chtes Immunsystem"
     ],
     "date": "30.04.2026"
   },
@@ -377,17 +377,17 @@
     "id": 1700000016,
     "name": "Mariendistel",
     "category": "kraeuter",
-    "description": "EuropÃ¤ische Heilpflanze. Wirkstoff Silymarin schÃ¼tzt und regeneriert Leberzellen nachweislich.",
+    "description": "EuropÃÂ¤ische Heilpflanze. Wirkstoff Silymarin schÃÂ¼tzt und regeneriert Leberzellen nachweislich.",
     "dosage": "140 mg Silymarin",
-    "frequency": "3Ã tÃ¤glich",
+    "frequency": "3ÃÂ tÃÂ¤glich",
     "timing": "",
     "meal": "vor der Mahlzeit",
-    "dosageNotes": "Besonders nach Alkohol, Medikamentenbelastung oder fetthaltiger ErnÃ¤hrung empfehlenswert.",
+    "dosageNotes": "Besonders nach Alkohol, Medikamentenbelastung oder fetthaltiger ErnÃÂ¤hrung empfehlenswert.",
     "effects": [
-      "leberschÃ¼tzend",
+      "leberschÃÂ¼tzend",
       "entgiftend",
       "antioxidativ",
-      "gallefÃ¶rdernd"
+      "gallefÃÂ¶rdernd"
     ],
     "problems": [
       "Leberbelastung",
@@ -401,22 +401,22 @@
     "id": 1700000017,
     "name": "Ginkgo biloba",
     "category": "kraeuter",
-    "description": "Ãltester lebender Baumbaum der Welt. Verbessert Durchblutung, besonders im Gehirn. TCM-Klassiker.",
-    "dosage": "120â240 mg",
-    "frequency": "2Ã tÃ¤glich",
+    "description": "ÃÂltester lebender Baumbaum der Welt. Verbessert Durchblutung, besonders im Gehirn. TCM-Klassiker.",
+    "dosage": "120Ã¢ÂÂ240 mg",
+    "frequency": "2ÃÂ tÃÂ¤glich",
     "timing": "morgens und mittags",
     "meal": "mit Mahlzeit",
-    "dosageNotes": "Nicht abends einnehmen. Nicht mit BlutverdÃ¼nnern (z.B. Aspirin, Marcumar) kombinieren.",
+    "dosageNotes": "Nicht abends einnehmen. Nicht mit BlutverdÃÂ¼nnern (z.B. Aspirin, Marcumar) kombinieren.",
     "effects": [
-      "durchblutungsfÃ¶rdernd",
-      "gedÃ¤chtnisstÃ¤rkend",
+      "durchblutungsfÃÂ¶rdernd",
+      "gedÃÂ¤chtnisstÃÂ¤rkend",
       "antioxidativ",
-      "konzentrationsfÃ¶rdernd"
+      "konzentrationsfÃÂ¶rdernd"
     ],
     "problems": [
       "Konzentrationsprobleme",
-      "GedÃ¤chtnisprobleme",
-      "DurchblutungsstÃ¶rungen",
+      "GedÃÂ¤chtnisprobleme",
+      "DurchblutungsstÃÂ¶rungen",
       "Tinnitus",
       "Schwindel"
     ],
@@ -426,23 +426,23 @@
     "id": 1700000018,
     "name": "Ginseng (Panax)",
     "category": "kraeuter",
-    "description": "Koreanischer / chinesischer Ginseng. KÃ¶nig der Tonika in der TCM. StÃ¤rkt Qi, VitalitÃ¤t und AnpassungsfÃ¤higkeit.",
-    "dosage": "200â400 mg",
-    "frequency": "1Ã tÃ¤glich",
+    "description": "Koreanischer / chinesischer Ginseng. KÃÂ¶nig der Tonika in der TCM. StÃÂ¤rkt Qi, VitalitÃÂ¤t und AnpassungsfÃÂ¤higkeit.",
+    "dosage": "200Ã¢ÂÂ400 mg",
+    "frequency": "1ÃÂ tÃÂ¤glich",
     "timing": "morgens",
-    "meal": "nÃ¼chtern",
-    "dosageNotes": "Nicht abends einnehmen â aktivierend. Nicht mit Koffein kombinieren. Kurweise: 3 Monate, dann Pause.",
+    "meal": "nÃÂ¼chtern",
+    "dosageNotes": "Nicht abends einnehmen Ã¢ÂÂ aktivierend. Nicht mit Koffein kombinieren. Kurweise: 3 Monate, dann Pause.",
     "effects": [
       "adaptogen",
       "energiesteigernd",
-      "immunstÃ¤rkend",
+      "immunstÃÂ¤rkend",
       "libidosteigernd",
       "Qi-tonisierend"
     ],
     "problems": [
-      "ErschÃ¶pfung",
+      "ErschÃÂ¶pfung",
       "Leistungsabfall",
-      "ImmunschwÃ¤che",
+      "ImmunschwÃÂ¤che",
       "Libidoverlust",
       "Stress"
     ],
@@ -452,22 +452,22 @@
     "id": 1700000019,
     "name": "Rhodiola rosea",
     "category": "kraeuter",
-    "description": "Rosenwurz. Sibirisches Adaptogen. Klinisch untersucht bei Burnout und ErschÃ¶pfung. Besonders fÃ¼r mentale Leistung.",
-    "dosage": "200â400 mg",
-    "frequency": "1Ã tÃ¤glich",
-    "timing": "morgens nÃ¼chtern",
-    "meal": "nÃ¼chtern",
-    "dosageNotes": "Nicht abends einnehmen â kann Schlaf stÃ¶ren. Besonders geeignet bei Burnout und chronischer ErschÃ¶pfung.",
+    "description": "Rosenwurz. Sibirisches Adaptogen. Klinisch untersucht bei Burnout und ErschÃÂ¶pfung. Besonders fÃÂ¼r mentale Leistung.",
+    "dosage": "200Ã¢ÂÂ400 mg",
+    "frequency": "1ÃÂ tÃÂ¤glich",
+    "timing": "morgens nÃÂ¼chtern",
+    "meal": "nÃÂ¼chtern",
+    "dosageNotes": "Nicht abends einnehmen Ã¢ÂÂ kann Schlaf stÃÂ¶ren. Besonders geeignet bei Burnout und chronischer ErschÃÂ¶pfung.",
     "effects": [
       "adaptogen",
-      "stressresistenzstÃ¤rkend",
-      "ausdauerfÃ¶rdernd",
+      "stressresistenzstÃÂ¤rkend",
+      "ausdauerfÃÂ¶rdernd",
       "stimmungsaufhellend",
-      "konzentrationsfÃ¶rdernd"
+      "konzentrationsfÃÂ¶rdernd"
     ],
     "problems": [
       "Burnout",
-      "ErschÃ¶pfung",
+      "ErschÃÂ¶pfung",
       "Stress",
       "Depression",
       "sportliche Ausdauer"
@@ -478,22 +478,22 @@
     "id": 1700000020,
     "name": "Passionsblume",
     "category": "kraeuter",
-    "description": "SÃ¼damerikanische Kletterpflanze. Sanfte Beruhigung und SchlaffÃ¶rderung. Gut vertrÃ¤gliche Alternative zu Baldrian.",
-    "dosage": "250â500 mg",
-    "frequency": "1â2Ã tÃ¤glich",
+    "description": "SÃÂ¼damerikanische Kletterpflanze. Sanfte Beruhigung und SchlaffÃÂ¶rderung. Gut vertrÃÂ¤gliche Alternative zu Baldrian.",
+    "dosage": "250Ã¢ÂÂ500 mg",
+    "frequency": "1Ã¢ÂÂ2ÃÂ tÃÂ¤glich",
     "timing": "abends",
     "meal": "",
-    "dosageNotes": "Sehr gut vertrÃ¤glich. Kombinierbar mit Baldrian fÃ¼r stÃ¤rkere Wirkung.",
+    "dosageNotes": "Sehr gut vertrÃÂ¤glich. Kombinierbar mit Baldrian fÃÂ¼r stÃÂ¤rkere Wirkung.",
     "effects": [
       "beruhigend",
-      "angstlÃ¶send",
-      "schlaffÃ¶rdernd",
-      "krampflÃ¶send"
+      "angstlÃÂ¶send",
+      "schlaffÃÂ¶rdernd",
+      "krampflÃÂ¶send"
     ],
     "problems": [
       "Schlafprobleme",
-      "NervositÃ¤t",
-      "AngstzustÃ¤nde",
+      "NervositÃÂ¤t",
+      "AngstzustÃÂ¤nde",
       "innere Unruhe"
     ],
     "date": "30.04.2026"
@@ -502,24 +502,24 @@
     "id": 1700000021,
     "name": "Brennnessel",
     "category": "kraeuter",
-    "description": "EuropÃ¤ische Wildpflanze. Eines der nÃ¤hrstoffreichsten KrÃ¤uter. Reich an Eisen, Kalzium und Vitamin C.",
-    "dosage": "2â4 g BlÃ¤tter (Tee) oder 300â600 mg Extrakt",
-    "frequency": "2â3Ã tÃ¤glich",
+    "description": "EuropÃÂ¤ische Wildpflanze. Eines der nÃÂ¤hrstoffreichsten KrÃÂ¤uter. Reich an Eisen, Kalzium und Vitamin C.",
+    "dosage": "2Ã¢ÂÂ4 g BlÃÂ¤tter (Tee) oder 300Ã¢ÂÂ600 mg Extrakt",
+    "frequency": "2Ã¢ÂÂ3ÃÂ tÃÂ¤glich",
     "timing": "",
     "meal": "mit Mahlzeit",
-    "dosageNotes": "Viel Wasser trinken â harntreibend. TCM: kÃ¼hlendes Kraut. Bei Nierenerkrankungen RÃ¼cksprache mit Arzt.",
+    "dosageNotes": "Viel Wasser trinken Ã¢ÂÂ harntreibend. TCM: kÃÂ¼hlendes Kraut. Bei Nierenerkrankungen RÃÂ¼cksprache mit Arzt.",
     "effects": [
       "entgiftend",
       "harntreibend",
       "eisenreich",
-      "antientzÃ¼ndlich",
+      "antientzÃÂ¼ndlich",
       "blutdrucksenkend"
     ],
     "problems": [
       "Eisenmangel",
-      "FrÃ¼hjahrsmÃ¼digkeit",
+      "FrÃÂ¼hjahrsmÃÂ¼digkeit",
       "Harnwegsinfekte",
-      "GelenkentzÃ¼ndung",
+      "GelenkentzÃÂ¼ndung",
       "Bluthochdruck"
     ],
     "date": "30.04.2026"
@@ -528,25 +528,25 @@
     "id": 1700000022,
     "name": "Holunder (Schwarzer)",
     "category": "kraeuter",
-    "description": "EuropÃ¤ischer Holunderstrauch. Beeren und BlÃ¼ten haben starke antivirale Wirkung, besonders gegen Influenza.",
+    "description": "EuropÃÂ¤ischer Holunderstrauch. Beeren und BlÃÂ¼ten haben starke antivirale Wirkung, besonders gegen Influenza.",
     "dosage": "15 ml Sirup oder 400 mg Extrakt",
-    "frequency": "3â4Ã tÃ¤glich",
-    "timing": "bei ErkÃ¤ltung oder Grippe",
+    "frequency": "3Ã¢ÂÂ4ÃÂ tÃÂ¤glich",
+    "timing": "bei ErkÃÂ¤ltung oder Grippe",
     "meal": "",
-    "dosageNotes": "Nur zubereitete / erhitzte Form verwenden â roh giftig! Ideal als Sirup oder Extrakt.",
+    "dosageNotes": "Nur zubereitete / erhitzte Form verwenden Ã¢ÂÂ roh giftig! Ideal als Sirup oder Extrakt.",
     "effects": [
       "antiviral",
-      "immunstÃ¤rkend",
+      "immunstÃÂ¤rkend",
       "fiebersenk",
       "hustenlindernd",
-      "entzÃ¼ndungshemmend"
+      "entzÃÂ¼ndungshemmend"
     ],
     "problems": [
-      "ErkÃ¤ltung",
+      "ErkÃÂ¤ltung",
       "Grippe",
       "Fieber",
       "Husten",
-      "InfektanfÃ¤lligkeit"
+      "InfektanfÃÂ¤lligkeit"
     ],
     "date": "30.04.2026"
   },
@@ -554,25 +554,25 @@
     "id": 1700000023,
     "name": "Hagebutte",
     "category": "frucht",
-    "description": "Frucht der Wildrose. HÃ¶chster natÃ¼rlicher Vitamin-C-Gehalt aller heimischen FrÃ¼chte. Auch gut fÃ¼r Gelenke.",
-    "dosage": "1â2 TL Pulver oder 1â2 Tassen Tee",
-    "frequency": "1â2Ã tÃ¤glich",
+    "description": "Frucht der Wildrose. HÃÂ¶chster natÃÂ¼rlicher Vitamin-C-Gehalt aller heimischen FrÃÂ¼chte. Auch gut fÃÂ¼r Gelenke.",
+    "dosage": "1Ã¢ÂÂ2 TL Pulver oder 1Ã¢ÂÂ2 Tassen Tee",
+    "frequency": "1Ã¢ÂÂ2ÃÂ tÃÂ¤glich",
     "timing": "morgens",
     "meal": "",
     "dosageNotes": "Als Tee: 2 TL auf 250 ml, 10 Min. ziehen lassen. Pulver in Smoothie oder Joghurt.",
     "effects": [
       "vitamin-C-reich",
-      "immunstÃ¤rkend",
-      "gelenkunterstÃ¼tzend",
+      "immunstÃÂ¤rkend",
+      "gelenkunterstÃÂ¼tzend",
       "antioxidativ",
-      "entzÃ¼ndungshemmend"
+      "entzÃÂ¼ndungshemmend"
     ],
     "problems": [
-      "ImmunschwÃ¤che",
+      "ImmunschwÃÂ¤che",
       "Gelenkschmerzen",
       "Arthrose",
       "Vitamin-C-Mangel",
-      "ErkÃ¤ltung"
+      "ErkÃÂ¤ltung"
     ],
     "date": "30.04.2026"
   },
@@ -580,24 +580,24 @@
     "id": 1700000024,
     "name": "Aronia (Apfelbeere)",
     "category": "frucht",
-    "description": "Nordamerikanische Beere. Einer der hÃ¶chsten Antioxidantiengehalte aller FrÃ¼chte. Intensiv dunkelviolett.",
-    "dosage": "30â50 ml Saft oder 10â15 g getrocknet",
-    "frequency": "1Ã tÃ¤glich",
+    "description": "Nordamerikanische Beere. Einer der hÃÂ¶chsten Antioxidantiengehalte aller FrÃÂ¼chte. Intensiv dunkelviolett.",
+    "dosage": "30Ã¢ÂÂ50 ml Saft oder 10Ã¢ÂÂ15 g getrocknet",
+    "frequency": "1ÃÂ tÃÂ¤glich",
     "timing": "morgens",
     "meal": "",
-    "dosageNotes": "Kann ZÃ¤hne leicht fÃ¤rben. Sehr bitter â am besten mit Fruchtsaft mischen.",
+    "dosageNotes": "Kann ZÃÂ¤hne leicht fÃÂ¤rben. Sehr bitter Ã¢ÂÂ am besten mit Fruchtsaft mischen.",
     "effects": [
       "antioxidativ",
-      "herzschÃ¼tzend",
-      "entzÃ¼ndungshemmend",
+      "herzschÃÂ¼tzend",
+      "entzÃÂ¼ndungshemmend",
       "blutdruckregulierend",
       "blutzuckerregulierend"
     ],
     "problems": [
       "Bluthochdruck",
       "Herzerkrankungen",
-      "EntzÃ¼ndungen",
-      "Diabetes-PrÃ¤vention",
+      "EntzÃÂ¼ndungen",
+      "Diabetes-PrÃÂ¤vention",
       "oxidativer Stress"
     ],
     "date": "30.04.2026"
@@ -606,25 +606,25 @@
     "id": 1700000025,
     "name": "Kamille",
     "category": "tee",
-    "description": "Klassische europÃ¤ische Heilpflanze. Wirkt direkt auf SchleimhÃ¤ute im Magen-Darm-Bereich. Auch Ã¤uÃerlich anwendbar.",
-    "dosage": "1â2 TL BlÃ¼ten / 200 ml",
+    "description": "Klassische europÃÂ¤ische Heilpflanze. Wirkt direkt auf SchleimhÃÂ¤ute im Magen-Darm-Bereich. Auch ÃÂ¤uÃÂerlich anwendbar.",
+    "dosage": "1Ã¢ÂÂ2 TL BlÃÂ¼ten / 200 ml",
     "frequency": "nach Bedarf",
     "timing": "nach den Mahlzeiten oder abends",
     "meal": "",
-    "dosageNotes": "10 Min. ziehen lassen und abgedeckt stehen lassen (Wirkstoffe flÃ¼chtig). Auch als Dampfbad bei ErkÃ¤ltung.",
+    "dosageNotes": "10 Min. ziehen lassen und abgedeckt stehen lassen (Wirkstoffe flÃÂ¼chtig). Auch als Dampfbad bei ErkÃÂ¤ltung.",
     "effects": [
-      "entzÃ¼ndungshemmend",
-      "krampflÃ¶send",
-      "magenschÃ¼tzend",
+      "entzÃÂ¼ndungshemmend",
+      "krampflÃÂ¶send",
+      "magenschÃÂ¼tzend",
       "beruhigend",
       "schleimhautpflegend"
     ],
     "problems": [
       "Magenbeschwerden",
-      "BlÃ¤hungen",
-      "KrÃ¤mpfe",
+      "BlÃÂ¤hungen",
+      "KrÃÂ¤mpfe",
       "Reizmagen",
-      "ErkÃ¤ltung",
+      "ErkÃÂ¤ltung",
       "Stress"
     ],
     "date": "30.04.2026"
@@ -633,50 +633,50 @@
     "id": 1700000026,
     "name": "Pfefferminze",
     "category": "tee",
-    "description": "KÃ¼hlend-frische Heilpflanze. Mentholgehalt wirkt direkt auf Muskulatur und SchleimhÃ¤ute.",
-    "dosage": "1â2 TL / 200 ml",
+    "description": "KÃÂ¼hlend-frische Heilpflanze. Mentholgehalt wirkt direkt auf Muskulatur und SchleimhÃÂ¤ute.",
+    "dosage": "1Ã¢ÂÂ2 TL / 200 ml",
     "frequency": "nach Bedarf",
     "timing": "nach den Mahlzeiten",
     "meal": "",
-    "dosageNotes": "Nicht bei Sodbrennen oder MagengeschwÃ¼r. Nicht bei SÃ¤uglingen und Kleinkindern. FÃ¶rdert Gallensaftfluss.",
+    "dosageNotes": "Nicht bei Sodbrennen oder MagengeschwÃÂ¼r. Nicht bei SÃÂ¤uglingen und Kleinkindern. FÃÂ¶rdert Gallensaftfluss.",
     "effects": [
-      "verdauungsfÃ¶rdernd",
-      "krampflÃ¶send",
-      "kÃ¼hlend",
+      "verdauungsfÃÂ¶rdernd",
+      "krampflÃÂ¶send",
+      "kÃÂ¼hlend",
       "kopfschmerzlindernd",
       "erfrischend"
     ],
     "problems": [
       "Verdauungsbeschwerden",
-      "BlÃ¤hungen",
+      "BlÃÂ¤hungen",
       "Kopfschmerzen",
-      "Ãbelkeit",
+      "ÃÂbelkeit",
       "Reizdarm"
     ],
     "date": "30.04.2026"
   },
   {
     "id": 1700000027,
-    "name": "GrÃ¼ner Tee",
+    "name": "GrÃÂ¼ner Tee",
     "category": "tee",
-    "description": "Unfermentierter Tee. Reich an EGCG (Epigallocatechingallat), einem der stÃ¤rksten pflanzlichen Antioxidantien. EnthÃ¤lt Koffein und L-Theanin.",
+    "description": "Unfermentierter Tee. Reich an EGCG (Epigallocatechingallat), einem der stÃÂ¤rksten pflanzlichen Antioxidantien. EnthÃÂ¤lt Koffein und L-Theanin.",
     "dosage": "1 TL / 200 ml",
-    "frequency": "2â3Ã tÃ¤glich",
+    "frequency": "2Ã¢ÂÂ3ÃÂ tÃÂ¤glich",
     "timing": "morgens oder mittags",
     "meal": "",
-    "dosageNotes": "Nicht abends â enthÃ¤lt Koffein. 70â80Â°C Wasser, 2â3 Min. ziehen. Nicht mit Milch â blockiert Antioxidantien.",
+    "dosageNotes": "Nicht abends Ã¢ÂÂ enthÃÂ¤lt Koffein. 70Ã¢ÂÂ80ÃÂ°C Wasser, 2Ã¢ÂÂ3 Min. ziehen. Nicht mit Milch Ã¢ÂÂ blockiert Antioxidantien.",
     "effects": [
       "antioxidativ",
-      "konzentrationsfÃ¶rdernd",
-      "fettstoffwechselunterstÃ¼tzend",
-      "immunstÃ¤rkend",
+      "konzentrationsfÃÂ¶rdernd",
+      "fettstoffwechselunterstÃÂ¼tzend",
+      "immunstÃÂ¤rkend",
       "krebshemmend"
     ],
     "problems": [
       "Konzentrationsprobleme",
-      "Ãbergewicht",
-      "MÃ¼digkeit",
-      "ImmunschwÃ¤che",
+      "ÃÂbergewicht",
+      "MÃÂ¼digkeit",
+      "ImmunschwÃÂ¤che",
       "oxidativer Stress"
     ],
     "date": "30.04.2026"
@@ -685,24 +685,24 @@
     "id": 1700000028,
     "name": "Chrysanthemen-Tee",
     "category": "tee",
-    "description": "Ju Hua. Klassischer TCM-Tee aus getrockneten ChrysanthemenblÃ¼ten. KÃ¼hlt Hitze und entlastet die Leber.",
-    "dosage": "5â8 BlÃ¼ten / 200 ml",
+    "description": "Ju Hua. Klassischer TCM-Tee aus getrockneten ChrysanthemenblÃÂ¼ten. KÃÂ¼hlt Hitze und entlastet die Leber.",
+    "dosage": "5Ã¢ÂÂ8 BlÃÂ¼ten / 200 ml",
     "frequency": "nach Bedarf",
     "timing": "nachmittags",
     "meal": "",
-    "dosageNotes": "TCM: kÃ¼hlt Leber-Hitze. Besonders bei Augenproblemen, Kopfschmerzen durch Hitze und Ãberarbeitung.",
+    "dosageNotes": "TCM: kÃÂ¼hlt Leber-Hitze. Besonders bei Augenproblemen, Kopfschmerzen durch Hitze und ÃÂberarbeitung.",
     "effects": [
-      "kÃ¼hlend",
+      "kÃÂ¼hlend",
       "leberentlastend",
-      "sehkraftstÃ¤rkend",
+      "sehkraftstÃÂ¤rkend",
       "fiebersenk",
-      "entzÃ¼ndungshemmend"
+      "entzÃÂ¼ndungshemmend"
     ],
     "problems": [
       "gereizte Augen",
       "Kopfschmerzen",
       "Hitze-Symptome",
-      "LeberÃ¼berlastung",
+      "LeberÃÂ¼berlastung",
       "Fieber"
     ],
     "date": "30.04.2026"
@@ -711,25 +711,25 @@
     "id": 1700000029,
     "name": "Schisandra (Wu Wei Zi)",
     "category": "kraeuter",
-    "description": "FÃ¼nf-Aromen-Frucht der TCM. EnthÃ¤lt als einzige Pflanze alle 5 Geschmacksrichtungen. StÃ¤rkt alle 5 Organsysteme.",
-    "dosage": "500â1500 mg Extrakt",
-    "frequency": "1â2Ã tÃ¤glich",
+    "description": "FÃÂ¼nf-Aromen-Frucht der TCM. EnthÃÂ¤lt als einzige Pflanze alle 5 Geschmacksrichtungen. StÃÂ¤rkt alle 5 Organsysteme.",
+    "dosage": "500Ã¢ÂÂ1500 mg Extrakt",
+    "frequency": "1Ã¢ÂÂ2ÃÂ tÃÂ¤glich",
     "timing": "morgens",
     "meal": "mit Mahlzeit",
-    "dosageNotes": "TCM-Klassiker. Langfristige Anwendung empfohlen. Besonders gut fÃ¼r Leber und Nervensystem.",
+    "dosageNotes": "TCM-Klassiker. Langfristige Anwendung empfohlen. Besonders gut fÃÂ¼r Leber und Nervensystem.",
     "effects": [
       "adaptogen",
-      "leberschÃ¼tzend",
-      "nervenstÃ¤rkend",
-      "ausdauerfÃ¶rdernd",
+      "leberschÃÂ¼tzend",
+      "nervenstÃÂ¤rkend",
+      "ausdauerfÃÂ¶rdernd",
       "immunmodulierend"
     ],
     "problems": [
-      "ErschÃ¶pfung",
+      "ErschÃÂ¶pfung",
       "Leberbelastung",
       "Stress",
       "sportliche Leistung",
-      "GedÃ¤chtnisprobleme"
+      "GedÃÂ¤chtnisprobleme"
     ],
     "date": "30.04.2026"
   },
@@ -737,12 +737,12 @@
     "id": 1700000030,
     "name": "Astragalus (Huang Qi)",
     "category": "kraeuter",
-    "description": "Tragant. Eines der wichtigsten Qi-tonisierenden KrÃ¤uter der TCM. StÃ¤rkt Wei Qi (Abwehr-Qi).",
-    "dosage": "500â1000 mg Extrakt",
-    "frequency": "1Ã tÃ¤glich",
+    "description": "Tragant. Eines der wichtigsten Qi-tonisierenden KrÃÂ¤uter der TCM. StÃÂ¤rkt Wei Qi (Abwehr-Qi).",
+    "dosage": "500Ã¢ÂÂ1000 mg Extrakt",
+    "frequency": "1ÃÂ tÃÂ¤glich",
     "timing": "morgens",
     "meal": "mit Mahlzeit",
-    "dosageNotes": "Langfristige Anwendung â kein Kurzzeiteffekt. Ideal zur ImmunprÃ¤vention in Herbst und Winter.",
+    "dosageNotes": "Langfristige Anwendung Ã¢ÂÂ kein Kurzzeiteffekt. Ideal zur ImmunprÃÂ¤vention in Herbst und Winter.",
     "effects": [
       "immunmodulierend",
       "adaptogen",
@@ -751,9 +751,9 @@
       "Qi-tonisierend"
     ],
     "problems": [
-      "ImmunschwÃ¤che",
-      "chronische ErschÃ¶pfung",
-      "InfektanfÃ¤lligkeit",
+      "ImmunschwÃÂ¤che",
+      "chronische ErschÃÂ¶pfung",
+      "InfektanfÃÂ¤lligkeit",
       "anti-aging"
     ],
     "date": "30.04.2026"
@@ -762,21 +762,21 @@
     "id": 1700000031,
     "name": "Reishi (Ling Zhi)",
     "category": "kraeuter",
-    "description": "GlÃ¤nzender Lackporling. TCM: Pilz der Unsterblichkeit. Immunmodulierend, beruhigend, leberschÃ¼tzend.",
-    "dosage": "1â2 g Extrakt",
-    "frequency": "1Ã tÃ¤glich",
+    "description": "GlÃÂ¤nzender Lackporling. TCM: Pilz der Unsterblichkeit. Immunmodulierend, beruhigend, leberschÃÂ¼tzend.",
+    "dosage": "1Ã¢ÂÂ2 g Extrakt",
+    "frequency": "1ÃÂ tÃÂ¤glich",
     "timing": "abends",
     "meal": "mit Mahlzeit",
-    "dosageNotes": "Sehr bitter â Kapselform empfohlen. Langfristige Anwendung (Monate). Keine akute Wirkung.",
+    "dosageNotes": "Sehr bitter Ã¢ÂÂ Kapselform empfohlen. Langfristige Anwendung (Monate). Keine akute Wirkung.",
     "effects": [
       "immunmodulierend",
       "adaptogen",
-      "schlaffÃ¶rdernd",
-      "leberschÃ¼tzend",
+      "schlaffÃÂ¶rdernd",
+      "leberschÃÂ¼tzend",
       "antitumoral"
     ],
     "problems": [
-      "ImmunschwÃ¤che",
+      "ImmunschwÃÂ¤che",
       "chronische Erkrankungen",
       "Schlafprobleme",
       "Stress",
@@ -788,23 +788,23 @@
     "id": 1700000032,
     "name": "Goji-Beere",
     "category": "frucht",
-    "description": "Wolfbeere, Gou Qi Zi. TCM: nÃ¤hrt Leber- und Nieren-Yin. Reich an Zeaxanthin, wichtig fÃ¼r Sehkraft.",
-    "dosage": "20â30 g getrocknet",
-    "frequency": "1Ã tÃ¤glich",
+    "description": "Wolfbeere, Gou Qi Zi. TCM: nÃÂ¤hrt Leber- und Nieren-Yin. Reich an Zeaxanthin, wichtig fÃÂ¼r Sehkraft.",
+    "dosage": "20Ã¢ÂÂ30 g getrocknet",
+    "frequency": "1ÃÂ tÃÂ¤glich",
     "timing": "morgens oder als Snack",
     "meal": "",
-    "dosageNotes": "TCM: Yin-aufbauend. Als Tee kochen (10 Min.) oder einfach essen. Nicht mit BlutverdÃ¼nnern kombinieren.",
+    "dosageNotes": "TCM: Yin-aufbauend. Als Tee kochen (10 Min.) oder einfach essen. Nicht mit BlutverdÃÂ¼nnern kombinieren.",
     "effects": [
       "antioxidativ",
-      "sehkraftstÃ¤rkend",
-      "immunstÃ¤rkend",
+      "sehkraftstÃÂ¤rkend",
+      "immunstÃÂ¤rkend",
       "Qi-aufbauend",
-      "Yin-nÃ¤hrend"
+      "Yin-nÃÂ¤hrend"
     ],
     "problems": [
       "Sehkraftprobleme",
-      "ErschÃ¶pfung",
-      "ImmunschwÃ¤che",
+      "ErschÃÂ¶pfung",
+      "ImmunschwÃÂ¤che",
       "Nieren-Yin-Mangel (TCM)",
       "anti-aging"
     ],
@@ -812,26 +812,26 @@
   },
   {
     "id": 1700000033,
-    "name": "SÃ¼Ãholzwurzel",
+    "name": "SÃÂ¼ÃÂholzwurzel",
     "category": "kraeuter",
-    "description": "Gan Cao. In der TCM harmonisierendes Basistonikum. Im Westen bekannt als Lakritze. MagenschÃ¼tzend und entzÃ¼ndungshemmend.",
-    "dosage": "1â5 g",
-    "frequency": "2Ã tÃ¤glich",
+    "description": "Gan Cao. In der TCM harmonisierendes Basistonikum. Im Westen bekannt als Lakritze. MagenschÃÂ¼tzend und entzÃÂ¼ndungshemmend.",
+    "dosage": "1Ã¢ÂÂ5 g",
+    "frequency": "2ÃÂ tÃÂ¤glich",
     "timing": "",
     "meal": "vor der Mahlzeit",
-    "dosageNotes": "Nicht mehr als 4â6 Wochen durchgehend einnehmen. Nicht bei Bluthochdruck â erhÃ¶ht Aldosteron.",
+    "dosageNotes": "Nicht mehr als 4Ã¢ÂÂ6 Wochen durchgehend einnehmen. Nicht bei Bluthochdruck Ã¢ÂÂ erhÃÂ¶ht Aldosteron.",
     "effects": [
-      "entzÃ¼ndungshemmend",
-      "magenschÃ¼tzend",
-      "kortisolunterstÃ¼tzend",
-      "schleimlÃ¶send",
+      "entzÃÂ¼ndungshemmend",
+      "magenschÃÂ¼tzend",
+      "kortisolunterstÃÂ¼tzend",
+      "schleimlÃÂ¶send",
       "harmonisierend"
     ],
     "problems": [
-      "MagengeschwÃ¼r",
+      "MagengeschwÃÂ¼r",
       "Husten",
-      "EntzÃ¼ndungen",
-      "NebennierenermÃ¼dung",
+      "EntzÃÂ¼ndungen",
+      "NebennierenermÃÂ¼dung",
       "Sodbrennen"
     ],
     "date": "30.04.2026"
@@ -840,24 +840,24 @@
     "id": 1700000034,
     "name": "Jiaogulan",
     "category": "kraeuter",
-    "description": "Unsterblichkeitskraut aus den Bergen Chinas. In Regionen mit Ã¼berdurchschnittlicher Langlebigkeit tÃ¤glich getrunken.",
-    "dosage": "3â6 g als Tee",
-    "frequency": "2â3Ã tÃ¤glich",
+    "description": "Unsterblichkeitskraut aus den Bergen Chinas. In Regionen mit ÃÂ¼berdurchschnittlicher Langlebigkeit tÃÂ¤glich getrunken.",
+    "dosage": "3Ã¢ÂÂ6 g als Tee",
+    "frequency": "2Ã¢ÂÂ3ÃÂ tÃÂ¤glich",
     "timing": "morgens und mittags",
     "meal": "",
-    "dosageNotes": "Als Tee aufbrÃ¼hen (3 Min. ziehen). EnthÃ¤lt Ã¤hnliche Wirkstoffe wie Ginseng (Gypenoside).",
+    "dosageNotes": "Als Tee aufbrÃÂ¼hen (3 Min. ziehen). EnthÃÂ¤lt ÃÂ¤hnliche Wirkstoffe wie Ginseng (Gypenoside).",
     "effects": [
       "adaptogen",
       "antioxidativ",
       "cholesterinsenkend",
       "immunmodulierend",
-      "lebensverlÃ¤ngernd"
+      "lebensverlÃÂ¤ngernd"
     ],
     "problems": [
       "hoher Cholesterin",
       "Stress",
       "Alterung",
-      "ImmunschwÃ¤che",
+      "ImmunschwÃÂ¤che",
       "Bluthochdruck"
     ],
     "date": "30.04.2026"
@@ -866,16 +866,16 @@
     "id": 1700000035,
     "name": "Spirulina",
     "category": "nahrung",
-    "description": "Blaualge. Eines der nÃ¤hrstoffreichsten Lebensmittel der Welt. 60â70% Protein, reich an B12, Eisen und Chlorophyll.",
-    "dosage": "3â5 g",
-    "frequency": "1Ã tÃ¤glich",
+    "description": "Blaualge. Eines der nÃÂ¤hrstoffreichsten Lebensmittel der Welt. 60Ã¢ÂÂ70% Protein, reich an B12, Eisen und Chlorophyll.",
+    "dosage": "3Ã¢ÂÂ5 g",
+    "frequency": "1ÃÂ tÃÂ¤glich",
     "timing": "morgens",
-    "meal": "nÃ¼chtern",
-    "dosageNotes": "Starker Geschmack / Geruch â am besten in Smoothie. Auf nÃ¼chternen Magen oder mit Wasser. QualitÃ¤t beachten (Schadstoffe mÃ¶glich).",
+    "meal": "nÃÂ¼chtern",
+    "dosageNotes": "Starker Geschmack / Geruch Ã¢ÂÂ am besten in Smoothie. Auf nÃÂ¼chternen Magen oder mit Wasser. QualitÃÂ¤t beachten (Schadstoffe mÃÂ¶glich).",
     "effects": [
       "proteinreich",
       "entgiftend",
-      "immunstÃ¤rkend",
+      "immunstÃÂ¤rkend",
       "eisenliefernd",
       "antioxidativ"
     ],
@@ -883,7 +883,7 @@
       "Protein-Bedarf",
       "Eisenmangel",
       "Entgiftung",
-      "ImmunschwÃ¤che",
+      "ImmunschwÃÂ¤che",
       "Energiemangel"
     ],
     "date": "30.04.2026"
@@ -892,23 +892,23 @@
     "id": 1700000036,
     "name": "Chlorella",
     "category": "nahrung",
-    "description": "GrÃ¼nalge. Bekannt fÃ¼r Schwermetallausleitung. Reich an Chlorophyll, B12 und Eisen. Basisch wirkend.",
-    "dosage": "3â5 g",
-    "frequency": "1Ã tÃ¤glich",
+    "description": "GrÃÂ¼nalge. Bekannt fÃÂ¼r Schwermetallausleitung. Reich an Chlorophyll, B12 und Eisen. Basisch wirkend.",
+    "dosage": "3Ã¢ÂÂ5 g",
+    "frequency": "1ÃÂ tÃÂ¤glich",
     "timing": "",
     "meal": "vor der Mahlzeit",
     "dosageNotes": "Sehr langsam einschleichen (erst 1 g, dann steigern). Viel Wasser trinken. Bindet Schwermetalle im Darm.",
     "effects": [
       "entgiftend",
       "schwermetallbindend",
-      "immunstÃ¤rkend",
+      "immunstÃÂ¤rkend",
       "basisch",
       "b12-haltig"
     ],
     "problems": [
       "Schwermetallbelastung",
       "Entgiftung",
-      "ÃbersÃ¤uerung",
+      "ÃÂbersÃÂ¤uerung",
       "B12-Mangel",
       "Verdauungsprobleme"
     ],
@@ -918,22 +918,22 @@
     "id": 1700000037,
     "name": "Schwarzer Pfeffer",
     "category": "gewuerz",
-    "description": "Piperin erhÃ¶ht die BioverfÃ¼gbarkeit anderer Pflanzenstoffe dramatisch. Unverzichtbar in Kombination mit Kurkuma.",
+    "description": "Piperin erhÃÂ¶ht die BioverfÃÂ¼gbarkeit anderer Pflanzenstoffe dramatisch. Unverzichtbar in Kombination mit Kurkuma.",
     "dosage": "eine Prise (ca. 0,1 g Piperin)",
-    "frequency": "1Ã tÃ¤glich",
+    "frequency": "1ÃÂ tÃÂ¤glich",
     "timing": "zu den Mahlzeiten",
     "meal": "mit Mahlzeit",
-    "dosageNotes": "Immer mit Kurkuma kombinieren. Piperin verstÃ¤rkt auch viele andere Supplements (z.B. CoQ10, Resveratrol).",
+    "dosageNotes": "Immer mit Kurkuma kombinieren. Piperin verstÃÂ¤rkt auch viele andere Supplements (z.B. CoQ10, Resveratrol).",
     "effects": [
       "stoffwechselanregend",
-      "verdauungsfÃ¶rdernd",
-      "bioverfÃ¼gbarkeit-steigernd",
+      "verdauungsfÃÂ¶rdernd",
+      "bioverfÃÂ¼gbarkeit-steigernd",
       "antioxidativ"
     ],
     "problems": [
-      "schlechte NÃ¤hrstoffaufnahme",
-      "trÃ¤ge Verdauung",
-      "BlÃ¤hungen"
+      "schlechte NÃÂ¤hrstoffaufnahme",
+      "trÃÂ¤ge Verdauung",
+      "BlÃÂ¤hungen"
     ],
     "date": "30.04.2026"
   },
@@ -942,23 +942,23 @@
     "name": "Zimt (Ceylon)",
     "category": "gewuerz",
     "description": "Echter Ceylon-Zimt. Blutzuckerregulierend und antimikrobiell. Nicht zu verwechseln mit Cassia-Zimt (hoher Cumaringehalt).",
-    "dosage": "1â3 g",
-    "frequency": "1â2Ã tÃ¤glich",
+    "dosage": "1Ã¢ÂÂ3 g",
+    "frequency": "1Ã¢ÂÂ2ÃÂ tÃÂ¤glich",
     "timing": "",
     "meal": "mit Mahlzeit",
-    "dosageNotes": "NUR Ceylon-Zimt verwenden â Cassia-Zimt enthÃ¤lt zu viel Cumarin und ist leberschÃ¤dlich bei hÃ¶herer Dosis.",
+    "dosageNotes": "NUR Ceylon-Zimt verwenden Ã¢ÂÂ Cassia-Zimt enthÃÂ¤lt zu viel Cumarin und ist leberschÃÂ¤dlich bei hÃÂ¶herer Dosis.",
     "effects": [
       "blutzuckerregulierend",
       "antimikrobiell",
-      "durchblutungsfÃ¶rdernd",
-      "entzÃ¼ndungshemmend",
-      "wÃ¤rmend"
+      "durchblutungsfÃÂ¶rdernd",
+      "entzÃÂ¼ndungshemmend",
+      "wÃÂ¤rmend"
     ],
     "problems": [
       "Blutzuckerschwankungen",
       "Diabetes Typ 2",
       "Pilzinfektionen",
-      "ErkÃ¤ltung",
+      "ErkÃÂ¤ltung",
       "Verdauungsprobleme"
     ],
     "date": "30.04.2026"
@@ -967,17 +967,17 @@
     "id": 1700000039,
     "name": "Knoblauch",
     "category": "gewuerz",
-    "description": "Allium sativum. Wirkstoff Allicin hat starke antimikrobielle und herzschÃ¼tzende Wirkung. Einer der am meisten untersuchten Naturheilstoffe.",
-    "dosage": "1â2 Zehen frisch oder 600 mg Extrakt",
-    "frequency": "1Ã tÃ¤glich",
+    "description": "Allium sativum. Wirkstoff Allicin hat starke antimikrobielle und herzschÃÂ¼tzende Wirkung. Einer der am meisten untersuchten Naturheilstoffe.",
+    "dosage": "1Ã¢ÂÂ2 Zehen frisch oder 600 mg Extrakt",
+    "frequency": "1ÃÂ tÃÂ¤glich",
     "timing": "",
     "meal": "mit Mahlzeit",
     "dosageNotes": "Roh effektiver als gekocht. Allicin bildet sich erst 10 Min. nach dem Schneiden / Pressen. Geruchlos-Kapseln weniger wirksam.",
     "effects": [
       "antibakteriell",
       "antiviral",
-      "herzschÃ¼tzend",
-      "immunstÃ¤rkend",
+      "herzschÃÂ¼tzend",
+      "immunstÃÂ¤rkend",
       "blutdrucksenkend",
       "cholesterinsenkend"
     ],
@@ -986,7 +986,7 @@
       "Herzerkrankungen",
       "Infektionen",
       "hoher Cholesterin",
-      "ImmunschwÃ¤che"
+      "ImmunschwÃÂ¤che"
     ],
     "date": "30.04.2026"
   },
@@ -994,17 +994,17 @@
     "id": 1700000040,
     "name": "Bockshornklee",
     "category": "gewuerz",
-    "description": "Trigonella foenum-graecum. Ayurveda und TCM. Reguliert Blutzucker und fÃ¶rdert Verdauung. Leicht bitter-wÃ¼rziger Geschmack.",
-    "dosage": "1â2 g Pulver oder Samen",
-    "frequency": "2Ã tÃ¤glich",
+    "description": "Trigonella foenum-graecum. Ayurveda und TCM. Reguliert Blutzucker und fÃÂ¶rdert Verdauung. Leicht bitter-wÃÂ¼rziger Geschmack.",
+    "dosage": "1Ã¢ÂÂ2 g Pulver oder Samen",
+    "frequency": "2ÃÂ tÃÂ¤glich",
     "timing": "",
     "meal": "mit Mahlzeit",
-    "dosageNotes": "Kann KÃ¶rpergeruch und Urin nach Ahornsirup riechen lassen â normal. Nicht in der Schwangerschaft (wehenfÃ¶rdernd).",
+    "dosageNotes": "Kann KÃÂ¶rpergeruch und Urin nach Ahornsirup riechen lassen Ã¢ÂÂ normal. Nicht in der Schwangerschaft (wehenfÃÂ¶rdernd).",
     "effects": [
       "blutzuckerregulierend",
-      "verdauungsfÃ¶rdernd",
+      "verdauungsfÃÂ¶rdernd",
       "libidosteigernd",
-      "milchbildungsfÃ¶rdernd",
+      "milchbildungsfÃÂ¶rdernd",
       "cholesterinsenkend"
     ],
     "problems": [
@@ -1019,22 +1019,22 @@
     "id": 1700000041,
     "name": "Kalzium",
     "category": "supplement",
-    "description": "Wichtigstes Mineral fÃ¼r Knochen und ZÃ¤hne. Auch unverzichtbar fÃ¼r Muskelkontraktion und Nervenleitung.",
+    "description": "Wichtigstes Mineral fÃÂ¼r Knochen und ZÃÂ¤hne. Auch unverzichtbar fÃÂ¼r Muskelkontraktion und Nervenleitung.",
     "dosage": "500 mg",
-    "frequency": "1â2Ã tÃ¤glich",
+    "frequency": "1Ã¢ÂÂ2ÃÂ tÃÂ¤glich",
     "timing": "",
     "meal": "mit Mahlzeit",
-    "dosageNotes": "Nicht zusammen mit Zink, Eisen oder Magnesium einnehmen â gegenseitige Hemmung. Immer mit D3+K2 kombinieren.",
+    "dosageNotes": "Nicht zusammen mit Zink, Eisen oder Magnesium einnehmen Ã¢ÂÂ gegenseitige Hemmung. Immer mit D3+K2 kombinieren.",
     "effects": [
       "knochenaufbauend",
-      "muskelfunktionsstÃ¤rkend",
+      "muskelfunktionsstÃÂ¤rkend",
       "nervenstabilisierend",
       "blutdruckregulierend"
     ],
     "problems": [
-      "KnochenschwÃ¤che",
+      "KnochenschwÃÂ¤che",
       "Osteoporose",
-      "MuskelkrÃ¤mpfe",
+      "MuskelkrÃÂ¤mpfe",
       "Kalziummangel"
     ],
     "date": "30.04.2026"
@@ -1044,16 +1044,16 @@
     "name": "Dong Quai (Angelika Sinensis)",
     "category": "kraeuter",
     "description": "Dang Gui. TCM: weiblicher Ginseng. Wichtigstes Blut-tonisierendes und menstruationsregulierendes Kraut der TCM.",
-    "dosage": "1â3 g",
-    "frequency": "2Ã tÃ¤glich",
+    "dosage": "1Ã¢ÂÂ3 g",
+    "frequency": "2ÃÂ tÃÂ¤glich",
     "timing": "",
     "meal": "mit Mahlzeit",
-    "dosageNotes": "Nicht in der Schwangerschaft. Nicht bei starker Menstruationsblutung. Nicht mit BlutverdÃ¼nnern.",
+    "dosageNotes": "Nicht in der Schwangerschaft. Nicht bei starker Menstruationsblutung. Nicht mit BlutverdÃÂ¼nnern.",
     "effects": [
-      "blutstÃ¤rkend",
+      "blutstÃÂ¤rkend",
       "menstruationsregulierend",
-      "krampflÃ¶send",
-      "wÃ¤rmend",
+      "krampflÃÂ¶send",
+      "wÃÂ¤rmend",
       "Yin-aufbauend"
     ],
     "problems": [
@@ -1061,7 +1061,7 @@
       "PMS",
       "Wechseljahresbeschwerden",
       "Blutmangel (TCM)",
-      "KrÃ¤mpfe"
+      "KrÃÂ¤mpfe"
     ],
     "date": "30.04.2026"
   },
@@ -1069,16 +1069,16 @@
     "id": 1700000043,
     "name": "Hanfprotein",
     "category": "nahrung",
-    "description": "VollstÃ¤ndiges pflanzliches Protein aus Hanfsamen. EnthÃ¤lt alle essentiellen AminosÃ¤uren sowie Omega-3 und -6 im idealen VerhÃ¤ltnis.",
+    "description": "VollstÃÂ¤ndiges pflanzliches Protein aus Hanfsamen. EnthÃÂ¤lt alle essentiellen AminosÃÂ¤uren sowie Omega-3 und -6 im idealen VerhÃÂ¤ltnis.",
     "dosage": "30 g",
-    "frequency": "1Ã tÃ¤glich",
+    "frequency": "1ÃÂ tÃÂ¤glich",
     "timing": "nach dem Sport",
     "meal": "",
-    "dosageNotes": "In Smoothie oder Joghurt rÃ¼hren. EnthÃ¤lt kein THC. Gut vertrÃ¤glich, auch fÃ¼r Menschen mit Laktoseintoleranz.",
+    "dosageNotes": "In Smoothie oder Joghurt rÃÂ¼hren. EnthÃÂ¤lt kein THC. Gut vertrÃÂ¤glich, auch fÃÂ¼r Menschen mit Laktoseintoleranz.",
     "effects": [
       "proteinreich",
-      "aminosÃ¤urenvollstÃ¤ndig",
-      "entzÃ¼ndungshemmend",
+      "aminosÃÂ¤urenvollstÃÂ¤ndig",
+      "entzÃÂ¼ndungshemmend",
       "ballaststoffreich",
       "omega-3-haltig"
     ],
@@ -1086,32 +1086,32 @@
       "Protein-Bedarf",
       "Sport-Regeneration",
       "Laktoseintoleranz",
-      "pflanzliche ErnÃ¤hrung"
+      "pflanzliche ErnÃÂ¤hrung"
     ],
     "date": "30.04.2026"
   },
   {
     "id": 1700000044,
-    "name": "LÃ¶wenzahn",
+    "name": "LÃÂ¶wenzahn",
     "category": "kraeuter",
-    "description": "Taraxacum officinale. UnterschÃ¤tztes heimisches Heilkraut. Wurzel fÃ¼r Leber, BlÃ¤tter als harntreibendes Tonikum.",
-    "dosage": "2â4 g BlÃ¤tter / Wurzel als Tee",
-    "frequency": "2Ã tÃ¤glich",
+    "description": "Taraxacum officinale. UnterschÃÂ¤tztes heimisches Heilkraut. Wurzel fÃÂ¼r Leber, BlÃÂ¤tter als harntreibendes Tonikum.",
+    "dosage": "2Ã¢ÂÂ4 g BlÃÂ¤tter / Wurzel als Tee",
+    "frequency": "2ÃÂ tÃÂ¤glich",
     "timing": "morgens und mittags",
     "meal": "vor der Mahlzeit",
-    "dosageNotes": "Frische BlÃ¤tter im FrÃ¼hjahr besonders wirksam. Viel Wasser trinken â stark harntreibend.",
+    "dosageNotes": "Frische BlÃÂ¤tter im FrÃÂ¼hjahr besonders wirksam. Viel Wasser trinken Ã¢ÂÂ stark harntreibend.",
     "effects": [
       "leberentgiftend",
       "harntreibend",
-      "verdauungsfÃ¶rdernd",
+      "verdauungsfÃÂ¶rdernd",
       "kaliumreich",
-      "gallefÃ¶rdernd"
+      "gallefÃÂ¶rdernd"
     ],
     "problems": [
       "Leberbelastung",
       "Wassereinlagerungen",
-      "VerdauungstrÃ¤gheit",
-      "FrÃ¼hjahrsmÃ¼digkeit"
+      "VerdauungstrÃÂ¤gheit",
+      "FrÃÂ¼hjahrsmÃÂ¼digkeit"
     ],
     "date": "30.04.2026"
   },
@@ -1119,21 +1119,21 @@
     "id": 1700000045,
     "name": "Zitronenmelisse",
     "category": "kraeuter",
-    "description": "Melissa officinalis. Klassisches europÃ¤isches Beruhigungs- und Verdauungskraut. Auch antiviral gegen Herpesviren.",
-    "dosage": "1â2 TL frisch / getrocknet als Tee",
+    "description": "Melissa officinalis. Klassisches europÃÂ¤isches Beruhigungs- und Verdauungskraut. Auch antiviral gegen Herpesviren.",
+    "dosage": "1Ã¢ÂÂ2 TL frisch / getrocknet als Tee",
     "frequency": "nach Bedarf",
     "timing": "abends",
     "meal": "",
-    "dosageNotes": "Frische BlÃ¤tter intensiver als getrocknete. Auch Ã¤uÃerlich als Creme bei Herpes anwendbar.",
+    "dosageNotes": "Frische BlÃÂ¤tter intensiver als getrocknete. Auch ÃÂ¤uÃÂerlich als Creme bei Herpes anwendbar.",
     "effects": [
       "beruhigend",
-      "verdauungsfÃ¶rdernd",
+      "verdauungsfÃÂ¶rdernd",
       "antiviral",
       "stimmungsaufhellend",
-      "krampflÃ¶send"
+      "krampflÃÂ¶send"
     ],
     "problems": [
-      "NervositÃ¤t",
+      "NervositÃÂ¤t",
       "Verdauungsbeschwerden",
       "Herpes",
       "Schlafprobleme",
