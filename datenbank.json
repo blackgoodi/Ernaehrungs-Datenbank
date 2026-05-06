@@ -1,5 +1,25 @@
 [
   {
+    "id": 1778092171175,
+    "name": "Flohsamenschalen",
+    "category": "nahrung",
+    "description": "",
+    "dosage": "1 Esslöffel",
+    "frequency": "2× täglich",
+    "timing": "Über den Tag",
+    "meal": "mit Mahlzeit",
+    "dosageNotes": "Pro Esslöffel zwei Gläser Wasser",
+    "effects": [
+      "Verdauungsfördernd",
+      "Sättigend",
+      "Darmreinigend"
+    ],
+    "problems": [
+      "Eine Darmkur"
+    ],
+    "date": "6.5.2026"
+  },
+  {
     "id": 1700000001,
     "name": "Kurkuma",
     "category": "gewuerz",
@@ -9,8 +29,18 @@
     "timing": "zu den Mahlzeiten",
     "meal": "mit Mahlzeit",
     "dosageNotes": "Immer mit schwarzem Pfeffer kombinieren – erhöht die Aufnahme um bis zu 2000%",
-    "effects": ["entzündungshemmend", "antioxidativ", "leberschützend", "immunstärkend"],
-    "problems": ["Gelenkentzündung", "chronische Entzündungen", "Leberbelastung", "oxidativer Stress"],
+    "effects": [
+      "entzündungshemmend",
+      "antioxidativ",
+      "leberschützend",
+      "immunstärkend"
+    ],
+    "problems": [
+      "Gelenkentzündung",
+      "chronische Entzündungen",
+      "Leberbelastung",
+      "oxidativer Stress"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -23,8 +53,20 @@
     "timing": "abends",
     "meal": "mit Mahlzeit",
     "dosageNotes": "8 Wochen einnehmen, dann 2–4 Wochen Pause. Nicht in der Schwangerschaft.",
-    "effects": ["adaptogen", "stressreduzierend", "cortisolsenkend", "schlaffördernd", "muskelaufbauend"],
-    "problems": ["Stress", "Burnout", "Schlafprobleme", "Erschöpfung", "Angstzustände"],
+    "effects": [
+      "adaptogen",
+      "stressreduzierend",
+      "cortisolsenkend",
+      "schlaffördernd",
+      "muskelaufbauend"
+    ],
+    "problems": [
+      "Stress",
+      "Burnout",
+      "Schlafprobleme",
+      "Erschöpfung",
+      "Angstzustände"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -37,8 +79,20 @@
     "timing": "morgens",
     "meal": "mit Mahlzeit",
     "dosageNotes": "Im Kühlschrank lagern. Fischöl-Kapseln mit fetthaltiger Mahlzeit besser aufgenommen.",
-    "effects": ["entzündungshemmend", "herzschützend", "gehirnstärkend", "stimmungsaufhellend", "triglyzeridsenkend"],
-    "problems": ["Herzerkrankungen", "Depression", "Entzündungen", "erhöhte Triglyzeride", "Konzentrationsprobleme"],
+    "effects": [
+      "entzündungshemmend",
+      "herzschützend",
+      "gehirnstärkend",
+      "stimmungsaufhellend",
+      "triglyzeridsenkend"
+    ],
+    "problems": [
+      "Herzerkrankungen",
+      "Depression",
+      "Entzündungen",
+      "erhöhte Triglyzeride",
+      "Konzentrationsprobleme"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -51,8 +105,21 @@
     "timing": "abends",
     "meal": "nach der Mahlzeit",
     "dosageNotes": "Nicht auf nüchternen Magen – kann Übelkeit verursachen. Nicht gleichzeitig mit Eisen oder Kalzium einnehmen.",
-    "effects": ["immunstärkend", "wundheilend", "hormonstimulierend", "antioxidativ", "hautpflegend"],
-    "problems": ["Zinkmangel", "Immunschwäche", "Wundheilung", "Akne", "Haarausfall", "Hormonstörungen"],
+    "effects": [
+      "immunstärkend",
+      "wundheilend",
+      "hormonstimulierend",
+      "antioxidativ",
+      "hautpflegend"
+    ],
+    "problems": [
+      "Zinkmangel",
+      "Immunschwäche",
+      "Wundheilung",
+      "Akne",
+      "Haarausfall",
+      "Hormonstörungen"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -65,8 +132,20 @@
     "timing": "morgens oder mittags",
     "meal": "mit Mahlzeit",
     "dosageNotes": "Gepufferte Form (z.B. Calciumascorbat) besser verträglich. Nicht abends – kann aktivierend wirken. Dosis aufteilen.",
-    "effects": ["immunstärkend", "antioxidativ", "kollagenbildend", "eisenaufnahme-fördernd", "wundheilend"],
-    "problems": ["Immunschwäche", "Erkältung", "Eisenmangel", "Erschöpfung", "schlechte Wundheilung"],
+    "effects": [
+      "immunstärkend",
+      "antioxidativ",
+      "kollagenbildend",
+      "eisenaufnahme-fördernd",
+      "wundheilend"
+    ],
+    "problems": [
+      "Immunschwäche",
+      "Erkältung",
+      "Eisenmangel",
+      "Erschöpfung",
+      "schlechte Wundheilung"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -79,8 +158,20 @@
     "timing": "morgens",
     "meal": "mit Mahlzeit",
     "dosageNotes": "Färbt Urin gelb – das ist normal (Riboflavin). Mit Mahlzeit einnehmen, sonst Übelkeit möglich.",
-    "effects": ["energiesteigernd", "nervenstärkend", "konzentrationsstärkend", "stimmungsaufhellend", "blutbildend"],
-    "problems": ["Erschöpfung", "Konzentrationsprobleme", "Nervosität", "B-Vitaminmangel", "Stress"],
+    "effects": [
+      "energiesteigernd",
+      "nervenstärkend",
+      "konzentrationsstärkend",
+      "stimmungsaufhellend",
+      "blutbildend"
+    ],
+    "problems": [
+      "Erschöpfung",
+      "Konzentrationsprobleme",
+      "Nervosität",
+      "B-Vitaminmangel",
+      "Stress"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -93,8 +184,18 @@
     "timing": "morgens nüchtern",
     "meal": "nüchtern",
     "dosageNotes": "Mit Vitamin C einnehmen – verbessert Aufnahme. Nicht mit Kaffee, Tee, Kalzium oder Zink kombinieren.",
-    "effects": ["blutbildend", "energiesteigernd", "sauerstofftransportierend"],
-    "problems": ["Eisenmangel", "Anämie", "chronische Erschöpfung", "Blässe", "Leistungsabfall"],
+    "effects": [
+      "blutbildend",
+      "energiesteigernd",
+      "sauerstofftransportierend"
+    ],
+    "problems": [
+      "Eisenmangel",
+      "Anämie",
+      "chronische Erschöpfung",
+      "Blässe",
+      "Leistungsabfall"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -107,8 +208,19 @@
     "timing": "morgens",
     "meal": "mit Mahlzeit",
     "dosageNotes": "Fettlöslich – mit fetthaltiger Mahlzeit einnehmen. Besonders wichtig bei Statineinnahme (Statine blockieren Q10-Produktion).",
-    "effects": ["zellenergie-fördernd", "herzschützend", "antioxidativ", "leistungssteigernd"],
-    "problems": ["Erschöpfung", "Herzerkrankungen", "Statineinnahme", "Mitochondrienschwäche", "Bluthochdruck"],
+    "effects": [
+      "zellenergie-fördernd",
+      "herzschützend",
+      "antioxidativ",
+      "leistungssteigernd"
+    ],
+    "problems": [
+      "Erschöpfung",
+      "Herzerkrankungen",
+      "Statineinnahme",
+      "Mitochondrienschwäche",
+      "Bluthochdruck"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -121,8 +233,19 @@
     "timing": "morgens nüchtern",
     "meal": "nüchtern",
     "dosageNotes": "Kühl lagern. Mindestens 4 Wochen einnehmen für spürbare Wirkung. Nach Antibiotika besonders wichtig.",
-    "effects": ["darmgesundheitsfördernd", "immunstärkend", "stimmungsaufhellend", "verdauungsfördernd"],
-    "problems": ["Darmbeschwerden", "Blähungen", "nach Antibiotika", "Immunschwäche", "Reizdarmsyndrom"],
+    "effects": [
+      "darmgesundheitsfördernd",
+      "immunstärkend",
+      "stimmungsaufhellend",
+      "verdauungsfördernd"
+    ],
+    "problems": [
+      "Darmbeschwerden",
+      "Blähungen",
+      "nach Antibiotika",
+      "Immunschwäche",
+      "Reizdarmsyndrom"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -135,8 +258,17 @@
     "timing": "30 Min. vor dem Schlafen",
     "meal": "nüchtern",
     "dosageNotes": "Niedrig starten (0,5 mg). Nicht dauerhaft anwenden. Ideal bei Jetlag oder Schichtarbeit.",
-    "effects": ["schlafeinleitend", "rhythmusregulierend", "antioxidativ"],
-    "problems": ["Einschlafprobleme", "Jetlag", "Schichtarbeit", "Schlafrhythmusstörungen"],
+    "effects": [
+      "schlafeinleitend",
+      "rhythmusregulierend",
+      "antioxidativ"
+    ],
+    "problems": [
+      "Einschlafprobleme",
+      "Jetlag",
+      "Schichtarbeit",
+      "Schlafrhythmusstörungen"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -149,8 +281,19 @@
     "timing": "tagsüber oder abends",
     "meal": "",
     "dosageNotes": "Hervorragend kombinierbar mit Koffein: fördert Fokus und dämpft gleichzeitig Koffein-Nervosität.",
-    "effects": ["beruhigend", "konzentrationsfördernd", "angstlösend", "entspannend"],
-    "problems": ["Stress", "Nervosität", "Konzentrationsprobleme", "Angstzustände", "Koffein-Überstimulation"],
+    "effects": [
+      "beruhigend",
+      "konzentrationsfördernd",
+      "angstlösend",
+      "entspannend"
+    ],
+    "problems": [
+      "Stress",
+      "Nervosität",
+      "Konzentrationsprobleme",
+      "Angstzustände",
+      "Koffein-Überstimulation"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -163,8 +306,18 @@
     "timing": "morgens nüchtern",
     "meal": "nüchtern",
     "dosageNotes": "Mit Vitamin C einnehmen – fördert körpereigene Kollagensynthese. Hydrolysat-Form bevorzugen (besser bioverfügbar).",
-    "effects": ["gelenkunterstützend", "hautstraffend", "knochenunterstützend", "sehnenunterstützend"],
-    "problems": ["Gelenkschmerzen", "Hautalterung", "Knochenschwäche", "Sport-Regeneration"],
+    "effects": [
+      "gelenkunterstützend",
+      "hautstraffend",
+      "knochenunterstützend",
+      "sehnenunterstützend"
+    ],
+    "problems": [
+      "Gelenkschmerzen",
+      "Hautalterung",
+      "Knochenschwäche",
+      "Sport-Regeneration"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -177,8 +330,19 @@
     "timing": "30–60 Min. vor dem Schlafen",
     "meal": "",
     "dosageNotes": "Wirkung baut sich nach 2–4 Wochen regelmäßiger Einnahme auf. Kein sofortiger Effekt wie bei Melatonin.",
-    "effects": ["schlaffördernd", "beruhigend", "angstlösend", "muskelentspannend"],
-    "problems": ["Schlafprobleme", "Einschlafstörungen", "Nervosität", "innere Unruhe", "Stress"],
+    "effects": [
+      "schlaffördernd",
+      "beruhigend",
+      "angstlösend",
+      "muskelentspannend"
+    ],
+    "problems": [
+      "Schlafprobleme",
+      "Einschlafstörungen",
+      "Nervosität",
+      "innere Unruhe",
+      "Stress"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -191,8 +355,18 @@
     "timing": "",
     "meal": "mit Mahlzeit",
     "dosageNotes": "ACHTUNG: Starke Wechselwirkungen mit vielen Medikamenten (Antibiotika, Pille, Blutverdünner). Arzt fragen! Lichtempfindlichkeit möglich.",
-    "effects": ["antidepressiv", "angstlösend", "stimmungsaufhellend", "nervenberuhigend"],
-    "problems": ["leichte Depression", "Winterblues", "Angstzustände", "Stimmungstiefs"],
+    "effects": [
+      "antidepressiv",
+      "angstlösend",
+      "stimmungsaufhellend",
+      "nervenberuhigend"
+    ],
+    "problems": [
+      "leichte Depression",
+      "Winterblues",
+      "Angstzustände",
+      "Stimmungstiefs"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -205,8 +379,18 @@
     "timing": "bei Erkältungsbeginn",
     "meal": "mit Mahlzeit",
     "dosageNotes": "Maximal 8 Wochen durchgehend einnehmen, dann Pause. Nicht bei Autoimmunerkrankungen anwenden.",
-    "effects": ["immunstimulierend", "antiviral", "antibakteriell", "entzündungshemmend"],
-    "problems": ["Erkältung", "Grippe", "Infektanfälligkeit", "geschwächtes Immunsystem"],
+    "effects": [
+      "immunstimulierend",
+      "antiviral",
+      "antibakteriell",
+      "entzündungshemmend"
+    ],
+    "problems": [
+      "Erkältung",
+      "Grippe",
+      "Infektanfälligkeit",
+      "geschwächtes Immunsystem"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -219,8 +403,18 @@
     "timing": "",
     "meal": "vor der Mahlzeit",
     "dosageNotes": "Besonders nach Alkohol, Medikamentenbelastung oder fetthaltiger Ernährung empfehlenswert.",
-    "effects": ["leberschützend", "entgiftend", "antioxidativ", "gallefördernd"],
-    "problems": ["Leberbelastung", "nach Alkohol", "Fettverdauung", "Lebererkrankungen"],
+    "effects": [
+      "leberschützend",
+      "entgiftend",
+      "antioxidativ",
+      "gallefördernd"
+    ],
+    "problems": [
+      "Leberbelastung",
+      "nach Alkohol",
+      "Fettverdauung",
+      "Lebererkrankungen"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -233,8 +427,19 @@
     "timing": "morgens und mittags",
     "meal": "mit Mahlzeit",
     "dosageNotes": "Nicht abends einnehmen. Nicht mit Blutverdünnern (z.B. Aspirin, Marcumar) kombinieren.",
-    "effects": ["durchblutungsfördernd", "gedächtnisstärkend", "antioxidativ", "konzentrationsfördernd"],
-    "problems": ["Konzentrationsprobleme", "Gedächtnisprobleme", "Durchblutungsstörungen", "Tinnitus", "Schwindel"],
+    "effects": [
+      "durchblutungsfördernd",
+      "gedächtnisstärkend",
+      "antioxidativ",
+      "konzentrationsfördernd"
+    ],
+    "problems": [
+      "Konzentrationsprobleme",
+      "Gedächtnisprobleme",
+      "Durchblutungsstörungen",
+      "Tinnitus",
+      "Schwindel"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -247,8 +452,20 @@
     "timing": "morgens",
     "meal": "nüchtern",
     "dosageNotes": "Nicht abends einnehmen – aktivierend. Nicht mit Koffein kombinieren. Kurweise: 3 Monate, dann Pause.",
-    "effects": ["adaptogen", "energiesteigernd", "immunstärkend", "libidosteigernd", "Qi-tonisierend"],
-    "problems": ["Erschöpfung", "Leistungsabfall", "Immunschwäche", "Libidoverlust", "Stress"],
+    "effects": [
+      "adaptogen",
+      "energiesteigernd",
+      "immunstärkend",
+      "libidosteigernd",
+      "Qi-tonisierend"
+    ],
+    "problems": [
+      "Erschöpfung",
+      "Leistungsabfall",
+      "Immunschwäche",
+      "Libidoverlust",
+      "Stress"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -261,8 +478,20 @@
     "timing": "morgens nüchtern",
     "meal": "nüchtern",
     "dosageNotes": "Nicht abends einnehmen – kann Schlaf stören. Besonders geeignet bei Burnout und chronischer Erschöpfung.",
-    "effects": ["adaptogen", "stressresistenzstärkend", "ausdauerfördernd", "stimmungsaufhellend", "konzentrationsfördernd"],
-    "problems": ["Burnout", "Erschöpfung", "Stress", "Depression", "sportliche Ausdauer"],
+    "effects": [
+      "adaptogen",
+      "stressresistenzstärkend",
+      "ausdauerfördernd",
+      "stimmungsaufhellend",
+      "konzentrationsfördernd"
+    ],
+    "problems": [
+      "Burnout",
+      "Erschöpfung",
+      "Stress",
+      "Depression",
+      "sportliche Ausdauer"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -275,8 +504,18 @@
     "timing": "abends",
     "meal": "",
     "dosageNotes": "Sehr gut verträglich. Kombinierbar mit Baldrian für stärkere Wirkung.",
-    "effects": ["beruhigend", "angstlösend", "schlaffördernd", "krampflösend"],
-    "problems": ["Schlafprobleme", "Nervosität", "Angstzustände", "innere Unruhe"],
+    "effects": [
+      "beruhigend",
+      "angstlösend",
+      "schlaffördernd",
+      "krampflösend"
+    ],
+    "problems": [
+      "Schlafprobleme",
+      "Nervosität",
+      "Angstzustände",
+      "innere Unruhe"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -289,8 +528,20 @@
     "timing": "",
     "meal": "mit Mahlzeit",
     "dosageNotes": "Viel Wasser trinken – harntreibend. TCM: kühlendes Kraut. Bei Nierenerkrankungen Rücksprache mit Arzt.",
-    "effects": ["entgiftend", "harntreibend", "eisenreich", "antientzündlich", "blutdrucksenkend"],
-    "problems": ["Eisenmangel", "Frühjahrsmüdigkeit", "Harnwegsinfekte", "Gelenkentzündung", "Bluthochdruck"],
+    "effects": [
+      "entgiftend",
+      "harntreibend",
+      "eisenreich",
+      "antientzündlich",
+      "blutdrucksenkend"
+    ],
+    "problems": [
+      "Eisenmangel",
+      "Frühjahrsmüdigkeit",
+      "Harnwegsinfekte",
+      "Gelenkentzündung",
+      "Bluthochdruck"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -303,8 +554,20 @@
     "timing": "bei Erkältung oder Grippe",
     "meal": "",
     "dosageNotes": "Nur zubereitete / erhitzte Form verwenden – roh giftig! Ideal als Sirup oder Extrakt.",
-    "effects": ["antiviral", "immunstärkend", "fiebersenk", "hustenlindernd", "entzündungshemmend"],
-    "problems": ["Erkältung", "Grippe", "Fieber", "Husten", "Infektanfälligkeit"],
+    "effects": [
+      "antiviral",
+      "immunstärkend",
+      "fiebersenk",
+      "hustenlindernd",
+      "entzündungshemmend"
+    ],
+    "problems": [
+      "Erkältung",
+      "Grippe",
+      "Fieber",
+      "Husten",
+      "Infektanfälligkeit"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -317,8 +580,20 @@
     "timing": "morgens",
     "meal": "",
     "dosageNotes": "Als Tee: 2 TL auf 250 ml, 10 Min. ziehen lassen. Pulver in Smoothie oder Joghurt.",
-    "effects": ["vitamin-C-reich", "immunstärkend", "gelenkunterstützend", "antioxidativ", "entzündungshemmend"],
-    "problems": ["Immunschwäche", "Gelenkschmerzen", "Arthrose", "Vitamin-C-Mangel", "Erkältung"],
+    "effects": [
+      "vitamin-C-reich",
+      "immunstärkend",
+      "gelenkunterstützend",
+      "antioxidativ",
+      "entzündungshemmend"
+    ],
+    "problems": [
+      "Immunschwäche",
+      "Gelenkschmerzen",
+      "Arthrose",
+      "Vitamin-C-Mangel",
+      "Erkältung"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -331,8 +606,20 @@
     "timing": "morgens",
     "meal": "",
     "dosageNotes": "Kann Zähne leicht färben. Sehr bitter – am besten mit Fruchtsaft mischen.",
-    "effects": ["antioxidativ", "herzschützend", "entzündungshemmend", "blutdruckregulierend", "blutzuckerregulierend"],
-    "problems": ["Bluthochdruck", "Herzerkrankungen", "Entzündungen", "Diabetes-Prävention", "oxidativer Stress"],
+    "effects": [
+      "antioxidativ",
+      "herzschützend",
+      "entzündungshemmend",
+      "blutdruckregulierend",
+      "blutzuckerregulierend"
+    ],
+    "problems": [
+      "Bluthochdruck",
+      "Herzerkrankungen",
+      "Entzündungen",
+      "Diabetes-Prävention",
+      "oxidativer Stress"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -345,8 +632,21 @@
     "timing": "nach den Mahlzeiten oder abends",
     "meal": "",
     "dosageNotes": "10 Min. ziehen lassen und abgedeckt stehen lassen (Wirkstoffe flüchtig). Auch als Dampfbad bei Erkältung.",
-    "effects": ["entzündungshemmend", "krampflösend", "magenschützend", "beruhigend", "schleimhautpflegend"],
-    "problems": ["Magenbeschwerden", "Blähungen", "Krämpfe", "Reizmagen", "Erkältung", "Stress"],
+    "effects": [
+      "entzündungshemmend",
+      "krampflösend",
+      "magenschützend",
+      "beruhigend",
+      "schleimhautpflegend"
+    ],
+    "problems": [
+      "Magenbeschwerden",
+      "Blähungen",
+      "Krämpfe",
+      "Reizmagen",
+      "Erkältung",
+      "Stress"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -359,8 +659,20 @@
     "timing": "nach den Mahlzeiten",
     "meal": "",
     "dosageNotes": "Nicht bei Sodbrennen oder Magengeschwür. Nicht bei Säuglingen und Kleinkindern. Fördert Gallensaftfluss.",
-    "effects": ["verdauungsfördernd", "krampflösend", "kühlend", "kopfschmerzlindernd", "erfrischend"],
-    "problems": ["Verdauungsbeschwerden", "Blähungen", "Kopfschmerzen", "Übelkeit", "Reizdarm"],
+    "effects": [
+      "verdauungsfördernd",
+      "krampflösend",
+      "kühlend",
+      "kopfschmerzlindernd",
+      "erfrischend"
+    ],
+    "problems": [
+      "Verdauungsbeschwerden",
+      "Blähungen",
+      "Kopfschmerzen",
+      "Übelkeit",
+      "Reizdarm"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -373,8 +685,20 @@
     "timing": "morgens oder mittags",
     "meal": "",
     "dosageNotes": "Nicht abends – enthält Koffein. 70–80°C Wasser, 2–3 Min. ziehen. Nicht mit Milch – blockiert Antioxidantien.",
-    "effects": ["antioxidativ", "konzentrationsfördernd", "fettstoffwechselunterstützend", "immunstärkend", "krebshemmend"],
-    "problems": ["Konzentrationsprobleme", "Übergewicht", "Müdigkeit", "Immunschwäche", "oxidativer Stress"],
+    "effects": [
+      "antioxidativ",
+      "konzentrationsfördernd",
+      "fettstoffwechselunterstützend",
+      "immunstärkend",
+      "krebshemmend"
+    ],
+    "problems": [
+      "Konzentrationsprobleme",
+      "Übergewicht",
+      "Müdigkeit",
+      "Immunschwäche",
+      "oxidativer Stress"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -387,8 +711,20 @@
     "timing": "nachmittags",
     "meal": "",
     "dosageNotes": "TCM: kühlt Leber-Hitze. Besonders bei Augenproblemen, Kopfschmerzen durch Hitze und Überarbeitung.",
-    "effects": ["kühlend", "leberentlastend", "sehkraftstärkend", "fiebersenk", "entzündungshemmend"],
-    "problems": ["gereizte Augen", "Kopfschmerzen", "Hitze-Symptome", "Leberüberlastung", "Fieber"],
+    "effects": [
+      "kühlend",
+      "leberentlastend",
+      "sehkraftstärkend",
+      "fiebersenk",
+      "entzündungshemmend"
+    ],
+    "problems": [
+      "gereizte Augen",
+      "Kopfschmerzen",
+      "Hitze-Symptome",
+      "Leberüberlastung",
+      "Fieber"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -401,8 +737,20 @@
     "timing": "morgens",
     "meal": "mit Mahlzeit",
     "dosageNotes": "TCM-Klassiker. Langfristige Anwendung empfohlen. Besonders gut für Leber und Nervensystem.",
-    "effects": ["adaptogen", "leberschützend", "nervenstärkend", "ausdauerfördernd", "immunmodulierend"],
-    "problems": ["Erschöpfung", "Leberbelastung", "Stress", "sportliche Leistung", "Gedächtnisprobleme"],
+    "effects": [
+      "adaptogen",
+      "leberschützend",
+      "nervenstärkend",
+      "ausdauerfördernd",
+      "immunmodulierend"
+    ],
+    "problems": [
+      "Erschöpfung",
+      "Leberbelastung",
+      "Stress",
+      "sportliche Leistung",
+      "Gedächtnisprobleme"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -415,8 +763,19 @@
     "timing": "morgens",
     "meal": "mit Mahlzeit",
     "dosageNotes": "Langfristige Anwendung – kein Kurzzeiteffekt. Ideal zur Immunprävention in Herbst und Winter.",
-    "effects": ["immunmodulierend", "adaptogen", "antiviral", "anti-aging", "Qi-tonisierend"],
-    "problems": ["Immunschwäche", "chronische Erschöpfung", "Infektanfälligkeit", "anti-aging"],
+    "effects": [
+      "immunmodulierend",
+      "adaptogen",
+      "antiviral",
+      "anti-aging",
+      "Qi-tonisierend"
+    ],
+    "problems": [
+      "Immunschwäche",
+      "chronische Erschöpfung",
+      "Infektanfälligkeit",
+      "anti-aging"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -429,8 +788,20 @@
     "timing": "abends",
     "meal": "mit Mahlzeit",
     "dosageNotes": "Sehr bitter – Kapselform empfohlen. Langfristige Anwendung (Monate). Keine akute Wirkung.",
-    "effects": ["immunmodulierend", "adaptogen", "schlaffördernd", "leberschützend", "antitumoral"],
-    "problems": ["Immunschwäche", "chronische Erkrankungen", "Schlafprobleme", "Stress", "Leberbelastung"],
+    "effects": [
+      "immunmodulierend",
+      "adaptogen",
+      "schlaffördernd",
+      "leberschützend",
+      "antitumoral"
+    ],
+    "problems": [
+      "Immunschwäche",
+      "chronische Erkrankungen",
+      "Schlafprobleme",
+      "Stress",
+      "Leberbelastung"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -443,8 +814,20 @@
     "timing": "morgens oder als Snack",
     "meal": "",
     "dosageNotes": "TCM: Yin-aufbauend. Als Tee kochen (10 Min.) oder einfach essen. Nicht mit Blutverdünnern kombinieren.",
-    "effects": ["antioxidativ", "sehkraftstärkend", "immunstärkend", "Qi-aufbauend", "Yin-nährend"],
-    "problems": ["Sehkraftprobleme", "Erschöpfung", "Immunschwäche", "Nieren-Yin-Mangel (TCM)", "anti-aging"],
+    "effects": [
+      "antioxidativ",
+      "sehkraftstärkend",
+      "immunstärkend",
+      "Qi-aufbauend",
+      "Yin-nährend"
+    ],
+    "problems": [
+      "Sehkraftprobleme",
+      "Erschöpfung",
+      "Immunschwäche",
+      "Nieren-Yin-Mangel (TCM)",
+      "anti-aging"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -457,8 +840,20 @@
     "timing": "",
     "meal": "vor der Mahlzeit",
     "dosageNotes": "Nicht mehr als 4–6 Wochen durchgehend einnehmen. Nicht bei Bluthochdruck – erhöht Aldosteron.",
-    "effects": ["entzündungshemmend", "magenschützend", "kortisolunterstützend", "schleimlösend", "harmonisierend"],
-    "problems": ["Magengeschwür", "Husten", "Entzündungen", "Nebennierenermüdung", "Sodbrennen"],
+    "effects": [
+      "entzündungshemmend",
+      "magenschützend",
+      "kortisolunterstützend",
+      "schleimlösend",
+      "harmonisierend"
+    ],
+    "problems": [
+      "Magengeschwür",
+      "Husten",
+      "Entzündungen",
+      "Nebennierenermüdung",
+      "Sodbrennen"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -471,8 +866,20 @@
     "timing": "morgens und mittags",
     "meal": "",
     "dosageNotes": "Als Tee aufbrühen (3 Min. ziehen). Enthält ähnliche Wirkstoffe wie Ginseng (Gypenoside).",
-    "effects": ["adaptogen", "antioxidativ", "cholesterinsenkend", "immunmodulierend", "lebensverlängernd"],
-    "problems": ["hoher Cholesterin", "Stress", "Alterung", "Immunschwäche", "Bluthochdruck"],
+    "effects": [
+      "adaptogen",
+      "antioxidativ",
+      "cholesterinsenkend",
+      "immunmodulierend",
+      "lebensverlängernd"
+    ],
+    "problems": [
+      "hoher Cholesterin",
+      "Stress",
+      "Alterung",
+      "Immunschwäche",
+      "Bluthochdruck"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -485,8 +892,20 @@
     "timing": "morgens",
     "meal": "nüchtern",
     "dosageNotes": "Starker Geschmack / Geruch – am besten in Smoothie. Auf nüchternen Magen oder mit Wasser. Qualität beachten (Schadstoffe möglich).",
-    "effects": ["proteinreich", "entgiftend", "immunstärkend", "eisenliefernd", "antioxidativ"],
-    "problems": ["Protein-Bedarf", "Eisenmangel", "Entgiftung", "Immunschwäche", "Energiemangel"],
+    "effects": [
+      "proteinreich",
+      "entgiftend",
+      "immunstärkend",
+      "eisenliefernd",
+      "antioxidativ"
+    ],
+    "problems": [
+      "Protein-Bedarf",
+      "Eisenmangel",
+      "Entgiftung",
+      "Immunschwäche",
+      "Energiemangel"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -499,8 +918,20 @@
     "timing": "",
     "meal": "vor der Mahlzeit",
     "dosageNotes": "Sehr langsam einschleichen (erst 1 g, dann steigern). Viel Wasser trinken. Bindet Schwermetalle im Darm.",
-    "effects": ["entgiftend", "schwermetallbindend", "immunstärkend", "basisch", "b12-haltig"],
-    "problems": ["Schwermetallbelastung", "Entgiftung", "Übersäuerung", "B12-Mangel", "Verdauungsprobleme"],
+    "effects": [
+      "entgiftend",
+      "schwermetallbindend",
+      "immunstärkend",
+      "basisch",
+      "b12-haltig"
+    ],
+    "problems": [
+      "Schwermetallbelastung",
+      "Entgiftung",
+      "Übersäuerung",
+      "B12-Mangel",
+      "Verdauungsprobleme"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -513,8 +944,17 @@
     "timing": "zu den Mahlzeiten",
     "meal": "mit Mahlzeit",
     "dosageNotes": "Immer mit Kurkuma kombinieren. Piperin verstärkt auch viele andere Supplements (z.B. CoQ10, Resveratrol).",
-    "effects": ["stoffwechselanregend", "verdauungsfördernd", "bioverfügbarkeit-steigernd", "antioxidativ"],
-    "problems": ["schlechte Nährstoffaufnahme", "träge Verdauung", "Blähungen"],
+    "effects": [
+      "stoffwechselanregend",
+      "verdauungsfördernd",
+      "bioverfügbarkeit-steigernd",
+      "antioxidativ"
+    ],
+    "problems": [
+      "schlechte Nährstoffaufnahme",
+      "träge Verdauung",
+      "Blähungen"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -527,8 +967,20 @@
     "timing": "",
     "meal": "mit Mahlzeit",
     "dosageNotes": "NUR Ceylon-Zimt verwenden – Cassia-Zimt enthält zu viel Cumarin und ist leberschädlich bei höherer Dosis.",
-    "effects": ["blutzuckerregulierend", "antimikrobiell", "durchblutungsfördernd", "entzündungshemmend", "wärmend"],
-    "problems": ["Blutzuckerschwankungen", "Diabetes Typ 2", "Pilzinfektionen", "Erkältung", "Verdauungsprobleme"],
+    "effects": [
+      "blutzuckerregulierend",
+      "antimikrobiell",
+      "durchblutungsfördernd",
+      "entzündungshemmend",
+      "wärmend"
+    ],
+    "problems": [
+      "Blutzuckerschwankungen",
+      "Diabetes Typ 2",
+      "Pilzinfektionen",
+      "Erkältung",
+      "Verdauungsprobleme"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -541,8 +993,21 @@
     "timing": "",
     "meal": "mit Mahlzeit",
     "dosageNotes": "Roh effektiver als gekocht. Allicin bildet sich erst 10 Min. nach dem Schneiden / Pressen. Geruchlos-Kapseln weniger wirksam.",
-    "effects": ["antibakteriell", "antiviral", "herzschützend", "immunstärkend", "blutdrucksenkend", "cholesterinsenkend"],
-    "problems": ["Bluthochdruck", "Herzerkrankungen", "Infektionen", "hoher Cholesterin", "Immunschwäche"],
+    "effects": [
+      "antibakteriell",
+      "antiviral",
+      "herzschützend",
+      "immunstärkend",
+      "blutdrucksenkend",
+      "cholesterinsenkend"
+    ],
+    "problems": [
+      "Bluthochdruck",
+      "Herzerkrankungen",
+      "Infektionen",
+      "hoher Cholesterin",
+      "Immunschwäche"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -555,8 +1020,19 @@
     "timing": "",
     "meal": "mit Mahlzeit",
     "dosageNotes": "Kann Körpergeruch und Urin nach Ahornsirup riechen lassen – normal. Nicht in der Schwangerschaft (wehenfördernd).",
-    "effects": ["blutzuckerregulierend", "verdauungsfördernd", "libidosteigernd", "milchbildungsfördernd", "cholesterinsenkend"],
-    "problems": ["Blutzuckerschwankungen", "Verdauungsprobleme", "Libidoverlust", "Stillprobleme"],
+    "effects": [
+      "blutzuckerregulierend",
+      "verdauungsfördernd",
+      "libidosteigernd",
+      "milchbildungsfördernd",
+      "cholesterinsenkend"
+    ],
+    "problems": [
+      "Blutzuckerschwankungen",
+      "Verdauungsprobleme",
+      "Libidoverlust",
+      "Stillprobleme"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -569,8 +1045,18 @@
     "timing": "",
     "meal": "mit Mahlzeit",
     "dosageNotes": "Nicht zusammen mit Zink, Eisen oder Magnesium einnehmen – gegenseitige Hemmung. Immer mit D3+K2 kombinieren.",
-    "effects": ["knochenaufbauend", "muskelfunktionsstärkend", "nervenstabilisierend", "blutdruckregulierend"],
-    "problems": ["Knochenschwäche", "Osteoporose", "Muskelkrämpfe", "Kalziummangel"],
+    "effects": [
+      "knochenaufbauend",
+      "muskelfunktionsstärkend",
+      "nervenstabilisierend",
+      "blutdruckregulierend"
+    ],
+    "problems": [
+      "Knochenschwäche",
+      "Osteoporose",
+      "Muskelkrämpfe",
+      "Kalziummangel"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -583,8 +1069,20 @@
     "timing": "",
     "meal": "mit Mahlzeit",
     "dosageNotes": "Nicht in der Schwangerschaft. Nicht bei starker Menstruationsblutung. Nicht mit Blutverdünnern.",
-    "effects": ["blutstärkend", "menstruationsregulierend", "krampflösend", "wärmend", "Yin-aufbauend"],
-    "problems": ["Menstruationsbeschwerden", "PMS", "Wechseljahresbeschwerden", "Blutmangel (TCM)", "Krämpfe"],
+    "effects": [
+      "blutstärkend",
+      "menstruationsregulierend",
+      "krampflösend",
+      "wärmend",
+      "Yin-aufbauend"
+    ],
+    "problems": [
+      "Menstruationsbeschwerden",
+      "PMS",
+      "Wechseljahresbeschwerden",
+      "Blutmangel (TCM)",
+      "Krämpfe"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -597,8 +1095,19 @@
     "timing": "nach dem Sport",
     "meal": "",
     "dosageNotes": "In Smoothie oder Joghurt rühren. Enthält kein THC. Gut verträglich, auch für Menschen mit Laktoseintoleranz.",
-    "effects": ["proteinreich", "aminosäurenvollständig", "entzündungshemmend", "ballaststoffreich", "omega-3-haltig"],
-    "problems": ["Protein-Bedarf", "Sport-Regeneration", "Laktoseintoleranz", "pflanzliche Ernährung"],
+    "effects": [
+      "proteinreich",
+      "aminosäurenvollständig",
+      "entzündungshemmend",
+      "ballaststoffreich",
+      "omega-3-haltig"
+    ],
+    "problems": [
+      "Protein-Bedarf",
+      "Sport-Regeneration",
+      "Laktoseintoleranz",
+      "pflanzliche Ernährung"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -611,8 +1120,19 @@
     "timing": "morgens und mittags",
     "meal": "vor der Mahlzeit",
     "dosageNotes": "Frische Blätter im Frühjahr besonders wirksam. Viel Wasser trinken – stark harntreibend.",
-    "effects": ["leberentgiftend", "harntreibend", "verdauungsfördernd", "kaliumreich", "gallefördernd"],
-    "problems": ["Leberbelastung", "Wassereinlagerungen", "Verdauungsträgheit", "Frühjahrsmüdigkeit"],
+    "effects": [
+      "leberentgiftend",
+      "harntreibend",
+      "verdauungsfördernd",
+      "kaliumreich",
+      "gallefördernd"
+    ],
+    "problems": [
+      "Leberbelastung",
+      "Wassereinlagerungen",
+      "Verdauungsträgheit",
+      "Frühjahrsmüdigkeit"
+    ],
     "date": "30.04.2026"
   },
   {
@@ -625,8 +1145,20 @@
     "timing": "abends",
     "meal": "",
     "dosageNotes": "Frische Blätter intensiver als getrocknete. Auch äußerlich als Creme bei Herpes anwendbar.",
-    "effects": ["beruhigend", "verdauungsfördernd", "antiviral", "stimmungsaufhellend", "krampflösend"],
-    "problems": ["Nervosität", "Verdauungsbeschwerden", "Herpes", "Schlafprobleme", "Stress"],
+    "effects": [
+      "beruhigend",
+      "verdauungsfördernd",
+      "antiviral",
+      "stimmungsaufhellend",
+      "krampflösend"
+    ],
+    "problems": [
+      "Nervosität",
+      "Verdauungsbeschwerden",
+      "Herpes",
+      "Schlafprobleme",
+      "Stress"
+    ],
     "date": "30.04.2026"
   }
 ]
