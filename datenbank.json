@@ -1,5 +1,23 @@
 [
   {
+    "id": 1778092388923,
+    "name": "Chiasamen",
+    "category": "nahrung",
+    "description": "Ballaststoffe",
+    "dosage": "2 Esslöffel",
+    "frequency": "1× täglich",
+    "timing": "2h vor dem Schlafen",
+    "meal": "nüchtern",
+    "dosageNotes": "min 20 Minuten quellen lassen. Mit Jogurt mischen. Im Glas quellen lassen",
+    "effects": [
+      "Darmreinigend"
+    ],
+    "problems": [
+      "Darmkur"
+    ],
+    "date": "6.5.2026"
+  },
+  {
     "id": 1778092171175,
     "name": "Flohsamenschalen",
     "category": "nahrung",
