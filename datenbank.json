@@ -1,17 +1,29 @@
 [
   {
     "id": 1778521179323,
-    "name": "Ingwer mit Honig",
+    "name": "Ingwer mit Honig 🫚🍯",
     "category": "gemuese",
-    "description": "",
+    "description": "Roher Ingwer und Honig sind zusammen ein bewährtes Naturheilmittel, dessen gesundheitsfördernde Eigenschaften sich gegenseitig verstärken. Honig steigert die Wirkstoffaufnahme des Ingwers um bis zu 30%.",
     "dosage": "Teelöffelgroße Knospe",
     "frequency": "2× täglich",
     "timing": "Nach Beschwerden",
     "meal": "",
-    "dosageNotes": "",
-    "effects": [],
+    "dosageNotes": "Nicht bei Fieber oder Sodbrennen",
+    "effects": [
+      "Immunsystem stärken",
+      "Erkältung & Husten lindern",
+      "Verdauung verbessern",
+      "Herz & Gefäße schützen"
+    ],
     "problems": [
-      "Halsschmerzen"
+      "Halsschmerzen",
+      "Erkältung & grippaler Infekt",
+      "Übelkeit",
+      "Verdauungsprobleme",
+      "Kopf- & Muskelschmerzen",
+      "Gelenkschmerzen / Arthrose",
+      "Schlafstörungen",
+      "Allgemeine Erschöpfung & Energiemangel"
     ],
     "date": "11.5.2026"
   },
