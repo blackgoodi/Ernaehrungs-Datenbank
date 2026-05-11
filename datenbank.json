@@ -1,5 +1,27 @@
 [
   {
+    "id": 1778528687270,
+    "name": "Rote Bete Saft",
+    "category": "getraenk-kalt",
+    "description": "Rote-Bete-Saft ist der ausgepresste Saft der roten Rübe, einem nährstoffreichen Wurzelgemüse. Er ist besonders reich an Nitraten, Betaninen (roter Farbstoff), Folsäure, Eisen und Kalium. Der Körper wandelt die Nitrate in Stickstoffmonoxid um – das ist der zentrale Wirkmechanismus hinter fast allen gesundheitlichen Vorteilen.",
+    "dosage": "250 ml",
+    "frequency": "1× täglich",
+    "timing": "Egal",
+    "meal": "",
+    "dosageNotes": "",
+    "effects": [
+      "Erweitert die Blutgefäße",
+      "Blutdruck senken",
+      "Ausdauer & sportliche Leistung steigern",
+      "Schnellere Regeneration",
+      "Gehirn & Konzentration"
+    ],
+    "problems": [
+      "Bluthochdruck, Erschöpfung, sportlichem Training, schlechter Durchblutung, Konzentrationsproblemen"
+    ],
+    "date": "11.5.2026"
+  },
+  {
     "id": 1778521179323,
     "name": "Ingwer mit Honig 🫚🍯",
     "category": "gemuese",
