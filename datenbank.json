@@ -1,5 +1,21 @@
 [
   {
+    "id": 1778521179323,
+    "name": "Ingwer mit Honig",
+    "category": "gemuese",
+    "description": "",
+    "dosage": "Teelöffelgroße Knospe",
+    "frequency": "2× täglich",
+    "timing": "Nach Beschwerden",
+    "meal": "",
+    "dosageNotes": "",
+    "effects": [],
+    "problems": [
+      "Halsschmerzen"
+    ],
+    "date": "11.5.2026"
+  },
+  {
     "id": 1778092388923,
     "name": "Chiasamen",
     "category": "nahrung",
