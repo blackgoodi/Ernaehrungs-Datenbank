@@ -1,5 +1,29 @@
 [
   {
+    "id": 1786394562790,
+    "name": "Kokosöl-Ölziehen",
+    "category": "sonstiges",
+    "description": "Ölziehen ist eine aus der ayurvedischen Tradition stammende Praxis, bei der Öl für mehrere Minuten im Mund hin- und hergespült wird. Kokosöl enthält Laurinsäure, die in Laborstudien antibakterielle Eigenschaften zeigt, weshalb eine gewisse Reduktion von Mundbakterien plausibel ist. Für die vielfach kolportierte 'Zahnaufhellung' oder eine deutliche Verbesserung von Zahnfleischgesundheit gibt es bislang nur wenige, meist kleine und methodisch schwache Studien; ein Ersatz für Zähneputzen, Zahnseide und professionelle Zahnreinigung ist es nicht. Reißerische Aussagen wie 'wirksamste Entgiftungsmethode' entbehren jeder soliden wissenschaftlichen Grundlage.",
+    "dosage": "1 Esslöffel (ca. 10–15 ml) natives Kokosöl",
+    "frequency": "1× täglich",
+    "timing": "morgens vor dem Frühstück",
+    "meal": "nüchtern",
+    "dosageNotes": "Öl 10–15 Minuten im Mund spülen/ziehen, dann ausspucken (nicht schlucken oder ins Waschbecken/Abfluss spucken, da es diesen verstopfen kann – besser in den Mülleimer). Danach Mund mit Wasser ausspülen und normal Zähne putzen. Kein Ersatz für zahnärztliche Prophylaxe; bei bestehenden Zahnfleisch- oder Zahnproblemen zahnärztliche Abklärung nicht ersetzen.",
+    "effects": [
+      "leicht antibakteriell",
+      "mögliche plaquereduktion",
+      "frischer atem",
+      "mundpflege"
+    ],
+    "problems": [
+      "mundgeruch",
+      "zahnbelag",
+      "zahnfleischreizung",
+      "allgemeine mundhygiene"
+    ],
+    "date": "10.8.2026"
+  },
+  {
     "id": 1786394410416,
     "name": "Erdbeer-Natron-Paste (Zahnaufhellung)",
     "category": "sonstiges",
