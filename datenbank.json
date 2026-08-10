@@ -1,5 +1,31 @@
 [
   {
+    "id": 1786396571408,
+    "name": "Rote Paprika",
+    "category": "gemuese",
+    "description": "Rote Paprika (Capsicum annuum) ist mit bis zu 190 mg Vitamin C pro 100 g eines der Vitamin-C-reichsten Gemüse überhaupt – tatsächlich enthält sie pro Gewicht etwa 2–3× mehr Vitamin C als eine Orange (ca. 50 mg/100 g), die Aussage vom Screenshot ist damit im Kern zutreffend, wenn auch je nach Vergleichsbasis (Frucht vs. 100 g) variabel. Vitamin C ist ein essenzieller Cofaktor der Enzyme Prolyl- und Lysylhydroxylase, die für die Quervernetzung und Stabilität von Kollagen benötigt werden – ein ausreichender Vitamin-C-Status ist also tatsächlich Voraussetzung für normale Kollagensynthese. Die Formulierung 'kurbelt die Kollagenproduktion an' ist jedoch zu weitgehend: Bei bereits ausreichender Versorgung führt zusätzliches Vitamin C nicht zu sichtbar 'strafferer, jüngerer' Haut, sondern verhindert lediglich einen Mangel-bedingten Kollagenabbau. Zudem enthält rote Paprika Carotinoide (u.a. Capsanthin) mit antioxidativer Wirkung, die oxidativen Hautstress mitreduzieren können.",
+    "dosage": "1 mittelgroße rote Paprika (ca. 150 g) roh oder kurz gegart",
+    "frequency": "1× täglich",
+    "timing": "",
+    "meal": "mit Mahlzeit",
+    "dosageNotes": "Vitamin C ist hitze- und wasserlöslich und wird durch langes Kochen teilweise zerstört – roh oder kurz gedünstet verzehren, um den Gehalt zu erhalten. Die Wirkung auf Hautstraffheit ist nur bei bestehendem Vitamin-C-Mangel relevant; bei normaler Versorgung sind zusätzliche 'Anti-Aging'-Effekte wissenschaftlich nicht klar belegt. Gut kombinierbar mit etwas Fett (z.B. Öl), da dies die Aufnahme der enthaltenen Carotinoide verbessert.",
+    "effects": [
+      "vitamin-c-reich",
+      "kollagenbildung",
+      "antioxidativ",
+      "hautunterstützend",
+      "immununterstützend"
+    ],
+    "problems": [
+      "vitamin-c-mangel",
+      "unterstützung der hautgesundheit",
+      "oxidativer stress",
+      "bindegewebsschwäche",
+      "schwaches immunsystem"
+    ],
+    "date": "10.8.2026"
+  },
+  {
     "id": 1786396552321,
     "name": "Warmes Zitronenwasser mit Salz",
     "category": "getraenk-warm",
