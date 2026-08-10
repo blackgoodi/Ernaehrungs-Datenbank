@@ -1,56 +1,5 @@
 [
   {
-    "id": 1786390976738,
-    "name": "Vitamin D3 (Cholecalciferol)",
-    "category": "supplement",
-    "description": "Fettlösliches Prohormon, das in der Haut unter UVB-Einstrahlung aus 7-Dehydrocholesterol gebildet oder über Nahrung/Supplemente aufgenommen wird. Über Leber (Calcidiol) und Niere (aktives Calcitriol) entsteht ein Hormon, das an den Vitamin-D-Rezeptor in fast allen Körperzellen bindet und Calcium-/Phosphathaushalt, Knochenstoffwechsel sowie Immunfunktionen reguliert. Ein Mangel ist in nördlichen Breiten v.a. im Winter verbreitet, da die körpereigene Synthese von UVB-Licht abhängt.",
-    "dosage": "800–2000 I.E. (20–50 µg), individuelle Dosierung idealerweise nach Blutspiegel (25-OH-Vitamin-D)",
-    "frequency": "1× täglich",
-    "timing": "",
-    "meal": "mit Mahlzeit",
-    "dosageNotes": "Als fettlösliches Vitamin am besten zusammen mit einer fetthaltigen Mahlzeit einnehmen. Hochdosierte Langzeiteinnahme sollte ärztlich überwacht werden (Gefahr von Hypercalcämie bei Überdosierung); UL laut EFSA bei 4000 I.E./Tag für Erwachsene. Kombination mit Vitamin K2 wird häufig diskutiert, ist aber nicht durch starke Evidenz belegt. Bei Nieren- oder Nebenschilddrüsenerkrankungen vor Einnahme ärztlich abklären.",
-    "effects": [
-      "knochenstoffwechsel",
-      "immunmodulierend",
-      "calciumregulation",
-      "muskelfunktion"
-    ],
-    "problems": [
-      "vitamin-d-mangel",
-      "osteoporose-prävention",
-      "geschwächtes immunsystem",
-      "muskelschwäche",
-      "winterdepression"
-    ],
-    "date": "10.8.2026"
-  },
-  {
-    "id": 1786389718618,
-    "name": "Vitamin D3",
-    "category": "supplement",
-    "description": "Vitamin D3 (Cholecalciferol) ist ein fettlösliches Prohormon, das in der Haut unter UV-B-Einstrahlung gebildet oder über Nahrung/Supplemente aufgenommen wird. Es wird in Leber und Niere zur aktiven Hormonform Calcitriol umgewandelt, die über den Vitamin-D-Rezeptor in nahezu allen Körperzellen Gene für Calcium-/Phosphathaushalt, Immunfunktion und Zellregulation steuert. Ein Mangel ist besonders in sonnenarmen Monaten verbreitet.",
-    "dosage": "800–2.000 IE (20–50 µg), bei nachgewiesenem Mangel höhere Dosen nach ärztlicher Anleitung",
-    "frequency": "1× täglich",
-    "timing": "",
-    "meal": "mit Mahlzeit",
-    "dosageNotes": "Als fettlösliches Vitamin am besten mit einer fetthaltigen Mahlzeit einnehmen. Obere Zufuhrgrenze liegt bei etwa 4.000 IE/Tag für Erwachsene; deutlich höhere Dosen über längere Zeit können zu Hyperkalzämie führen. Vorsicht bei Sarkoidose, Hyperparathyreoidismus, Niereninsuffizienz oder Nierensteinen in der Anamnese. Wechselwirkungen mit Thiaziddiuretika, Digoxin und bestimmten Antikonvulsiva möglich – bei Dauermedikation ärztlich abklären. Kombination mit Vitamin K2 wird häufig empfohlen, um Calciumeinlagerung zu unterstützen.",
-    "effects": [
-      "knochenstoffwechsel",
-      "immunmodulierend",
-      "muskelfunktion",
-      "zellregulation",
-      "calciumhaushalt"
-    ],
-    "problems": [
-      "vitamin-d-mangel",
-      "osteoporose-risiko",
-      "erschöpfung",
-      "erhöhte infektanfälligkeit",
-      "muskelschwäche"
-    ],
-    "date": "10.8.2026"
-  },
-  {
     "id": 1778528687270,
     "name": "Rote Bete Saft",
     "category": "getraenk-kalt",
