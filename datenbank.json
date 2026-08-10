@@ -1,5 +1,30 @@
 [
   {
+    "id": 1786396612968,
+    "name": "3 Eier nach dem Training (Muskelwachstum)",
+    "category": "nahrung",
+    "description": "Eier liefern hochwertiges, vollständiges Protein mit allen essenziellen Aminosäuren und enthalten pro Ei etwa 0,4–0,5 g Leucin, jene verzweigtkettige Aminosäure, die den mTOR-Signalweg aktiviert und dadurch die Muskelproteinsynthese anstößt. Die Aussage, Leucin sei „der stärkste natürliche Auslöser für Muskelwachstum, der je entdeckt wurde“, ist eine reißerische Übertreibung – Leucin ist zwar ein gut belegter, potenter Trigger der Proteinsynthese, wirkt aber nur im Zusammenspiel mit ausreichend Gesamtprotein, Trainingsreiz und Kalorienbilanz, nicht isoliert als „Wundermittel“. Drei Eier liefern etwa 18–21 g Protein und rund 1,3–1,5 g Leucin, was nahe an die für die meisten Erwachsenen empfohlene Leucin-Schwelle (ca. 2–3 g pro Mahlzeit) zur maximalen Stimulation der Muskelproteinsynthese heranreicht, sie aber nicht immer allein erreicht. Als Post-Workout-Mahlzeit sind Eier daher eine solide, aber keine einzigartig überlegene Proteinquelle im Vergleich zu Milchprodukten, Fleisch oder Fisch.",
+    "dosage": "3 Eier (ca. 18–21 g Protein, ca. 1,3–1,5 g Leucin)",
+    "frequency": "nach Bedarf",
+    "timing": "nach dem Training",
+    "meal": "",
+    "dosageNotes": "Eier gekocht oder in der Pfanne zubereiten – rohes Eiklar enthält Avidin, das die Biotin-Aufnahme hemmt und dessen Protein schlechter verwertet wird als gegartes. Für optimale Regeneration zusätzlich Kohlenhydrate zur Glykogenauffüllung kombinieren. Cholesteringehalt im Eigelb gilt nach aktueller Studienlage für die meisten gesunden Menschen als unproblematisch für den Blutfettspiegel. Wer auf noch mehr Leucin pro Mahlzeit abzielt, kann Eier mit weiteren Proteinquellen (z. B. Molkenprotein, Magerquark) kombinieren.",
+    "effects": [
+      "muskelproteinsynthese-stimulierend",
+      "leucinreich",
+      "hochwertige proteinquelle",
+      "sättigend",
+      "mikronährstoffreich"
+    ],
+    "problems": [
+      "muskelaufbau unterstützen",
+      "regeneration nach dem training",
+      "muskelabbau vorbeugen",
+      "proteinbedarf nach belastung decken"
+    ],
+    "date": "10.8.2026"
+  },
+  {
     "id": 1786396589028,
     "name": "Ingwer-Knoblauch-Honig-Shot",
     "category": "getraenk-kalt",
