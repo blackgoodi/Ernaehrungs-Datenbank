@@ -1,5 +1,29 @@
 [
   {
+    "id": 1786395310856,
+    "name": "Kurkuma-Paste (Zahnaufhellung und Zahnfleischgesundheit)",
+    "category": "sonstiges",
+    "description": "Kurkuma enthält Curcumin, einen Polyphenol-Farbstoff mit belegter entzündungshemmender und antimikrobieller Wirkung. Einige klinische Studien (meist klein, mit Kurkuma-Gel oder -Mundspülung) zeigen eine Reduktion von Plaque und Gingivitis, die in der Größenordnung von Chlorhexidin-Mundspülung liegt – ein interessanter, aber noch nicht als Standardtherapie etablierter Befund. Die als Paste direkt auf die Zähne aufgetragene Anwendung soll oberflächliche Verfärbungen durch leichte abrasive/chemische Wirkung mindern; belastbare Vergleichsstudien zu kommerziellen Bleaching-Streifen fehlen jedoch, sodass die Behauptung 'wirksamer als Bleaching-Streifen' nicht wissenschaftlich gestützt ist und eher als Marketing-Übertreibung einzustufen ist. Da Curcumin selbst ein starkes Gelbpigment ist, kann es bei unsachgemäßer Anwendung sogar vorübergehende Verfärbungen von Zähnen, Zahnfleisch und Zahnersatz verursachen.",
+    "dosage": "Ca. 1/2 Teelöffel Kurkumapulver mit wenig Wasser oder Kokosöl zu einer streichfähigen Paste anrühren; dünn auf die Zähne und den Zahnfleischsaum auftragen.",
+    "frequency": "1× täglich",
+    "timing": "beim Zähneputzen, vorzugsweise abends",
+    "meal": "",
+    "dosageNotes": "Nicht schlucken in größeren Mengen; Paste 2–3 Minuten einwirken lassen und gründlich ausspülen, da Curcumin Zähne, Zahnfleisch, Kunststofffüllungen, Kronen und Kleidung gelblich verfärben kann. Bei bestehendem Zahnfleischbluten, offenen Wunden im Mundraum oder Einnahme von Blutverdünnern (Curcumin kann leicht gerinnungshemmend wirken) vorsichtig anwenden bzw. Rücksprache mit Zahnarzt halten. Die Wirkung ist nicht mit professionellem Bleaching oder kommerziellen Bleaching-Streifen vergleichbar; Aussagen zu überlegener Wirksamkeit sind nicht ausreichend belegt. Als Ergänzung, nicht als Ersatz für reguläre Mundhygiene und zahnärztliche Kontrolle zu verstehen.",
+    "effects": [
+      "entzündungshemmend",
+      "antibakteriell",
+      "plaquereduzierend",
+      "leichte oberflächenreinigung"
+    ],
+    "problems": [
+      "zahnfleischentzündung (gingivitis)",
+      "zahnfleischbluten",
+      "plaquebildung",
+      "oberflächliche zahnverfärbungen"
+    ],
+    "date": "10.8.2026"
+  },
+  {
     "id": 1786395284291,
     "name": "Roher Honig und Zimt (Mundgesundheit)",
     "category": "sonstiges",
