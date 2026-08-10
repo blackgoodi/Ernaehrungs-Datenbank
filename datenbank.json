@@ -1,5 +1,30 @@
 [
   {
+    "id": 1786395511511,
+    "name": "Rote Zwiebel mit Honig",
+    "category": "getraenk-warm",
+    "description": "Ein traditionelles Hausmittel, bei dem rote Zwiebel klein geschnitten oder ausgepresst und mit warmem Wasser sowie Honig zu einem Trank verarbeitet wird. Zwiebeln enthalten schwefelhaltige Verbindungen und Flavonoide (u.a. Quercetin), Honig wirkt reizlindernd auf die Rachenschleimhaut und hat in Studien bei Kindern und Erwachsenen nachweislich hustenstillende Effekte gezeigt. Die auf manchen Bildern kursierende Behauptung, das Getränk sei 'bis zu 3-fach wirksamer als herkömmlicher Hustensaft', ist wissenschaftlich nicht belegt und stammt vermutlich aus unseriösen Quellen ohne kontrollierte Studien – sie sollte nicht als gesicherte Aussage übernommen werden. Realistisch betrachtet kann die Kombination als mild unterstützende, reizlindernde Hausmittelmaßnahme bei leichtem Husten dienen, ersetzt aber keine ärztliche Abklärung bei anhaltenden Beschwerden.",
+    "dosage": "1 kleine rote Zwiebel, fein gehackt oder ausgepresst, in ca. 200 ml warmem Wasser ziehen lassen, 1–2 TL Honig einrühren oder darüberträufeln",
+    "frequency": "2× täglich",
+    "timing": "bei Bedarf, z.B. morgens und abends",
+    "meal": "",
+    "dosageNotes": "Honig nicht bei Kindern unter 1 Jahr verwenden (Botulismus-Risiko). Bei Diabetes den Zuckergehalt des Honigs berücksichtigen. Zwiebel kann bei empfindlichem Magen leichte Reizungen verursachen. Wissenschaftlich belegt ist vor allem die reizlindernde Wirkung von Honig auf Husten, während die Zwiebelkomponente hauptsächlich traditionell begründet ist; die kolportierte '3-fache Wirksamkeit' gegenüber Hustensaft ist nicht durch Studien gestützt.",
+    "effects": [
+      "reizlindernd",
+      "schleimlösend (traditionell zugeschrieben)",
+      "leicht antibakteriell (in-vitro)",
+      "hustenstillend (v.a. durch honig belegt)",
+      "beruhigend für den rachen"
+    ],
+    "problems": [
+      "reizhusten",
+      "erkältungshusten",
+      "halskratzen",
+      "schleimbildung bei erkältung"
+    ],
+    "date": "10.8.2026"
+  },
+  {
     "id": 1786395405623,
     "name": "Eugenol in Nelken (Zahnschmerzen-Notfallhilfe)",
     "category": "sonstiges",
