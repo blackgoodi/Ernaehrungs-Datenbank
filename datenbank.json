@@ -1,5 +1,31 @@
 [
   {
+    "id": 1786395375331,
+    "name": "Aktivkohle (mit Niem) – Zahnaufhellung und Zahnfleischgesundheit",
+    "category": "sonstiges",
+    "description": "Aktivkohle ist ein stark poröses Material mit großer Oberfläche, das Farbstoffe und manche Substanzen adsorbieren kann – daher der Trend, sie als Zahnpasta-Ersatz zu nutzen. Die Behauptung, sie entferne Verfärbungen 'auf molekularer Ebene' und wirke gegen Zahnfleischbakterien, ist wissenschaftlich nicht ausreichend belegt: Studien und zahnmedizinische Fachgesellschaften (u.a. ADA) sehen keinen klaren Aufhellungsvorteil gegenüber normaler Zahnpasta, warnen aber vor der abrasiven Wirkung auf den Zahnschmelz bei häufiger Anwendung. Niem (Azadirachta indica) enthält Bitterstoffe wie Nimbidin und Nimbin, denen in Laborstudien antibakterielle und entzündungshemmende Eigenschaften gegen Parodontitis-assoziierte Keime nachgewiesen wurden; die traditionelle Nutzung von Niem-Zweigen ('Datun') als Zahnbürstenersatz in Indien ist jahrtausendealt und teilweise durch klinische Studien zur Plaquereduktion gestützt. Insgesamt gilt: Niem-basierte Mundpflege hat eine plausiblere wissenschaftliche Basis als die reine Aktivkohle-Anwendung zur Zahnaufhellung.",
+    "dosage": "Etwa 1/2 Teelöffel Aktivkohlepulver mit wenig Wasser zu einer Paste anrühren und kurz (max. 1–2 Minuten) auf die Zähne auftragen bzw. sanft einmassieren; alternativ einen frischen Niem-Zweig kauen oder Niem-Mundspülung/-Pulver verwenden.",
+    "frequency": "wöchentlich",
+    "timing": "abends nach dem Essen",
+    "meal": "",
+    "dosageNotes": "Aktivkohle wirkt abrasiv und kann bei zu häufiger oder zu kräftiger Anwendung den Zahnschmelz schädigen sowie Zahnfleisch reizen; nicht bei Kronen, Veranlagern, Füllungen oder empfindlichem Zahnschmelz ohne Rücksprache mit dem Zahnarzt anwenden. Nicht täglich, sondern höchstens 1–2× pro Woche nutzen und danach gründlich ausspülen. Aktivkohle kann oral eingenommene Medikamente binden und deren Wirkung abschwächen – Anwendung zeitlich von Medikamenteneinnahme trennen. Bei bestehender Zahnfleischerkrankung ersetzt weder Aktivkohle noch Niem eine professionelle zahnärztliche Behandlung.",
+    "effects": [
+      "adsorbierend",
+      "leicht antibakteriell (niem)",
+      "entzündungshemmend (niem)",
+      "mechanisch reinigend",
+      "plaquereduzierend"
+    ],
+    "problems": [
+      "oberflächliche zahnverfärbungen",
+      "plaquebildung",
+      "zahnfleischentzündung (gingivitis)",
+      "mundgeruch",
+      "unterstützung der mundhygiene"
+    ],
+    "date": "10.8.2026"
+  },
+  {
     "id": 1786395310856,
     "name": "Kurkuma-Paste (Zahnaufhellung und Zahnfleischgesundheit)",
     "category": "sonstiges",
