@@ -1,5 +1,29 @@
 [
   {
+    "id": 1786395405623,
+    "name": "Eugenol in Nelken (Zahnschmerzen-Notfallhilfe)",
+    "category": "sonstiges",
+    "description": "Eugenol ist der Hauptbestandteil des ätherischen Öls der Gewürznelke (Syzygium aromaticum) und besitzt gut dokumentierte lokalanästhetische sowie antibakterielle Eigenschaften. Gereinigtes Eugenol bzw. Nelkenöl-Zink-Oxid-Zement wird tatsächlich in der Zahnmedizin als temporäres Füllmaterial und zur Schmerzlinderung bei Wurzelkanalbehandlungen eingesetzt – dies ist keine Übertreibung, sondern klinisch etabliert. Die Behauptung, Nelken würden Karies verursachende Bakterien 'zerstören' oder Zahnschmelz-Säuren 'neutralisieren', ist jedoch stark vereinfacht: In-vitro-Studien zeigen antibakterielle Effekte gegen orale Keime, aber eine relevante Wirkung auf aktiven Karies oder Schmelz-Remineralisierung im Mund ist wissenschaftlich nicht belegt. Als kurzfristige Notfallmaßnahme bei akuten Zahnschmerzen bis zum Zahnarztbesuch ist die betäubende Wirkung von Nelkenöl gut nachvollziehbar und wird auch von manchen Zahnärzten so empfohlen.",
+    "dosage": "1 Tropfen unverdünntes Nelkenöl auf einem Wattebausch oder Wattestäbchen, alternativ 1 ganze Nelke zwischen Zahn und Wange gelegt",
+    "frequency": "nach Bedarf",
+    "timing": "bei akuten Zahnschmerzen, nur kurzfristig bis zum Zahnarztbesuch",
+    "meal": "",
+    "dosageNotes": "Unverdünntes Nelkenöl kann Zahnfleisch, Mundschleimhaut und Zunge reizen oder chemisch verätzen – nicht großflächig oder zu häufig anwenden, nicht schlucken. Nicht bei Kindern unter 2 Jahren, Schwangeren oder bekannter Allergie gegen Nelken/Eugenol anwenden. Ersetzt keine zahnärztliche Behandlung – dient nur zur kurzfristigen Überbrückung akuter Schmerzen; die Ursache (z.B. Karies, Abszess) muss fachärztlich abgeklärt werden.",
+    "effects": [
+      "lokal betäubend",
+      "antibakteriell",
+      "leicht entzündungshemmend",
+      "krampflösend (mild)"
+    ],
+    "problems": [
+      "akute zahnschmerzen",
+      "zahnfleischentzündung",
+      "erhöhte zahnempfindlichkeit",
+      "mundgeruch"
+    ],
+    "date": "10.8.2026"
+  },
+  {
     "id": 1786395375331,
     "name": "Aktivkohle (mit Niem) – Zahnaufhellung und Zahnfleischgesundheit",
     "category": "sonstiges",
