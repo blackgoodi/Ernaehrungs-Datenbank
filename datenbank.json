@@ -1,5 +1,29 @@
 [
   {
+    "id": 1786396552321,
+    "name": "Warmes Zitronenwasser mit Salz",
+    "category": "getraenk-warm",
+    "description": "Eine Mischung aus warmem Wasser, Zitronensaft und einem Teelöffel Salz, morgens auf nüchternen Magen getrunken. Die Kombination liefert Flüssigkeit, etwas Vitamin C und Elektrolyte und kann durch den osmotischen Effekt des Salzes eine leicht abführende Wirkung haben (ähnlich einem milden 'Salzwasser-Flush'). Die Behauptung, dass dies gezielt 'entgiftet' oder beim Abnehmen hilft, ist wissenschaftlich nicht belegt – Entgiftung leisten Leber und Nieren unabhängig davon kontinuierlich. Das Gefühl von 'leichter und wacher' nach wenigen Tagen lässt sich eher durch die morgendliche Flüssigkeitszufuhr und ein festes Ritual erklären als durch eine spezifische Stoffwechselwirkung.",
+    "dosage": "Saft einer halben Zitrone plus 1 TL Salz in ca. 200–300 ml warmem Wasser (ca. 33 °C)",
+    "frequency": "1× täglich",
+    "timing": "direkt nach dem Aufstehen",
+    "meal": "nüchtern",
+    "dosageNotes": "1 TL Salz enthält relativ viel Natrium – bei Bluthochdruck, Nierenerkrankungen oder salzarmer Diät nicht geeignet bzw. Menge reduzieren. Zitronensäure kann bei häufigem Kontakt den Zahnschmelz angreifen, daher am besten mit Strohhalm trinken und danach Mund ausspülen. Kein wissenschaftlicher Beleg für 'Entgiftungs'- oder gezielte Gewichtsabnahme-Effekte.",
+    "effects": [
+      "leicht verdauungsfördernd",
+      "hydratisierend",
+      "elektrolytzufuhr",
+      "vitamin-c-quelle"
+    ],
+    "problems": [
+      "träge verdauung",
+      "leichte verstopfung",
+      "morgendliche antriebslosigkeit",
+      "flüssigkeitsmangel"
+    ],
+    "date": "10.8.2026"
+  },
+  {
     "id": 1786396531419,
     "name": "Hibiskustee (Blutdrucksenkung)",
     "category": "tee",
