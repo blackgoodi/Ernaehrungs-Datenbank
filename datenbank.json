@@ -1,5 +1,30 @@
 [
   {
+    "id": 1786396531419,
+    "name": "Hibiskustee (Blutdrucksenkung)",
+    "category": "tee",
+    "description": "Hibiskustee wird aus den getrockneten Kelchblättern von Hibiscus sabdariffa zubereitet, die reich an Anthocyanen und anderen Polyphenolen sind. Mehrere klinische Studien deuten darauf hin, dass regelmäßiger Konsum (meist 2–3 Tassen täglich über 4–6 Wochen) den systolischen Blutdruck um etwa 5–7 mmHg senken kann, vermutlich durch milde ACE-hemmende und leicht diuretische Effekte. Die im Screenshot genannte Aussage, der Effekt sei mit manchen Blutdruckmedikamenten vergleichbar, ist stark überzeichnet: Medikamente erzielen in der Regel deutlich stärkere und zuverlässigere Senkungen, Hibiskustee kann bestenfalls unterstützend bei leicht erhöhtem Blutdruck wirken. Die Evidenz stammt zudem meist aus kleineren Studien, weshalb die Ergebnisse mit Vorsicht zu interpretieren sind.",
+    "dosage": "1–2 TL getrocknete Hibiskusblüten pro Tasse, mit heißem (nicht kochendem) Wasser übergießen, 5–10 Minuten ziehen lassen; 3 Tassen täglich über den Tag verteilt",
+    "frequency": "3× täglich",
+    "timing": "über den Tag verteilt, z.B. morgens, mittags, abends",
+    "meal": "",
+    "dosageNotes": "Nicht als Ersatz für verordnete Blutdruckmedikamente verwenden; bei bestehender Bluthochdrucktherapie oder Einnahme von Diuretika/Antihypertensiva vor regelmäßigem Konsum ärztlich abklären, da sich Effekte addieren können. Bei niedrigem Blutdruck, Schwangerschaft oder Stillzeit eher meiden. Kann leicht harntreibend wirken und in hohen Mengen den Elektrolythaushalt beeinflussen.",
+    "effects": [
+      "blutdrucksenkend (mild)",
+      "antioxidativ",
+      "leicht harntreibend",
+      "gefäßentspannend",
+      "möglicherweise cholesterinsenkend"
+    ],
+    "problems": [
+      "leicht erhöhter blutdruck",
+      "unterstützung der herz-kreislauf-gesundheit",
+      "oxidativer stress",
+      "milde wassereinlagerungen"
+    ],
+    "date": "10.8.2026"
+  },
+  {
     "id": 1786396511106,
     "name": "Ceylon-Zimt (Blutzuckerkontrolle und Heißhunger-Reduktion)",
     "category": "gewuerz",
