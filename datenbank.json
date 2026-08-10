@@ -1,5 +1,30 @@
 [
   {
+    "id": 1786390976738,
+    "name": "Vitamin D3 (Cholecalciferol)",
+    "category": "supplement",
+    "description": "Fettlösliches Prohormon, das in der Haut unter UVB-Einstrahlung aus 7-Dehydrocholesterol gebildet oder über Nahrung/Supplemente aufgenommen wird. Über Leber (Calcidiol) und Niere (aktives Calcitriol) entsteht ein Hormon, das an den Vitamin-D-Rezeptor in fast allen Körperzellen bindet und Calcium-/Phosphathaushalt, Knochenstoffwechsel sowie Immunfunktionen reguliert. Ein Mangel ist in nördlichen Breiten v.a. im Winter verbreitet, da die körpereigene Synthese von UVB-Licht abhängt.",
+    "dosage": "800–2000 I.E. (20–50 µg), individuelle Dosierung idealerweise nach Blutspiegel (25-OH-Vitamin-D)",
+    "frequency": "1× täglich",
+    "timing": "",
+    "meal": "mit Mahlzeit",
+    "dosageNotes": "Als fettlösliches Vitamin am besten zusammen mit einer fetthaltigen Mahlzeit einnehmen. Hochdosierte Langzeiteinnahme sollte ärztlich überwacht werden (Gefahr von Hypercalcämie bei Überdosierung); UL laut EFSA bei 4000 I.E./Tag für Erwachsene. Kombination mit Vitamin K2 wird häufig diskutiert, ist aber nicht durch starke Evidenz belegt. Bei Nieren- oder Nebenschilddrüsenerkrankungen vor Einnahme ärztlich abklären.",
+    "effects": [
+      "knochenstoffwechsel",
+      "immunmodulierend",
+      "calciumregulation",
+      "muskelfunktion"
+    ],
+    "problems": [
+      "vitamin-d-mangel",
+      "osteoporose-prävention",
+      "geschwächtes immunsystem",
+      "muskelschwäche",
+      "winterdepression"
+    ],
+    "date": "10.8.2026"
+  },
+  {
     "id": 1786389718618,
     "name": "Vitamin D3",
     "category": "supplement",
