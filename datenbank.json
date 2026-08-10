@@ -1,5 +1,30 @@
 [
   {
+    "id": 1786396511106,
+    "name": "Ceylon-Zimt (Blutzuckerkontrolle und Heißhunger-Reduktion)",
+    "category": "gewuerz",
+    "description": "Ceylon-Zimt (Cinnamomum verum) stammt aus der Rinde eines in Sri Lanka beheimateten Baumes und enthält Zimtaldehyd sowie geringe Mengen Cumarin, deutlich weniger als der günstigere Cassia-Zimt. In einigen kleinen klinischen Studien zeigte Zimt eine leichte Verbesserung der Insulinsensitivität und eine moderate Senkung des Nüchtern-Blutzuckers bei Menschen mit Typ-2-Diabetes oder Prädiabetes. Die oft zitierte Angabe einer Blutzuckersenkung 'um bis zu 24%' stammt aus einzelnen, methodisch limitierten Studien und ist nicht als verlässlicher Durchschnittswert zu verstehen – die Effekte schwanken stark und sind bei gesunden Personen meist gering bis vernachlässigbar. Ein direkter, gut belegter Effekt auf Heißhunger ist wissenschaftlich nicht eindeutig gesichert, wird aber teils mit einer verzögerten Magenentleerung und stabileren Blutzuckerkurven in Verbindung gebracht.",
+    "dosage": "1 TL (ca. 2–4 g) gemahlener Ceylon-Zimt",
+    "frequency": "1× täglich",
+    "timing": "zu einer Hauptmahlzeit, z. B. morgens im Müsli oder Kaffee",
+    "meal": "mit Mahlzeit",
+    "dosageNotes": "Ausdrücklich Ceylon-Zimt statt Cassia-Zimt verwenden, da Cassia-Zimt deutlich mehr Cumarin enthält, das in hohen Mengen leberschädigend wirken kann. Bei bestehender Diabetes-Medikation Rücksprache mit Arzt halten, da additive blutzuckersenkende Effekte theoretisch möglich sind. Kein Ersatz für ärztlich verordnete Diabetestherapie oder Diagnostik.",
+    "effects": [
+      "leicht blutzuckersenkend",
+      "insulinsensitivierend (schwach)",
+      "appetitregulierend (begrenzt belegt)",
+      "antioxidativ",
+      "verdauungsfördernd"
+    ],
+    "problems": [
+      "erhöhter nüchtern-blutzucker",
+      "heißhungerattacken",
+      "unregelmäßige blutzuckerschwankungen",
+      "prädiabetes-begleitung"
+    ],
+    "date": "10.8.2026"
+  },
+  {
     "id": 1786395511511,
     "name": "Rote Zwiebel mit Honig",
     "category": "getraenk-warm",
