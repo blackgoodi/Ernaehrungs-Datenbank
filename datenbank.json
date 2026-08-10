@@ -1,5 +1,30 @@
 [
   {
+    "id": 1786396627004,
+    "name": "Spargel (Entwässerungsmittel und flacher Bauch)",
+    "category": "gemuese",
+    "description": "Spargel enthält die Aminosäure Asparagin sowie Kalium und wirkt dadurch mild harntreibend – dieser Effekt ist seit langem bekannt und gut dokumentiert. Die Behauptung, er führe gezielt zu einem 'flachen, definierten Bauch', ist jedoch irreführend: Der Wasserverlust betrifft den ganzen Körper und ist vorübergehend, punktuelle Fettreduktion am Bauch ('spot reduction') ist wissenschaftlich nicht möglich. Zusätzlich liefert Spargel Ballaststoffe (u.a. Inulin), die die Verdauung unterstützen und Blähungen reduzieren können, was subjektiv zu einem flacheren Bauchgefühl beitragen kann.",
+    "dosage": "150–250 g gegart, entspricht etwa 1 Portion",
+    "frequency": "1× täglich",
+    "timing": "zu einer Hauptmahlzeit",
+    "meal": "mit Mahlzeit",
+    "dosageNotes": "Bei Nieren- oder Herzproblemen mit verordneter Flüssigkeitsrestriktion ärztlich abklären; der harntreibende Effekt ersetzt keine medizinische Entwässerungstherapie. Der charakteristische Uringeruch nach dem Verzehr ist harmlos und auf schwefelhaltige Abbauprodukte zurückzuführen. Reißerische Werbeversprechen zu 'flachem Bauch' sollten kritisch hinterfragt werden.",
+    "effects": [
+      "mild harntreibend",
+      "verdauungsfördernd",
+      "entblähend",
+      "kaliumreich",
+      "ballaststoffreich"
+    ],
+    "problems": [
+      "wassereinlagerungen",
+      "blähbauch",
+      "verdauungsträgheit",
+      "völlegefühl"
+    ],
+    "date": "10.8.2026"
+  },
+  {
     "id": 1786396612968,
     "name": "3 Eier nach dem Training (Muskelwachstum)",
     "category": "nahrung",
