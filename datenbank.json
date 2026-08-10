@@ -1,5 +1,28 @@
 [
   {
+    "id": 1786394410416,
+    "name": "Erdbeer-Natron-Paste (Zahnaufhellung)",
+    "category": "sonstiges",
+    "description": "Ein in sozialen Medien verbreiteter Trend, der Erdbeeren (enthalten u.a. Apfelsäure) mit Natron (Backpulver, ein mildes Schleifmittel) kombiniert, um Zähne angeblich aufzuhellen. Die Idee: die Säure soll Verfärbungen anlösen, das Natron sie mechanisch abtragen. Kontrollierte zahnmedizinische Untersuchungen (u.a. eine oft zitierte Studie zu genau dieser Mischung) fanden jedoch keinen messbaren Aufhellungseffekt im Vergleich zu normaler Zahnpasta – die Behauptung, es handle sich um die 'wirksamste je entdeckte' natürliche Aufhellungsmethode, ist wissenschaftlich nicht haltbar und stark übertrieben. Zudem ist die Kombination aus Fruchtsäure und Schleifpartikeln für den Zahnschmelz potenziell riskanter als reine Zahnpasta.",
+    "dosage": "2 zerdrückte Erdbeeren mit 1 TL Natron zu einer Paste verrühren, dünn auf die Zähne auftragen",
+    "frequency": "wöchentlich",
+    "timing": "",
+    "meal": "",
+    "dosageNotes": "Apfelsäure erweicht kurzzeitig den Zahnschmelz; wird direkt danach mit dem abrasiven Natron gebürstet, kann dies zu Schmelzabtrag führen. Nicht häufiger als 1×/Woche anwenden, nicht bei empfindlichen Zähnen oder bestehenden Schmelzdefekten, nach dem Auftragen Mund gut mit Wasser ausspülen statt sofort kräftig zu bürsten. Wissenschaftliche Belege für einen echten Aufhellungseffekt fehlen weitgehend; bestenfalls werden oberflächliche Beläge entfernt, keine tiefenwirksame Aufhellung des Zahnschmelzes.",
+    "effects": [
+      "milde mechanische reinigung",
+      "entfernung oberflächlicher beläge",
+      "kein belegter bleaching-effekt",
+      "potenziell schmelzschädigend bei häufiger anwendung"
+    ],
+    "problems": [
+      "oberflächliche zahnverfärbungen",
+      "gelblicher belag durch kaffee/tee",
+      "allgemeine mundhygiene"
+    ],
+    "date": "10.8.2026"
+  },
+  {
     "id": 1778528687270,
     "name": "Rote Bete Saft",
     "category": "getraenk-kalt",
