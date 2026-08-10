@@ -1,5 +1,31 @@
 [
   {
+    "id": 1786389718618,
+    "name": "Vitamin D3",
+    "category": "supplement",
+    "description": "Vitamin D3 (Cholecalciferol) ist ein fettlösliches Prohormon, das in der Haut unter UV-B-Einstrahlung gebildet oder über Nahrung/Supplemente aufgenommen wird. Es wird in Leber und Niere zur aktiven Hormonform Calcitriol umgewandelt, die über den Vitamin-D-Rezeptor in nahezu allen Körperzellen Gene für Calcium-/Phosphathaushalt, Immunfunktion und Zellregulation steuert. Ein Mangel ist besonders in sonnenarmen Monaten verbreitet.",
+    "dosage": "800–2.000 IE (20–50 µg), bei nachgewiesenem Mangel höhere Dosen nach ärztlicher Anleitung",
+    "frequency": "1× täglich",
+    "timing": "",
+    "meal": "mit Mahlzeit",
+    "dosageNotes": "Als fettlösliches Vitamin am besten mit einer fetthaltigen Mahlzeit einnehmen. Obere Zufuhrgrenze liegt bei etwa 4.000 IE/Tag für Erwachsene; deutlich höhere Dosen über längere Zeit können zu Hyperkalzämie führen. Vorsicht bei Sarkoidose, Hyperparathyreoidismus, Niereninsuffizienz oder Nierensteinen in der Anamnese. Wechselwirkungen mit Thiaziddiuretika, Digoxin und bestimmten Antikonvulsiva möglich – bei Dauermedikation ärztlich abklären. Kombination mit Vitamin K2 wird häufig empfohlen, um Calciumeinlagerung zu unterstützen.",
+    "effects": [
+      "knochenstoffwechsel",
+      "immunmodulierend",
+      "muskelfunktion",
+      "zellregulation",
+      "calciumhaushalt"
+    ],
+    "problems": [
+      "vitamin-d-mangel",
+      "osteoporose-risiko",
+      "erschöpfung",
+      "erhöhte infektanfälligkeit",
+      "muskelschwäche"
+    ],
+    "date": "10.8.2026"
+  },
+  {
     "id": 1778528687270,
     "name": "Rote Bete Saft",
     "category": "getraenk-kalt",
