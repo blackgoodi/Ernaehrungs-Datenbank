@@ -1,5 +1,31 @@
 [
   {
+    "id": 1786396589028,
+    "name": "Ingwer-Knoblauch-Honig-Shot",
+    "category": "getraenk-kalt",
+    "description": "Ein Kaltgetränk aus frisch geriebenem Ingwer, zerdrücktem Knoblauch und Honig, das in sozialen Medien häufig als schnelle Erkältungshilfe beworben wird. Ingwer enthält Gingerol, Knoblauch das schwefelhaltige Allicin und Honig verschiedene antimikrobiell wirkende Verbindungen – für alle drei gibt es einzeln Laborhinweise auf entzündungshemmende bzw. antimikrobielle Effekte. Die konkrete Behauptung, dieser Shot verkürze eine Erkältung um 'bis zu 40 %', stammt jedoch nicht aus belastbaren klinischen Studien zu genau dieser Kombination, sondern ist eine unbelegte, stark vereinfachte Übertragung einzelner Wirkstoffstudien und sollte als Marketingaussage, nicht als gesicherte Tatsache, verstanden werden. Als unterstützende, wohlschmeckende Maßnahme neben ausreichend Ruhe und Flüssigkeitszufuhr ist er dennoch vertretbar.",
+    "dosage": "1 Shot: ca. 1 TL frisch geriebener Ingwer, 1 kleine gepresste/zerdrückte Knoblauchzehe, 1 TL Honig, mit wenig warmem Wasser oder Zitronensaft aufgefüllt",
+    "frequency": "1× täglich",
+    "timing": "bei ersten Erkältungssymptomen, idealerweise morgens",
+    "meal": "nach der Mahlzeit",
+    "dosageNotes": "Roher Knoblauch kann bei empfindlichem Magen oder auf nüchternen Magen Sodbrennen/Reizungen verursachen; nicht mit blutverdünnenden Medikamenten in hohen Mengen kombinieren, da Knoblauch die Blutgerinnung leicht beeinflussen kann. Honig ist für Kinder unter 1 Jahr wegen Botulismus-Risiko ungeeignet. Die '40 %'-Angabe ist nicht wissenschaftlich gesichert und sollte nicht als verlässliches Versprechen verstanden werden.",
+    "effects": [
+      "leicht entzündungshemmend",
+      "potenziell antimikrobiell",
+      "wärmend",
+      "reizlindernd für den Hals",
+      "allgemein immununterstützend (schwach belegt)"
+    ],
+    "problems": [
+      "erkältungssymptome",
+      "halsschmerzen",
+      "leichte immunschwäche",
+      "frösteln",
+      "reizhusten"
+    ],
+    "date": "10.8.2026"
+  },
+  {
     "id": 1786396571408,
     "name": "Rote Paprika",
     "category": "gemuese",
