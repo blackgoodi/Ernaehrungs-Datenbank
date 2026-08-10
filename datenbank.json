@@ -1,5 +1,30 @@
 [
   {
+    "id": 1786393734674,
+    "name": "Erdbeeren",
+    "category": "frucht",
+    "description": "Erdbeeren sind eine Sammelfrucht mit hohem Wassergehalt und liefern relativ viel Vitamin C sowie sekundäre Pflanzenstoffe wie Anthocyane und Ellagitannine, die antioxidativ wirken. Sie enthalten außerdem Folat, Kalium und Ballaststoffe bei vergleichsweise niedrigem Zuckergehalt im Vergleich zu anderen Früchten. Die gesundheitlichen Effekte beruhen v.a. auf dem Gesamtmuster einer obst- und gemüsereichen Ernährung, weniger auf isolierten Einzelwirkungen.",
+    "dosage": "1 Portion (ca. 150–200 g, entspricht einer Handvoll)",
+    "frequency": "nach Bedarf",
+    "timing": "",
+    "meal": "",
+    "dosageNotes": "Frisch, reif und möglichst regional/saisonal verzehren, um Nährstoffgehalt zu maximieren. Bei Pollenallergien (insb. Birkenpollen) sind Kreuzreaktionen möglich. Waschen vor Verzehr wegen möglicher Pestizidrückstände oder Bodenkontakt empfehlenswert.",
+    "effects": [
+      "antioxidativ",
+      "vitamin-c-reich",
+      "ballaststoffreich",
+      "entzündungshemmend (schwach)",
+      "blutzuckerfreundlich"
+    ],
+    "problems": [
+      "geringe vitamin-c-zufuhr",
+      "unterstützung der verdauung",
+      "oxidativer stress",
+      "süßhunger bei kalorienarmer ernährung"
+    ],
+    "date": "10.8.2026"
+  },
+  {
     "id": 1778528687270,
     "name": "Rote Bete Saft",
     "category": "getraenk-kalt",
