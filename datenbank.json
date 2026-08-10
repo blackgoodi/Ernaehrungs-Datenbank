@@ -1,5 +1,31 @@
 [
   {
+    "id": 1786395284291,
+    "name": "Roher Honig und Zimt (Mundgesundheit)",
+    "category": "sonstiges",
+    "description": "Eine Mischung aus rohem, unverarbeitetem Honig und Zimtpulver wird traditionell als hausgemachte Mundspülung oder Paste verwendet. Roher Honig enthält geringe Mengen Wasserstoffperoxid sowie das antimikrobielle Peptid Defensin-1 (von Bienen produziert), die in Laborstudien Streptokokken und Candida-Arten hemmen können. Zimtaldehyd, der Hauptwirkstoff im Zimt, zeigt in vitro Effekte gegen bakterielle Biofilme. Die Behauptung, diese Mischung sei 'die wirksamste natürliche Mundspülung, die je geschaffen wurde' und wirke 'besser als handelsübliche Mundspülung', ist eine starke Übertreibung ohne belastbare klinische Evidenz beim Menschen; die meisten Belege stammen aus Reagenzglas-Studien, nicht aus kontrollierten Mundhygiene-Studien. Das Bibelzitat (Sprüche 16,24) ist eine poetische, keine wissenschaftliche Aussage und beschreibt nicht die medizinische Wirkung von Honig.",
+    "dosage": "1 TL roher Honig mit ½ TL Zimtpulver zu einer Paste verrühren, alternativ in wenig warmem Wasser als Spülung auflösen",
+    "frequency": "1× täglich",
+    "timing": "abends nach dem Zähneputzen",
+    "meal": "",
+    "dosageNotes": "Nur rohen, unpasteurisierten Honig verwenden; nicht für Säuglinge unter 1 Jahr wegen Botulismus-Risiko. Ceylon-Zimt bevorzugen, da Kassia-Zimt größere Mengen Cumarin enthält, das bei regelmäßigem Verschlucken in hohen Mengen die Leber belasten kann. Ersetzt keine professionelle Zahnpflege, Zahnseide oder zahnärztliche Kontrollen; bei bestehender Zahnfleischentzündung zusätzlich zahnärztlich abklären lassen. Nach Anwendung möglichst ausspülen, da Honig zuckerhaltig ist und Karies begünstigen kann, wenn er an den Zähnen haften bleibt.",
+    "effects": [
+      "antibakteriell",
+      "antimykotisch",
+      "biofilmhemmend",
+      "entzündungshemmend",
+      "leicht antioxidativ"
+    ],
+    "problems": [
+      "zahnfleischentzündung",
+      "mundgeruch",
+      "plaquebildung",
+      "candida im mundraum",
+      "unterstützung der mundhygiene"
+    ],
+    "date": "10.8.2026"
+  },
+  {
     "id": 1786394562790,
     "name": "Kokosöl-Ölziehen",
     "category": "sonstiges",
