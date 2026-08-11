@@ -1,5 +1,30 @@
 [
   {
+    "id": 1786448333670,
+    "name": "Granatapfel-Blaubeer-Zimt-Honig-Drink (Arterienreinigung und Blutgesundheit)",
+    "category": "getraenk-kalt",
+    "description": "Dieses Getränk kombiniert mehrere Lebensmittel, denen jeweils für sich eine gewisse antioxidative bzw. herzunterstützende Wirkung zugeschrieben wird: Granatapfelsaft (reich an Polyphenolen/Punicalaginen), dunkle Schokolade (Flavanole), Blaubeeren (Anthocyane), Zimt (Cinnamaldehyd) und roher Honig. Es gibt Hinweise aus Ernährungsstudien, dass diese Stoffgruppen oxidativen Stress reduzieren und leicht positive Effekte auf Gefäßfunktion, Blutfette und Blutdruck haben können. Die auf dem Screenshot verbreitete Behauptung, das Getränk könne 'die Arterien reinigen' und 'das Blut in 30 Tagen heilen', ist jedoch eine starke Übertreibung ohne wissenschaftliche Grundlage – Arteriosklerose oder Bluterkrankungen lassen sich durch ein einzelnes Getränk nicht 'heilen'. Der im Beitrag zitierte Psalm 34,8 ist ein religiös-motivierender Zusatz und hat keinen Bezug zu einer belegten physiologischen Wirkung.",
+    "dosage": "1 Glas (ca. 200–250 ml) frisch gepresster Granatapfelsaft, gemischt mit ca. 10 g dunkler Schokolade (mind. 70% Kakaoanteil, geschmolzen oder fein gerieben), einer Handvoll Blaubeeren (ca. 100 g, frisch oder pürriert), 1/2 TL Zimt und 1 TL rohem Honig.",
+    "frequency": "1× täglich",
+    "timing": "morgens",
+    "meal": "nüchtern",
+    "dosageNotes": "Granatapfelsaft kann wie Grapefruitsaft mit bestimmten Medikamenten interagieren (u.a. Blutdrucksenker, Statine, Blutverdünner) – bei Dauermedikation ärztlich abklären. Zimt sollte wegen des Cumaringehalts (v.a. Cassia-Zimt) nicht in großen Mengen dauerhaft konsumiert werden, Ceylon-Zimt ist vorzuziehen. Roher Honig ist für Säuglinge unter 1 Jahr ungeeignet. Wegen des Frucht- und Honigzuckers ist der Drink bei Diabetes oder kalorienbewusster Ernährung nur in Maßen zu genießen; er ersetzt keine ärztliche Behandlung von Herz-Kreislauf- oder Bluterkrankungen.",
+    "effects": [
+      "antioxidativ",
+      "leicht entzündungshemmend",
+      "gefäßunterstützend",
+      "stimmungsaufhellend",
+      "blutzuckerrelevant (zuckerhaltig)"
+    ],
+    "problems": [
+      "allgemeine herz-kreislauf-unterstützung",
+      "oxidativer stress",
+      "mildes wohlbefinden am morgen",
+      "ergänzung zu ausgewogener ernährung"
+    ],
+    "date": "11.8.2026"
+  },
+  {
     "id": 1786438671630,
     "name": "Buchweizen",
     "category": "nahrung",
