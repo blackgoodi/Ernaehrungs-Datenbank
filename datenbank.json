@@ -1,5 +1,32 @@
 [
   {
+    "id": 1786438671630,
+    "name": "Buchweizen",
+    "category": "nahrung",
+    "description": "Buchweizen ist botanisch kein Getreide, sondern ein Knöterichgewächs (Pseudocerealie) und liefert komplexe Kohlenhydrate, Ballaststoffe, das Flavonoid Rutin sowie die essenzielle Aminosäure Lysin. Er ist glutenfrei und hat einen niedrigeren glykämischen Index als viele klassische Getreidearten, was ihn zu einer soliden, gut sättigenden Kohlenhydratquelle macht. Die im Screenshot genannte Aussage, Buchweizen 'löse Giftstoffe aus Fettzellen' und rege gezielt die 'Zellregeneration' an, ist wissenschaftlich nicht belegt – der Körper entgiftet über Leber und Nieren unabhängig von einzelnen Lebensmitteln. Lysin ist tatsächlich ein Baustein für die körpereigene Kollagensynthese, doch dass eine erhöhte Lysinzufuhr über Buchweizen sichtbar Cellulite reduziert oder das Bindegewebe strafft, ist durch Studien nicht ausreichend gestützt und sollte als plausible, aber unbewiesene Hypothese betrachtet werden.",
+    "dosage": "50–80 g trockene Buchweizengrütze/-flocken pro Tag (entspricht ca. 150–200 g gekocht), z. B. als Frühstücksbrei, Beilage oder in Buchweizenmehl-Produkten",
+    "frequency": "1× täglich",
+    "timing": "",
+    "meal": "mit Mahlzeit",
+    "dosageNotes": "Glutenfrei, daher gut geeignet bei Zöliakie oder Glutenunverträglichkeit; sehr selten sind eigenständige Buchweizen-Allergien möglich. Die enthaltenen Ballaststoffe und Rutin können unterstützend für Verdauung und Gefäßgesundheit wirken, die beworbenen Effekte auf 'Fettzellen-Entgiftung' und Cellulite sind jedoch nicht wissenschaftlich gesichert und sollten nicht als Heilversprechen verstanden werden. Ausreichend Flüssigkeit dazu trinken, da ballaststoffreiche Kost sonst blähend wirken kann.",
+    "effects": [
+      "ballaststoffreich",
+      "blutzuckerfreundlich",
+      "rutinreich",
+      "lysinquelle",
+      "sättigend",
+      "glutenfrei"
+    ],
+    "problems": [
+      "blutzuckerschwankungen",
+      "verdauungsträgheit",
+      "energielosigkeit",
+      "erhöhter cholesterinspiegel",
+      "bindegewebsschwäche (unbelegt)"
+    ],
+    "date": "11.8.2026"
+  },
+  {
     "id": 1786396627004,
     "name": "Spargel (Entwässerungsmittel und flacher Bauch)",
     "category": "gemuese",
